@@ -1,7 +1,6 @@
 chartOptions['I.01.1.0013'] = {
   "plotOptions": {
     "series": {
-      "pointWidth": 15,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -26,7 +25,7 @@ chartOptions['I.01.1.0013'] = {
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -70,8 +69,7 @@ chartOptions['I.01.1.0013'] = {
     }        
   ],
   "chart": {
-    "marginBottom": 75,
-    "marginTop": 75,
+	"width": 2000
     "type": "column"
   }
 };

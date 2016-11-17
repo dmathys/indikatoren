@@ -1,5 +1,6 @@
-chartOptions['I.17.3.0003'] = {
+chartOptions['Test_LP.1.02.2'] = {
   "plotOptions": {
+
     "series": {      
       "dataLabels": {
         "style": {
@@ -9,37 +10,41 @@ chartOptions['I.17.3.0003'] = {
     },
   },
   "xAxis": {
-    "tickInterval": 4,
+    "tickInterval": 1,
 	"type": "year"    
   },
   "yAxis": {
     "labels": {
       "formatter": function(){
-        return Highcharts.numberFormat((this.value*100),0)+'%';                
+        return Highcharts.numberFormat((this.value),0);                
       },      
     }    
   },
   "series": [
     {
-      "color": "#FABD24"       
+      "color": "#7B241C  "       
     },
-	{
-      "color": "#FABD24"       
+	 {
+      "color": "#6C3483"       
     },
-	{
-      "color": "#FABD24"       
+	 {
+      "color": "#2E86C1"       
+    },
+	 {
+      "color": "#B7950B"       
+    },
+	 {
+      "color": "#BA4A00"       
     },
     {
-      "color": "#923F8D"
+      "color": "#1C2833"
     }
   ],
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "x": 118,
-		"y": 35,    
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -50,10 +55,10 @@ chartOptions['I.17.3.0003'] = {
     },   
     "shared": false
   },  
-  "chart": {      
-    "renderTo": 'container-I.17.3.0003',
-    "marginBottom": 65,
+  "chart": {
+	"width": 1000,
+    "marginBottom": 75,
     "marginTop": 75,
-    "type": "column",
+    "type": "column"
   }
 };
