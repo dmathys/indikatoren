@@ -10,18 +10,19 @@ chartOptions["I.04.0.0001"] = {
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": "<span style='color:{point.color}'>\u25CF</span> {series.name}: <b>{point.y}%</b><br/>"
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
+
   },
   "series": [
     {
-    "color": "#689199",
+    "color": "#b00000", /* Schweiz: rot */
     "marker": {
     "enabled": true
       }
     },
-    {"color": "#933F8D "},
-    {"color": "#68AB2B"},
-    {"color": "#FF8028"}
+    {"color": "#ff8031"}, /* BS: orange */
+    {"color": "#675d73"}, /* GE: violett */
+    {"color": "#a0bec8"} /* ZH: hellblau */
   ],
   "legend": {
     "enabled": true,

@@ -1,4 +1,4 @@
-chartOptions['Wirtschaftsstandort_LP.1.06.1'] = {
+chartOptions['Wirtschaftsstandort_I.03.0.0001'] = {
   "xAxis": {
     "type": "category"    
   },
@@ -8,11 +8,11 @@ chartOptions['Wirtschaftsstandort_LP.1.06.1'] = {
     }    
   },
   "series": [
-  {"color": "#cd9c00"}, /*hellbraun */
-  {"color": "#9f7c5a"}, /*dunkelbraun1 */
-  {"color": "#b00000"}, /*rot */
-  {"color": "#45381d"}, /*dunkelbraun2 */
-  {"color": "#71a3b5"}  /*blau */
+  {"color": "#8a8a8a"}, /*grau */
+  {"color": "#71a3b5"}, /*hellblau */
+  {"color": "#933f8d"}, /*violett */
+  {"color": "#ff8028"}, /*orange */
+  {"color": "#256370"}  /*dunkelblau */
   ],
   "legend": {
     "enabled": true,
@@ -26,7 +26,7 @@ chartOptions['Wirtschaftsstandort_LP.1.06.1'] = {
     }
   },
   tooltip: {
-    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
     shared: false
   },  
   "chart": {      

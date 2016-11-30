@@ -1,5 +1,5 @@
-chartOptions["I.04.0.0005"] = {
-    "yAxis": {
+chartOptions["Nachhaltigkeit_LP.9.36.2"] = {
+   "yAxis": {
 	"min": 0,
     "labels": {
 	  useHTML : true,
@@ -18,7 +18,7 @@ chartOptions["I.04.0.0005"] = {
         "symbol": "circle",
         "enabled": true
       },     
-      "color": "#256370"
+      "color": "#8b2223"
     }
   ],
   "tooltip": {
@@ -30,7 +30,7 @@ chartOptions["I.04.0.0005"] = {
       "dataLabels": {
         "enabled": true,
         "allowOverlap": true,
-		 y: -10,
+		 y: 30,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
             var last  = this.series.data[this.series.data.length - 1];

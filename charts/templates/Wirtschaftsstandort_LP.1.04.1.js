@@ -1,6 +1,6 @@
 chartOptions['Wirtschaftsstandort_LP.1.04.1'] = {
   "xAxis": {
-    "type": "category"    
+    "type": "category",
   },
   "yAxis": {
     "labels": {
@@ -8,10 +8,10 @@ chartOptions['Wirtschaftsstandort_LP.1.04.1'] = {
     }    
   },
   "series": [
-  {"color": "#FF8028"}, /* Schweiz = orange */
-  {"color": "#008AC3"}, /* BS = Blau */
-  {"color": "#933F8D"}, /* GE = Pink */
-  {"color": "#007A2F"}  /* ZH = Grün */
+  {"color": "#8a8a8a"}, /* Schweiz = hellgrau */
+  {"color": "#ff8028"}, /* BS = orange */
+  {"color": "#256370"}, /* GE = dunkelblau */
+  {"color": "#71a3b5"}  /* ZH = hellblau */
   ],
   "legend": {
     "enabled": true,
@@ -30,8 +30,7 @@ chartOptions['Wirtschaftsstandort_LP.1.04.1'] = {
   },  
   "chart": {      
     "type": "column",
-    "inverted": false
-  }
+    "inverted": true /* false */
+  },
 };
 
- 

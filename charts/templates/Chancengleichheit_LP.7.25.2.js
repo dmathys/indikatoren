@@ -1,13 +1,13 @@
-chartOptions["I.04.0.0005"] = {
-    "yAxis": {
-	"min": 0,
+chartOptions["Chancengleichheit_LP.7.25.2"] = {
+   "yAxis": {
+	"min": 20,
     "labels": {
 	  useHTML : true,
-      "format": "{value:,.0f}",
+      "format": "{value:,.0f}%",
     }
   },
   "xAxis": {
-	 "tickInterval": 1,
+    "tickInterval": 2,
 	"labels": {
 		"rotation": -45
 		}
@@ -18,19 +18,25 @@ chartOptions["I.04.0.0005"] = {
         "symbol": "circle",
         "enabled": true
       },     
-      "color": "#256370"
+      "color": "#376092"
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": true
+      },      
+      "color": "#FABD24"
     }
   ],
   "tooltip": {
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "shared": false
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
   },
   "plotOptions": {
     "series": {
       "dataLabels": {
         "enabled": true,
         "allowOverlap": true,
-		 y: -10,
+		 y: -40,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
             var last  = this.series.data[this.series.data.length - 1];
@@ -43,3 +49,4 @@ chartOptions["I.04.0.0005"] = {
     }
   }
 };
+ 

@@ -1,9 +1,12 @@
-chartOptions["I.04.0.0002"] = {
+chartOptions["Lebensqualitaet_LP.9.37.2"] = {
   "xAxis": {
-    "tickInterval": 1
+    "tickInterval": 1,
+	"labels": {
+		"rotation": -45
+	}
   },
   "yAxis": {
-    "min": undefined, 
+    "min": 0, 
 	"labels": {
 		"format": "{value}%"
 	}
@@ -12,16 +15,15 @@ chartOptions["I.04.0.0002"] = {
     "shared": false, 
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
   },
-  "series": [
-	{"color": "#8a8a8a"}, /* BS = grau */
-    {"color": "#ffc000"}, /* BL gelb */
-	{"color": "#256370"}, /* Aargau = dunkelblau */
-    {"color": "#007A2F"} /*  Schweiz = rot */
-  ],
+ "series": [
+ 	{"color": "#000000"}, /*hellpink*/
+	{"color": "#cd9c00"}, /*dunkelgelb*/
+ 	{"color": "#fabd24"} /*hellgelb*/
+	  ],
   "legend": {
     "enabled": true,
-    "x": 20,
-    "y": 35,
+    "x": 40,
+    "y": 100,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
@@ -39,4 +41,3 @@ chartOptions["I.04.0.0002"] = {
     }
   }
 };
- 

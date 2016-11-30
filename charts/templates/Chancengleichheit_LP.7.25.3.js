@@ -1,9 +1,9 @@
-chartOptions["I.10.1.0002"] = {
+chartOptions["Chancengleichheit_LP.7.25.3"] = {
   "xAxis": {
     "tickInterval": 1
   },
   "yAxis": {
-    "min": undefined, 
+    "min": 0, 
 	"labels": {
 		"format": "{value}"
 	}
@@ -12,18 +12,15 @@ chartOptions["I.10.1.0002"] = {
     "shared": false, 
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
-  "series": [
-    {"color": "#b00000 "}, /* rot */
-    {"color": "#ff8028"}, /* orange */
-	{"color": "#672773"}, /* violett */
-	{"color": "#9a86a6"}, /* lila */
-	{"color": "#a0bec8"}, /* hellblau  */
-    {"color": "#c9d6db"}, /* hellgrau */	
+ "series": [
+	{"color": "#256370"}, /* blau*/
+	{"color": "#007a2f"}, /*grün*/
+    {"color": "#9f7c5a"}  /* braun*/
   ],
   "legend": {
     "enabled": true,
     "x": 20,
-    "y": 35,
+    "y": 50,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
@@ -34,12 +31,10 @@ chartOptions["I.10.1.0002"] = {
   },
   "plotOptions": {
     "line": {
-	  "connectNulls": true,
       "marker":{
-        "enabled": true,
+        "enabled": false,
         "symbol": "circle",
-      }
+      } 
     }
   }
 };
- 

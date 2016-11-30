@@ -1,28 +1,31 @@
-chartOptions["I.04.0.0005"] = {
-    "yAxis": {
-	"min": 0,
+chartOptions["Urbanitaet_LP.5.16.1"] = {
+   "yAxis": {
+	"min": 30,
+	"max": 50,
     "labels": {
 	  useHTML : true,
-      "format": "{value:,.0f}",
+      "format": "{value:,.0f} m<sup>2</sup>",
     }
   },
   "xAxis": {
-	 "tickInterval": 1,
+    "tickInterval": 2,
 	"labels": {
 		"rotation": -45
 		}
   },
   "series": [
     {
+
       "marker": {
         "symbol": "circle",
         "enabled": true
       },     
-      "color": "#256370"
+      "color": "#5592d5",		
     }
   ],
   "tooltip": {
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+	useHTML : true,
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}m<sup>2</sup></b><br/>',
     "shared": false
   },
   "plotOptions": {
@@ -43,3 +46,4 @@ chartOptions["I.04.0.0005"] = {
     }
   }
 };
+ 

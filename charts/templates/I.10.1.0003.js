@@ -5,12 +5,12 @@ chartOptions["I.10.1.0003"] = {
   "yAxis": {
     "min": undefined, 
 	"labels": {
-		"format": "{value}%"
+		"format": "{value}"
 	}
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": "<span style='color:{point.color}'>\u25CF</span> {series.name}: <b>{point.y}%</b><br/>"
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
     {"color": "#71A3B5"}, /* BS global = hellblau*/
@@ -21,6 +21,14 @@ chartOptions["I.10.1.0003"] = {
     {"color": "#933F8D"}, /* BE kontinental dunkelpink*/
 	{"color": "#007A2F"}, /* GE kontinental dunkelgrün*/
     {"color": "#FF8028"}  /* Zürich kontinental orange*/
+	// {"color": "#8a8a8a"}, /* BS global = grau*/
+    // {"color": "#aaa2c7"}, /* BE global lila*/
+	// {"color": "#256370"}, /* GE global dunkelblau*/
+	// {"color": "#67401E"}, /*ZH global dunkelbraun*/
+	// {"color": "#C8C8C8"}, /* BS kontinental hellgrau*/
+    // {"color": "#E7CEE2"}, /* BE kontinental hellila*/
+	// {"color": "#007A2F"}, /* GE kontinental hellblau*/
+    // {"color": "#C4AB91"}  /* Zürich kontinental hellbraun*/
   ],
   "legend": {
     "enabled": true,

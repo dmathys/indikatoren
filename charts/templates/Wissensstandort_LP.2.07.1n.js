@@ -1,4 +1,4 @@
-chartOptions['Wirtschaftsstandort_LP.1.06.1'] = {
+chartOptions['Wissensstandort_LP.2.07.1b'] = {
   "xAxis": {
     "type": "category"    
   },
@@ -8,11 +8,10 @@ chartOptions['Wirtschaftsstandort_LP.1.06.1'] = {
     }    
   },
   "series": [
-  {"color": "#cd9c00"}, /*hellbraun */
-  {"color": "#9f7c5a"}, /*dunkelbraun1 */
-  {"color": "#b00000"}, /*rot */
-  {"color": "#45381d"}, /*dunkelbraun2 */
-  {"color": "#71a3b5"}  /*blau */
+  {"color": "#FF8028"}, /* orange */
+  {"color": "#008AC3"}, /* blau */
+  {"color": "#933F8D"}, /* pink */
+  {"color": "#007A2F"}  /* grün */
   ],
   "legend": {
     "enabled": true,

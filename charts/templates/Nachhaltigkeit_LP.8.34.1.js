@@ -1,5 +1,5 @@
-chartOptions["I.04.0.0005"] = {
-    "yAxis": {
+chartOptions["Nachhaltigkeit_LP.8.34.1"] = {
+   "yAxis": {
 	"min": 0,
     "labels": {
 	  useHTML : true,
@@ -18,7 +18,7 @@ chartOptions["I.04.0.0005"] = {
         "symbol": "circle",
         "enabled": true
       },     
-      "color": "#256370"
+      "color": "#8b2223"
     }
   ],
   "tooltip": {

@@ -69,7 +69,7 @@ chartOptions['I.01.1.0013'] = {
     }        
   ],
   "chart": {
-	"width": 2000, 
-	"type": "column"
+	"width": 2000
+    "type": "column"
   }
 };

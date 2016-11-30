@@ -1,9 +1,9 @@
-chartOptions["I.04.0.0005"] = {
-    "yAxis": {
-	"min": 0,
+chartOptions["Urbanitaet_LP.5.17.2"] = {
+   "yAxis": {
+	"min": 40,
     "labels": {
 	  useHTML : true,
-      "format": "{value:,.0f}",
+      "format": "{value:,.0f}%",
     }
   },
   "xAxis": {
@@ -18,11 +18,11 @@ chartOptions["I.04.0.0005"] = {
         "symbol": "circle",
         "enabled": true
       },     
-      "color": "#256370"
+      "color": "#5592d5"
     }
   ],
   "tooltip": {
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
     "shared": false
   },
   "plotOptions": {
@@ -43,3 +43,4 @@ chartOptions["I.04.0.0005"] = {
     }
   }
 };
+ 

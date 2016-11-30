@@ -1,4 +1,4 @@
-chartOptions["I.04.0.0003"] = {
+chartOptions["Metropolitanraum_LP.3.10.1"] = {
   "xAxis": {
     "tickInterval": 1
   },
@@ -13,17 +13,14 @@ chartOptions["I.04.0.0003"] = {
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
   },
   "series": [
-	{"color": "#8a8a8a"}, /* BS = grau */
-    {"color": "#71a3b5"}, /* ZH = hellblau*/
-	{"color": "#933f8d"}, /* GE = violett*/
-    {"color": "#ff8028"}, /* BL = orange*/	
-	{"color": "#256370"}, /* AG = dunkelblau */
-	{"color": "#b00000"}  /* CH = rot */
+	{"color": "#b00000"},
+    {"color": "#71a3b5"}, 
+	{"color": "#000000"}
   ],
   "legend": {
     "enabled": true,
     "x": 20,
-    "y": 35,
+    "y": 55,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
@@ -41,5 +38,3 @@ chartOptions["I.04.0.0003"] = {
     }
   }
 };
- 
- 
