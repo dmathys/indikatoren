@@ -11,12 +11,12 @@ chartOptions["I.16.1.0004"] = {
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
  "series": [
     {"color": "#b00000", "index": 1}, /* rot*/
-    {"color": "#4f81bd", "index": 2}, /*blau*/
-	{"color": "#000000", "index": 3} /* schwarz*/
+    {"color": "#4f81bd", "index": 2}, /* blau*/
+    {"color": "#000000", "index": 3}  /* schwarz*/
   ],
   "legend": {
     "enabled": true,
