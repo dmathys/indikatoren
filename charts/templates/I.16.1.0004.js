@@ -3,10 +3,11 @@ chartOptions["I.16.1.0004"] = {
     "tickInterval": 1
   },
   "yAxis": {
-    "min": undefined, 
-	"labels": {
-		"format": "{value}"
-	}
+    "min": 0, 
+    "max": 200000,
+  	"labels": {
+  		"format": "{value:,.0f}"
+  	}
   },	
   "tooltip": {
     "shared": false, 
