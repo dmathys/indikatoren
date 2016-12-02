@@ -13,7 +13,7 @@ chartOptions["Chancengleichheit_LP.7.25.1"] = {
     {
       "marker": {
         "symbol": "circle",
-        "enabled": false
+        "enabled": true
       },     
       "color": "#b00000"
     }
