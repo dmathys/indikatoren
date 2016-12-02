@@ -5306,7 +5306,7 @@ var indikatoren = [
 		},
 		{"title": "Schulbesuchsquoten Sek II der 18-Jährigen im Kanton Basel-Stadt nach Geschlecht",
 		"subtitle":"",
-		"kuerzel":"Chancengleichheit_LP.7.26.3",
+		"kuerzel":"Chancengleichheit_LP.7.27.1",
 		"kuerzelKunde":"",
 		"image":"images/doesntmatter.jpg",
 		"description":"",

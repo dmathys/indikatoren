@@ -1,28 +1,31 @@
-chartOptions["Chancengleichheit_LP.7.26.3"] = {
+chartOptions["Chancengleichheit_LP.7.27.1"] = {
   "xAxis": {
     "tickInterval": 1,
-	"labels": {
-		"rotation": -45
-	}
   },
   "yAxis": {
-    "min": 0, 
-	"labels": {
-		"format": "{value}"
-	}
+    "min": 50, 
+    "max": 100, 
+	  "labels": {
+		  "format": "{value}%"
+	  }
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b>%<br/>'
   },
  "series": [
-	{"color": "#256370"}, /* blau*/
-	{"color": "#007a2f"}, /*grün*/
-    {"color": "#9f7c5a"}  /* braun*/
+    {"color": "#B00000"}, /* rot */
+    {"color": "#008AC3"}, /* blau */
+    {
+      "color": "#3c3c3c", /* schwarz */
+      "marker": {
+        "enabled": true
+    }
+    },
   ],
   "legend": {
     "enabled": true,
-    "x": 20,
+    "x": 40,
     "y": 50,
     "layout": "horizontal",
     "verticalAlign": "top",

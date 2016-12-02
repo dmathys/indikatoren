@@ -9,13 +9,18 @@ chartOptions["Chancengleichheit_LP.7.25.3"] = {
 	}
   },	
   "tooltip": {
-    "shared": false, 
+  "shared": false, 
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
  "series": [
-	{"color": "#256370"}, /* blau*/
-	{"color": "#007a2f"}, /*grün*/
-    {"color": "#9f7c5a"}  /* braun*/
+    {"color": "#B00000"}, /* rot */
+    {"color": "#008AC3"}, /* blau */
+    {
+      "color": "#3c3c3c", /* schwarz */
+      "marker": {
+        "enabled": true
+    }
+    },
   ],
   "plotOptions": {
     "line": {

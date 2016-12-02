@@ -1,9 +1,6 @@
 chartOptions["Chancengleichheit_LP.7.25.5"] = {
   "xAxis": {
     "tickInterval": 1,
-	"labels": {
-		"rotation": -45
-	}
   },
   "yAxis": {
     "min": 0, 
@@ -16,15 +13,16 @@ chartOptions["Chancengleichheit_LP.7.25.5"] = {
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
  "series": [
-	{"color": "#672773"}, /* violett*/
-	{"color": "#4a7ebb"}, /*dunkelblau*/
-	{"color": "#46aac5"}, /*hellblau*/
+  	{"color": "#672773"}, /* violett*/
+  	{"color": "#4a7ebb"}, /*dunkelblau*/
+  	{"color": "#46aac5"}, /*hellblau*/
     {"color": "#c1d2a7"}  /* hellgrün*/
   ],
   "legend": {
     "enabled": true,
-    "x": 20,
+    "x": 35,
     "y": 50,
+    "itemWidth": 210,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
