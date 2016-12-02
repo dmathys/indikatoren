@@ -1,31 +1,21 @@
 chartOptions["Chancengleichheit_LP.7.25.1"] = {
    "yAxis": {
-	"min": 70,
+	  "min": 50,
+	  "max": 100,
     "labels": {
-	  useHTML : true,
       "format": "{value:,.0f}%",
     }
   },
   "xAxis": {
-    "tickInterval": 2,
-	"labels": {
-		"rotation": -45
-		}
+    "tickInterval": 2
   },
   "series": [
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },     
       "color": "#b00000"
-    },
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },      
-      "color": "#FABD24"
     }
   ],
   "tooltip": {
@@ -36,12 +26,13 @@ chartOptions["Chancengleichheit_LP.7.25.1"] = {
       "dataLabels": {
         "enabled": true,
         "allowOverlap": true,
-		 y: -10,
+          y: -10,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.category === last.category  && this.point.y === last.y) {
-              return this.series.name;
+            var last = this.series.data[this.series.data.length - 1];
+            var first = this.series.data[0];
+            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
+              return this.point.y +"%";
             }
             return "";
           }

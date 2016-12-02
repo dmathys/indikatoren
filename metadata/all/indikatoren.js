@@ -5252,7 +5252,7 @@ var indikatoren = [
 		"stufe5":"", 
 		"lesehilfe":"",
 		"erlaeuterungen":"",
-		"template":"template001",
+		"template":"line001",
 		"option":"options001",
 		"quellenangabe":[""]
 		},
