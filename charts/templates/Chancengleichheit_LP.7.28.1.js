@@ -13,23 +13,31 @@ chartOptions["Chancengleichheit_LP.7.28.1"] = {
     "shared": false, 
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
   },
- "series": [
+"series": [
   {
-      "color": "#b00000", /* rot */
-      "marker": {
-        "enabled": true
+    "color": "#b00000", /* rot */
+    "marker": {
+    "enabled": true
     }
   },
-	{"color": "#a56868"}, /*rot*/
-	{"color": "#e0acac"}, /*rot*/
+	{"color": "#a56868",
+	  "visible": false
+	}, /*rot*/
+	{"color": "#e0acac",
+	  "visible": false}, /*rot*/
 	{
-      "color": "#183ec9", /* blau */
-      "marker": {
-        "enabled": true
+    "color": "#183ec9", /* blau */
+    "visible": true,
+    "marker": {
+    "enabled": true
   }
   },
-	{"color": "#256370"}, /*blau*/
-  {"color": "#96c9d3"}  /* blau*/
+	{"color": "#256370", /*blau*/
+	  "visible": false
+	}, 
+  {"color": "#96c9d3",  /* blau*/
+    "visible": false
+  } 
   ],
   "legend": {
     "enabled": true,

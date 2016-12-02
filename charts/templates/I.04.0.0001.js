@@ -20,13 +20,17 @@ chartOptions["I.04.0.0001"] = {
     "enabled": true
       }
     },
-    {"color": "#ff8031"}, /* BS: orange */
-    {"color": "#675d73"}, /* GE: violett */
-    {"color": "#a0bec8"} /* ZH: hellblau */
+    {"color": "#ff8031",
+      "visible": true
+    }, /* BS: orange */
+    {"color": "#675d73",
+      "visible": false}, /* GE: violett */
+    {"color": "#a0bec8",
+      "visible": false} /* ZH: hellblau */
   ],
   "legend": {
     "enabled": true,
-    "x": 20,
+    "x": 35,
     "y": 35,
     "layout": "horizontal",
     "verticalAlign": "top",

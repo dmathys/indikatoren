@@ -4,6 +4,7 @@ chartOptions["Chancengleichheit_LP.7.28.2"] = {
   },
   "yAxis": {
     "min": 0, 
+    "max": 100, 
 	"labels": {
 		"format": "{value}%"
 	}
@@ -13,11 +14,17 @@ chartOptions["Chancengleichheit_LP.7.28.2"] = {
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
   },
  "series": [
-  	{"color": "#933f8d"}, /* violett*/
-  	{"color": "#44ab2b"}, /*grün*/
-  	{"color": "#256370"}, /*dunkelblau*/
-  	{"color": "#71a3b5"}, /*hellblau*/
-  	{"color": "#fabd24"}, /*gelb*/
+  	{"color": "#933f8d",
+  	 "visible": false,
+  	}, /* violett*/
+  	{"color": "#44ab2b",
+  	 "visible": false,}, /*grün*/
+  	{"color": "#256370",
+  	 "visible": false,}, /*dunkelblau*/
+  	{"color": "#71a3b5",
+  	 "visible": false,}, /*hellblau*/
+  	{"color": "#fabd24",
+  	 "visible": false,}, /*gelb*/
   	{
       "color": "#b00000", /* rot */
       "marker": {

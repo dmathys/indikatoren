@@ -48,7 +48,7 @@ chartOptions["Chancengleichheit_LP.7.28.4"] = {
   ],
   "legend": {
     "enabled": true,
-    "x": 30,
+    "x": 25,
     "y": 50,
     "itemWidth": 200,
     "layout": "horizontal",

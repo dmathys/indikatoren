@@ -1,9 +1,6 @@
 chartOptions["Chancengleichheit_LP.7.28.3"] = {
   "xAxis": {
     "tickInterval": 1,
-	"labels": {
-		"rotation": -45
-	}
   },
   "yAxis": {
     "min": 0, 
@@ -22,11 +19,14 @@ chartOptions["Chancengleichheit_LP.7.28.3"] = {
     "enabled": true
     }
   },
-	{"color": "#a56868"}, /*rot*/
-	{"color": "#e0acac"}, /*rot*/
+	{"color": "#a56868",
+	  "visible": false
+	}, /*rot*/
+	{"color": "#e0acac",
+	  "visible": false}, /*rot*/
 	{
     "color": "#183ec9", /* blau */
-    "visible": false,
+    "visible": true,
     "marker": {
     "enabled": true
   }
@@ -40,7 +40,7 @@ chartOptions["Chancengleichheit_LP.7.28.3"] = {
   ],
   "legend": {
     "enabled": true,
-    "x": 20,
+    "x": 40,
     "y": 50,
     "itemWidth": 200,
     "layout": "horizontal",
