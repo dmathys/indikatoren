@@ -1,6 +1,9 @@
 chartOptions["Lebensqualitaet_LP.9.38.4"] = {
   "xAxis": {
-    "tickInterval": 1
+    "startOnTick": true,
+    "endOnTick": true,
+    "tickInterval": 2,
+    
   },
   "yAxis": [{
     "title": {
@@ -27,7 +30,7 @@ chartOptions["Lebensqualitaet_LP.9.38.4"] = {
       "text": null
     },
     "labels": {
-      "format": "{value:,.0f}",
+      "format": "{value:,.0f}%",
       "style": {
         "color": "#000000"
       }

@@ -2,20 +2,49 @@ chartOptions["Lebensqualitaet_LP.9.40.4"] = {
   "xAxis": {
     "tickInterval": 1
   },
-  "yAxis": {
-    "min": undefined, 
-	"max": undefined,
-	"labels": {
-		"format": "{value}%"
-	}
-  },	
+  "yAxis": [{
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value:,.0f}",
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "min": 0
+  },
+  {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value:,.0f}%",
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "min": 0,
+    "opposite": true
+  }
+  ],	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
  "series": [
-      {"color": "#2f656b"}, /*blau*/
-	  {"color": "#83522e"} /* braun*/
+    {"color": "#2f656b"}, /*blau*/
+	  {"color": "#83522e",
+	    "yAxis": 1
+	  } /* braun*/
   ],
   "legend": {
     "enabled": true,
