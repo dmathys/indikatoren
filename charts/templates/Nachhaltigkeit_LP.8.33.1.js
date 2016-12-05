@@ -1,14 +1,13 @@
 chartOptions["Nachhaltigkeit_LP.8.33.1"] = {
   "xAxis": {
     "tickInterval": 1,
-	"labels": {
-		"rotation": -45
-	}
   },
   "yAxis": {
-    "min": 10, 
+  "min": 0,
+  "max": 50, 
+   "tickInterval": 10,
 	"labels": {
-		"format": "{value}"
+		"format": "{value}%"
 	}
   },	
   "tooltip": {
@@ -24,6 +23,7 @@ chartOptions["Nachhaltigkeit_LP.8.33.1"] = {
     "enabled": true,
     "x": 20,
     "y": 50,
+    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
@@ -37,7 +37,7 @@ chartOptions["Nachhaltigkeit_LP.8.33.1"] = {
       "marker":{
         "enabled": false,
         "symbol": "circle",
-      } 
+      }, 
     }
   }
 };
