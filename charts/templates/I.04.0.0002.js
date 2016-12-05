@@ -3,7 +3,8 @@ chartOptions["I.04.0.0002"] = {
     "tickInterval": 1
   },
   "yAxis": {
-    "min": undefined, 
+    "min": 0, 
+    "max": 10,
 	"labels": {
 		"format": "{value}%"
 	}
@@ -13,14 +14,28 @@ chartOptions["I.04.0.0002"] = {
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
   },
   "series": [
-	{"color": "#8a8a8a"}, /* BS = grau */
-    {"color": "#ffc000"}, /* BL gelb */
-	{"color": "#256370"}, /* Aargau = dunkelblau */
-    {"color": "#007A2F"} /*  Schweiz = rot */
+	  {"color": "#8a8a8a",
+      "index": 2,
+  	   "marker": {
+          "enabled": true
+      }
+  	}, /* BS = grau */
+    {"color": "#ffc000",
+      "index": 3
+    }, /* BL gelb */
+  	{"color": "#256370",
+  	  "index": 4
+  	}, /* Aargau = dunkelblau */
+    {"color": "#007A2F",
+      "index": 1,
+       "marker": {
+        "enabled": true
+    }
+    } /*  Schweiz = rot */
   ],
   "legend": {
     "enabled": true,
-    "x": 20,
+    "x": 35,
     "y": 35,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -35,8 +50,22 @@ chartOptions["I.04.0.0002"] = {
       "marker":{
         "enabled": false,
         "symbol": "circle",
-      } 
-    }
+      }, 
+    },
+     /*"series": {
+      "dataLabels": {
+        "y": 0,
+        "enabled": true,
+        "allowOverlap": true,
+          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
+          formatter: function() {
+            var first  = this.series.data[0];
+            if (this.point.category === first.category  && this.point.y === first.y) {
+              return this.series.name;
+            }
+            return "";
+          }
+      }
+    }*/
   }
 };
- 

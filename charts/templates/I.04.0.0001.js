@@ -4,6 +4,7 @@ chartOptions["I.04.0.0001"] = {
   },
   "yAxis": {
     "min": undefined, 
+    "max": 10,
 	"labels": {
 		"format": "{value}%"
 	}
@@ -21,12 +22,14 @@ chartOptions["I.04.0.0001"] = {
       }
     },
     {"color": "#ff8031",
-      "visible": true
+     "marker": {
+        "enabled": true
+    }
     }, /* BS: orange */
     {"color": "#675d73",
-      "visible": false}, /* GE: violett */
+      "visible": true}, /* GE: violett */
     {"color": "#a0bec8",
-      "visible": false} /* ZH: hellblau */
+      "visible": true} /* ZH: hellblau */
   ],
   "legend": {
     "enabled": true,
