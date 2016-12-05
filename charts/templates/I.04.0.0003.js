@@ -3,7 +3,8 @@ chartOptions["I.04.0.0003"] = {
     "tickInterval": 1
   },
   "yAxis": {
-    "min": undefined, 
+    "min": -50, 
+    "max": 50,
 	"labels": {
 		"format": "{value}%"
 	}
@@ -13,17 +14,36 @@ chartOptions["I.04.0.0003"] = {
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
   },
   "series": [
-	{"color": "#8a8a8a"}, /* BS = grau */
-    {"color": "#71a3b5"}, /* ZH = hellblau*/
-	{"color": "#933f8d"}, /* GE = violett*/
-    {"color": "#ff8028"}, /* BL = orange*/	
-	{"color": "#256370"}, /* AG = dunkelblau */
-	{"color": "#b00000"}  /* CH = rot */
+	  {"color": "#8a8a8a",
+	   "index": 2,
+	     "marker": {
+        "enabled": true
+    } 
+	  }, /* BS = grau */
+    {"color": "#71a3b5",
+       "index": 4
+    }, /* ZH = hellblau*/
+	  {"color": "#933f8d",
+	     "index":5
+	  }, /* GE = violett*/
+    {"color": "#ff8028",
+       "index": 3
+    }, /* BL = orange*/	
+  	{"color": "#256370",
+  	   "index": 6
+  	}, /* AG = dunkelblau */
+  	{"color": "#b00000",
+  	 "index": 1,
+  	    "marker": {
+        "enabled": true
+    }
+  	}  /* CH = rot */
   ],
   "legend": {
     "enabled": true,
-    "x": 20,
+    "x": 40,
     "y": 35,
+     "itemWidth": 210,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
