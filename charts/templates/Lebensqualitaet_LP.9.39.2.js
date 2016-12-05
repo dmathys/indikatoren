@@ -37,7 +37,21 @@ chartOptions["Lebensqualitaet_LP.9.39.2"] = {
       "marker":{
         "enabled": false,
         "symbol": "circle",
-      } 
+      }, 
+    },
+     "series": {
+      "dataLabels": {
+        "enabled": true,
+        "allowOverlap": true,
+          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
+          formatter: function() {
+            var last  = this.series.data[this.series.data.length - 1];
+            if (this.point.category === last.category  && this.point.y === last.y) {
+              return this.series.name;
+            }
+            return "";
+          }
+      }
     }
   }
 };

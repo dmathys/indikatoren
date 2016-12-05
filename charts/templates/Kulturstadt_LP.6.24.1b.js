@@ -14,15 +14,15 @@ chartOptions["Kulturstadt_LP.6.24.1b"] = {
   },
  "series": [
     {"color": "#69929b"}, /*blau*/
-  	{"color": "#44ab2b"}, /* grün*/
+    {"color": "#44ab2b"}, /* grün*/
     {"color": "#ff8028"}, /*orange*/
-  	{"color": "#933f8d"}, /* violett*/
+    {"color": "#933f8d"}, /* violett*/
     {"color": "#c8c8c8"}, /*grau*/
-  	{"color": "#b00000"}/* rot*/
+    {"color": "#b00000"}/* rot*/
   ],
   "legend": {
     "enabled": true,
-     "x":45,
+    "x":30,
     "y": 35,
     "itemWidth": 200,
     "layout": "horizontal",

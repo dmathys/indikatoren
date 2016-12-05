@@ -1,14 +1,13 @@
 chartOptions["Lebensqualitaet_LP.9.37.1"] = {
   "xAxis": {
-    "tickInterval": 1,
-	"labels": {
-		"rotation": -45
-	}
+    "tickInterval": 2,
   },
   "yAxis": {
     "min": 0, 
-	"labels": {
-		"format": "{value}%"
+    "max": 50,
+    "tickInterval": 10,
+  	"labels": {
+		  "format": "{value}%"
 	}
   },	
   "tooltip": {
@@ -21,8 +20,8 @@ chartOptions["Lebensqualitaet_LP.9.37.1"] = {
 	  ],
   "legend": {
     "enabled": true,
-    "x": 40,
-    "y": 100,
+    "x": 30,
+    "y":40,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
