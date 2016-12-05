@@ -16,8 +16,7 @@ chartOptions["Chancengleichheit_LP.7.27.1"] = {
  "series": [
     {"color": "#B00000"}, /* rot */
     {"color": "#008AC3"}, /* blau */
-    {
-      "color": "#3c3c3c", /* schwarz */
+    {"color": "#3c3c3c", /* schwarz */
       "marker": {
         "enabled": true
     }

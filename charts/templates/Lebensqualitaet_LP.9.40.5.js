@@ -2,49 +2,20 @@ chartOptions["Lebensqualitaet_LP.9.40.5"] = {
   "xAxis": {
     "tickInterval": 1
   },
-  "yAxis": [{
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
-    "labels": {
-      "format": "{value:,.0f}",
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "min": 0
-  },
-  {
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
+  "yAxis": {
+	  "min": 0,
+	  "max": 100,
     "labels": {
       "format": "{value:,.0f}%",
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "min": 0,
-    "opposite": true
-  }
-  ],
+    }
+  },
   "tooltip": {
     "shared": false, 
 	  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
   },
  "series": [
     {"color": "#2f656b"}, /*blau*/
-    {"color": "#83522e",
-     "yAxis": 1
-    }, /* braun*/
+    {"color": "#83522e"}, /* braun*/
   ],
   "legend": {
     "enabled": true,

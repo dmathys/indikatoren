@@ -1,16 +1,13 @@
 chartOptions["Nachhaltigkeit_LP.8.30.1"] = {
-   "yAxis": {
-	"min": 30,
+  "yAxis": {
+    "min": 0,
+    "max": 50,
     "labels": {
-	  useHTML : true,
       "format": "{value:,.0f}%",
     }
   },
   "xAxis": {
 	 "tickInterval": 1,
-	"labels": {
-		"rotation": -45
-		}
   },
   "series": [
     {
@@ -30,12 +27,13 @@ chartOptions["Nachhaltigkeit_LP.8.30.1"] = {
       "dataLabels": {
         "enabled": true,
         "allowOverlap": true,
-		 y: -10,
+          y: -10,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.category === last.category  && this.point.y === last.y) {
-              return this.series.name;
+            var last = this.series.data[this.series.data.length - 1];
+            var first = this.series.data[0];
+            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
+              return this.point.y +"%";
             }
             return "";
           }
