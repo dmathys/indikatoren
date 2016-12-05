@@ -16,26 +16,32 @@ chartOptions["Chancengleichheit_LP.7.28.1"] = {
 "series": [
   {
     "color": "#b00000", /* rot */
+    "index": 1,
     "marker": {
     "enabled": true
     }
   },
 	{"color": "#a56868",
+	 "index": 3,
 	  "visible": false
 	}, /*rot*/
 	{"color": "#e0acac",
+	 "index": 5,
 	  "visible": false}, /*rot*/
 	{
     "color": "#183ec9", /* blau */
+     "index": 2,
     "visible": true,
     "marker": {
     "enabled": true
   }
   },
 	{"color": "#256370", /*blau*/
+	 "index": 4,
 	  "visible": false
 	}, 
   {"color": "#96c9d3",  /* blau*/
+   "index": 6,
     "visible": false
   } 
   ],

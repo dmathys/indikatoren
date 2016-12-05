@@ -1,13 +1,10 @@
 chartOptions["Chancengleichheit_LP.7.28.4"] = {
   "xAxis": {
     "tickInterval": 1,
-	"labels": {
-		"rotation": -45
-	}
   },
   "yAxis": {
     "min": 0, 
-    "max": undefined, 
+    "max": 10, 
 	"labels": {
 		"format": "{value}%"
 	}
@@ -18,27 +15,27 @@ chartOptions["Chancengleichheit_LP.7.28.4"] = {
   },
  "series": [
 	{"color": "#256370",
-  "visible": false}, /*blau*/
+  "visible": true}, /*blau*/
 	{"color": "#a8c4cb",
-  "visible": false}, /*hellblau*/
+  "visible": true}, /*hellblau*/
 	{"color": "#ffbb58",
-  "visible": false}, /*hellorange*/
+  "visible": true}, /*hellorange*/
 	{"color": "#b475ab",
-  "visible": false}, /*hellviolett*/
+  "visible": true}, /*hellviolett*/
 	{"color": "#44ab2b",
-  "visible": false}, /*grün*/
+  "visible": true}, /*grün*/
   {"color": "#007a2f",
-  "visible": false},  /*dunkelgrün*/
+  "visible": true},  /*dunkelgrün*/
 	{"color": "#672773",
-  "visible": false}, /*violett*/
+  "visible": true}, /*violett*/
 	{"color": "#b00000",
-  "visible": false}, /*rot*/
+  "visible": true}, /*rot*/
 	{"color": "#ff8028",
-  "visible": false}, /*orange*/
+  "visible": true}, /*orange*/
 	{"color": "#cd9c00",
-  "visible": false}, /*hellbraun*/
+  "visible": true}, /*hellbraun*/
 	{"color": "#8a8a8a",
-  "visible": false}, /*hellgrau*/
+  "visible": true}, /*hellgrau*/
   {"color": "#474747",
   "visible": true,
     "marker": {

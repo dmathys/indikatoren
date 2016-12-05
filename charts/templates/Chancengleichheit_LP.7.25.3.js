@@ -5,12 +5,12 @@ chartOptions["Chancengleichheit_LP.7.25.3"] = {
   "yAxis": {
     "min": 0, 
 	"labels": {
-		"format": "{value}"
+		"format": "{value}%"
 	}
   },	
   "tooltip": {
   "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
   },
  "series": [
     {"color": "#B00000"}, /* rot */

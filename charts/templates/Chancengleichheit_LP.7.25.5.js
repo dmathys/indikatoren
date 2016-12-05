@@ -5,7 +5,7 @@ chartOptions["Chancengleichheit_LP.7.25.5"] = {
   "yAxis": {
     "min": 0, 
 	"labels": {
-		"format": "{value}"
+		"format": "{value:,.0f}"
 	}
   },	
   "tooltip": {
