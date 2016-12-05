@@ -3,8 +3,11 @@ chartOptions["Kulturstadt_LP.6.22.2"] = {
     "type": "category"  ,	
   },
   "yAxis": {
+    "min": 0,
+    "max": 700000,
+    "tickInterval":350000,
     "labels": {
-      "format": "{value}"
+      "format": "{value:,.0f}"
     }    
   },
    "series": [
@@ -12,11 +15,11 @@ chartOptions["Kulturstadt_LP.6.22.2"] = {
   ],
   "legend": {
     "enabled": true,
+    "x": 155,
+  	"y": 55,   
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 45,
-	"y": 55,    
     "itemStyle": {
       "fontWeight": "normal"
     }

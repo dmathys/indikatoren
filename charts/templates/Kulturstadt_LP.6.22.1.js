@@ -10,21 +10,22 @@ chartOptions["Kulturstadt_LP.6.22.1"] = {
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+  	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
  "series": [
     {"color": "#44ab2b"}, /* grün*/
     {"color": "#71a3b5"}, /*blau*/
-	{"color": "#b00000"}, /* rot*/
+  	{"color": "#b00000"}, /* rot*/
     {"color": "##000000"}, /*schwarz*/
-	{"color": "#8a8a8a"}, /* grau*/
+  	{"color": "#8a8a8a"}, /* grau*/
     {"color": "#933f8d"}, /*pink*/
-	{"color": "#ff8028"}/* gelb*/
+  	{"color": "#ff8028"}/* gelb*/
   ],
   "legend": {
     "enabled": true,
     "x": 20,
     "y": 35,
+    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
