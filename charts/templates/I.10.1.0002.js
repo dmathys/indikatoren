@@ -5,7 +5,7 @@ chartOptions["I.10.1.0002"] = {
   "yAxis": {
     "min": undefined, 
 	"labels": {
-		"format": "{value}"
+		"format": "{value:,.0f}"
 	}
   },	
   "tooltip": {
@@ -15,15 +15,16 @@ chartOptions["I.10.1.0002"] = {
   "series": [
     {"color": "#b00000 "}, /* rot */
     {"color": "#ff8028"}, /* orange */
-	{"color": "#672773"}, /* violett */
-	{"color": "#9a86a6"}, /* lila */
-	{"color": "#a0bec8"}, /* hellblau  */
+	  {"color": "#672773"}, /* violett */
+	  {"color": "#9a86a6"}, /* lila */
+  	{"color": "#a0bec8"}, /* hellblau  */
     {"color": "#c9d6db"}, /* hellgrau */	
   ],
   "legend": {
     "enabled": true,
-    "x": 20,
+    "x": 45,
     "y": 35,
+     "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
@@ -36,7 +37,7 @@ chartOptions["I.10.1.0002"] = {
     "line": {
 	  "connectNulls": true,
       "marker":{
-        "enabled": true,
+        "enabled": false,
         "symbol": "circle",
       }
     }

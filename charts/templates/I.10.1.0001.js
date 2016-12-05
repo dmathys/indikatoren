@@ -12,7 +12,7 @@ chartOptions['I.10.1.0001'] = {
   },
   "xAxis": {
     "type": "category",
-	"tickInterval": 5	
+	"tickInterval": 1	
   },  
   "yAxis": {
     "labels": {

@@ -1,5 +1,7 @@
  chartOptions["I.04.0.0004"] = {
   "yAxis": {
+    "min": 0,
+    "max":50,
     "labels": {
       "format": "{value:,.0f}%",
     }
@@ -15,13 +17,13 @@
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
   },
   "series": [
     {"color": "#73ba7c"}
   ],
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "x": 20,
     "y": 35,
     "layout": "horizontal",
@@ -33,11 +35,21 @@
     }
   },
   "plotOptions": {
-    "line": {
-      "marker":{
-        "enabled": false,
-        "symbol": "circle",
-      } 
+    "series": {
+      "dataLabels": {
+        "enabled": true,
+        "allowOverlap": true,
+          y: -10,
+          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
+          formatter: function() {
+            var last = this.series.data[this.series.data.length - 1];
+            var first = this.series.data[0];
+            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
+              return this.point.y;
+            }
+            return "";
+          }
+      }
     }
   }
-}; 
+};
