@@ -23,7 +23,7 @@ chartOptions["Nachhaltigkeit_LP.8.33.1"] = {
     "enabled": true,
     "x": 20,
     "y": 50,
-    "itemWidth": 200,
+    "itemWidth": 300,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
