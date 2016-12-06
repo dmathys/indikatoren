@@ -1,12 +1,10 @@
 chartOptions["Nachhaltigkeit_LP.8.34.5"] = {
   "xAxis": {
     "tickInterval": 1,
-	"labels": {
-		"rotation": -45
-	}
   },
   "yAxis": {
-    "min": 0, 
+    "min": 0,
+    "max": 20,
 	"labels": {
 		"format": "{value}"
 	}

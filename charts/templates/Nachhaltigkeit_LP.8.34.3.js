@@ -1,14 +1,12 @@
 chartOptions["Nachhaltigkeit_LP.8.34.3"] = {
   "xAxis": {
     "tickInterval": 1,
-	"labels": {
-		"rotation": -45
-	}
   },
   "yAxis": {
-    "min": 10, 
+    "min": 0, 
+    "max": 10000,
 	"labels": {
-		"format": "{value}"
+		"format": "{value:,.0f}"
 	}
   },	
   "tooltip": {
@@ -21,7 +19,7 @@ chartOptions["Nachhaltigkeit_LP.8.34.3"] = {
 	{"color": "#71a3b5"} /*hellblau*/
   ],
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "x": 20,
     "y": 50,
     "layout": "horizontal",
@@ -37,7 +35,22 @@ chartOptions["Nachhaltigkeit_LP.8.34.3"] = {
       "marker":{
         "enabled": false,
         "symbol": "circle",
-      } 
+      }, 
+    },
+     "series": {
+      "dataLabels": {
+        "enabled": true,
+        "allowOverlap": true,
+        "y": -5,
+          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
+          formatter: function() {
+            var last  = this.series.data[this.series.data.length - 1];
+            if (this.point.category === last.category  && this.point.y === last.y) {
+              return this.series.name;
+            }
+            return "";
+          }
+      }
     }
   }
 };
