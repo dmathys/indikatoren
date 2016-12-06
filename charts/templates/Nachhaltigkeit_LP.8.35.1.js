@@ -1,14 +1,11 @@
 chartOptions["Nachhaltigkeit_LP.8.35.1"] = {
   "xAxis": {
     "tickInterval": 1,
-	"labels": {
-		"rotation": -45
-	}
   },
   "yAxis": {
     "min": 0, 
 	"labels": {
-		"format": "{value}"
+		"format": "{value:,.0f}"
 	}
   },	
   "tooltip": {
@@ -29,8 +26,9 @@ chartOptions["Nachhaltigkeit_LP.8.35.1"] = {
   ],
   "legend": {
     "enabled": true,
-    "x": 20,
+    "x": 55,
     "y": 50,
+    "itemWidth": 180,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
