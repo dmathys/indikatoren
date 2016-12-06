@@ -6,9 +6,6 @@ chartOptions["Nachhaltigkeit_LP.8.33.2"] = {
     }
   },
   "xAxis": {
-    "startOnTick": true,
-    "endOnTick"
-    "showLastLabel": true,
 	  "tickInterval": 2,
   },
   "series": [
