@@ -6,7 +6,7 @@ chartOptions["Urbanitaet_LP.5.16.1"] = {
     "min": 0, 
     "max": 300000, 
 	  "labels": {
-	  	"format": "{value}"
+	  	"format": "{value:,.0f}"
 	}
   },	
   "tooltip": {

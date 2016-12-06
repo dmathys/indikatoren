@@ -33,7 +33,7 @@ chartOptions["I.04.0.0005"] = {
             var last = this.series.data[this.series.data.length - 1];
             var first = this.series.data[0];
             if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return this.point.y +"%";
+              return this.point.y;
             }
             return "";
           }
