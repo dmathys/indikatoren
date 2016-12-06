@@ -3,7 +3,8 @@ chartOptions["Urbanitaet_LP.5.18.1"] = {
     "tickInterval": 1
   },
   "yAxis": {
-    "min": undefined, 
+    "min": 0, 
+    "max": 2000,
 	"labels": {
 		"format": "{value}"
 	}
@@ -19,7 +20,7 @@ chartOptions["Urbanitaet_LP.5.18.1"] = {
   ],
   "legend": {
     "enabled": true,
-    "x": 20,
+    "x": 35,
     "y": 35,
     "layout": "horizontal",
     "verticalAlign": "top",
