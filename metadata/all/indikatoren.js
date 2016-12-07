@@ -4271,7 +4271,7 @@ var indikatoren = [
 		"option":"options001",
 		"quellenangabe":[""]
 		},
-		{"title":"Globale und kontinentale Erreichbarkeit1, Basel im nationalen Vergleich",
+		{"title":"Globale und kontinentale Erreichbarkeit, Basel im nationalen Vergleich",
 		"subtitle":"",
 		"kuerzel":"I.10.1.0003",
 		"kuerzelKunde":"",
@@ -4560,7 +4560,7 @@ var indikatoren = [
 		"option":"options001",
 		"quellenangabe":[""]
 		},
-		{"title": "Anteil Befragte1, die sehr oder eher gerne in ihrem Quartier/an ihrem Wohnort leben nach Wohngegend",
+		{"title": "Anteil Befragte, die sehr oder eher gerne in ihrem Quartier/an ihrem Wohnort leben nach Wohngegend",
 		"subtitle":"",
 		"kuerzel":"Metropolitanraum_LP.3.10.3",
 		"kuerzelKunde":"",
@@ -5064,7 +5064,7 @@ var indikatoren = [
 		"option":"options001",
 		"quellenangabe":[""]
 		},
-		{"title": "Urbanitaet_LP.5.16.1",
+		{"title": "Wohnbevölkerung am Jahresende nach Staatsangehörigkeit",
 		"subtitle":"",
 		"kuerzel":"Urbanitaet_LP.5.16.1",
 		"kuerzelKunde":"",
@@ -5352,7 +5352,7 @@ var indikatoren = [
 		"option":"options001",
 		"quellenangabe":[""]
 		},
-		{"title": "Entwicklung der Gymnasialquote1 nach Heimat und Geschlecht",
+		{"title": "Entwicklung der Gymnasialquote nach Heimat und Geschlecht",
 		"subtitle":"",
 		"kuerzel":"Chancengleichheit_LP.7.28.1",
 		"kuerzelKunde":"",
@@ -5376,7 +5376,7 @@ var indikatoren = [
 		"option":"options001",
 		"quellenangabe":[""]
 		},
-		{"title": "Entwicklung der Gymnasialquote1 nach Staatsangehörigkeit",
+		{"title": "Entwicklung der Gymnasialquote nach Staatsangehörigkeit",
 		"subtitle":"",
 		"kuerzel":"Chancengleichheit_LP.7.28.2",
 		"kuerzelKunde":"",
@@ -5424,7 +5424,7 @@ var indikatoren = [
 		"option":"options001",
 		"quellenangabe":[""]
 		},
-		{"title": "Ordentlich Eingebürgerte und Einbürgerungsziffer1 nach bisheriger Staatsangehörigkeit",
+		{"title": "Ordentlich Eingebürgerte und Einbürgerungsziffer nach bisheriger Staatsangehörigkeit",
 		"subtitle":"",
 		"kuerzel":"Chancengleichheit_LP.7.28.4",
 		"kuerzelKunde":"",
@@ -5616,7 +5616,7 @@ var indikatoren = [
 		"option":"options001",
 		"quellenangabe":[""]
 		},
-		{"title": "Steuerbelastung1 durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften2 - Vergleich ausgewählter Kantonshauptorte",
+		{"title": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften2 - Vergleich ausgewählter Kantonshauptorte",
 		"subtitle":"",
 		"kuerzel":"Nachhaltigkeit_LP.8.35.3a",
 		"kuerzelKunde":"",
@@ -5640,7 +5640,7 @@ var indikatoren = [
 		"option":"options001",
 		"quellenangabe":[""]
 		},
-		{"title": "Steuerbelastung1 durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften2 - Vergleich ausgewählter Kantonshauptorte",
+		{"title": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften2 - Vergleich ausgewählter Kantonshauptorte",
 		"subtitle":"",
 		"kuerzel":"Nachhaltigkeit_LP.8.35.3b",
 		"kuerzelKunde":"",
@@ -5808,7 +5808,7 @@ var indikatoren = [
 		"option":"options001",
 		"quellenangabe":[""]
 		},
-		{"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
+		{"title": "Einwohner mit lärmsanierten Fenstern (kumuliert)",
 		"subtitle":"",
 		"kuerzel":"Nachhaltigkeit_LP.8.33.2",
 		"kuerzelKunde":"",

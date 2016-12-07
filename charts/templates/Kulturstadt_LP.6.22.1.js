@@ -5,7 +5,7 @@ chartOptions["Kulturstadt_LP.6.22.1"] = {
   "yAxis": {
     "min": undefined, 
 	"labels": {
-		"format": "{value}"
+		"format": "{value:,.0f}"
 	}
   },	
   "tooltip": {
