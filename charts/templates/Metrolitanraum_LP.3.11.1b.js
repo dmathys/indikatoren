@@ -19,8 +19,9 @@ chartOptions["Metrolitanraum_LP.3.11.1b"] = {
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 0,
-	"y": 45,    
+    "x": 35,
+    "y": 55,
+    "itemWidth": 300,
     "itemStyle": {
       "fontWeight": "normal"
     }
