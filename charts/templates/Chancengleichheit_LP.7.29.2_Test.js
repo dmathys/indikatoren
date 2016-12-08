@@ -1,4 +1,4 @@
-chartOptions["I.16.1.0003a"] = {
+chartOptions["Chancengleichheit_LP.7.29.2_Test"] = {
   "xAxis": {
     "type": "category"  ,	
   },
@@ -8,12 +8,13 @@ chartOptions["I.16.1.0003a"] = {
       "format": "{value}%"
     }    
   },
-  "series": [
-  {"color": "#c9d6db"}, /* hellblau*/
-  {"color": "#a0bec8"}, /* ... */
-  {"color": "#71a3b5"}, /* ... */
-  {"color": "#256370"}, /* ... */
-  {"color": "#17375e"}  /* dunkelblau */
+   "series": [
+  {"color": "#cd9c00"}, /* hellbraun*/
+  {"color": "#9f7c5a"}, /* ... */
+  {"color": "#b00000"}, /* ...*/
+  {"color": "#45381d"}, /* ... */
+  {"color": "#77933c"}, /* grün*/
+
   ],
   "legend": {
     "enabled": true,
@@ -32,6 +33,6 @@ chartOptions["I.16.1.0003a"] = {
   },  
   "chart": {      
     "type": "column",
-    "inverted": false
+    "inverted": true
   }
 };

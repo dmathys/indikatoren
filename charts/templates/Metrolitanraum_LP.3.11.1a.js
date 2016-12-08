@@ -1,7 +1,7 @@
 chartOptions['Metrolitanraum_LP.3.11.1a'] = {
   "plotOptions": {
     "series": {
-      "pointWidth": 15,
+      "pointWidth": 70,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
