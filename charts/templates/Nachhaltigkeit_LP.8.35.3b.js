@@ -32,7 +32,7 @@ chartOptions["Nachhaltigkeit_LP.8.35.3b"] = {
 	  ],
   "legend": {
     "enabled": true,
-    "x": 40,
+    "x": 45,
     "y": 100,
     "layout": "horizontal",
     "verticalAlign": "top",

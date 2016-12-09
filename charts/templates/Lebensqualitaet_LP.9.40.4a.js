@@ -1,4 +1,4 @@
-chartOptions["Lebensqualitaet_LP.9.40.4"] = {
+chartOptions["Lebensqualitaet_LP.9.40.4a"] = {
   "xAxis": {
     "tickInterval": 1
   },

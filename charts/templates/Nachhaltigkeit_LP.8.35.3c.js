@@ -4,7 +4,7 @@ chartOptions["Nachhaltigkeit_LP.8.35.3c"] = {
   },
   "yAxis": {
     "min": 0, 
-    "max": 10000,
+    "max": 500000,
 	"labels": {
 		"format": "{value:,.0f}"
 	}
@@ -32,7 +32,7 @@ chartOptions["Nachhaltigkeit_LP.8.35.3c"] = {
 	  ],
   "legend": {
     "enabled": true,
-    "x": 40,
+    "x": 45,
     "y": 100,
     "layout": "horizontal",
     "verticalAlign": "top",
