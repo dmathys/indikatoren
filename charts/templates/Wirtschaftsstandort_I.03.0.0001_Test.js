@@ -1,4 +1,4 @@
-chartOptions['Wirtschaftsstandort_I.03.0.0001'] = {
+chartOptions['Wirtschaftsstandort_I.03.0.0001_Test'] = {
   "xAxis": {
     "type": "category"    
   },
@@ -8,11 +8,11 @@ chartOptions['Wirtschaftsstandort_I.03.0.0001'] = {
     }    
   },
   "series": [
-  {"color": "#8a8a8a"}, /*grau */
-  {"color": "#71a3b5"}, /*hellblau */
-  {"color": "#933f8d"}, /*violett */
-  {"color": "#ff8028"}, /*orange */
-  {"color": "#256370"}  /*dunkelblau */
+ {"color": "#d7e9d2"}, /* hellgrün*/
+  {"color": "#73ba7c"}, /* ... */
+  {"color": "#007a2f"}, /* ... */
+  {"color": "#0b3b19"}, /* ... */
+  {"color": "#4f6228"}  /* dunkelgrün */
   ],
   "legend": {
     "enabled": true,
@@ -32,7 +32,7 @@ chartOptions['Wirtschaftsstandort_I.03.0.0001'] = {
   },  
   "chart": {      
     "type": "column",
-    "inverted": false
+    "inverted": true
   }
 };
 
