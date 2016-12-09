@@ -1,8 +1,10 @@
 chartOptions['Wissensstandort_LP.2.07.1a'] = {
   "xAxis": {
-    "type": "category"    
+    "type": "category"
   },
   "yAxis": {
+  	"min": 0,
+  	"max": 0.5,
     "labels": {
       "format": "{value}"
     }    
@@ -19,8 +21,9 @@ chartOptions['Wissensstandort_LP.2.07.1a'] = {
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 10,
-	"y": 55,    
+    "x": 92,
+	"y": 55,  
+	"itemWidth": 300,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -31,7 +34,7 @@ chartOptions['Wissensstandort_LP.2.07.1a'] = {
   },  
   "chart": {      
     "type": "column",
-    "inverted": false
+    "inverted": true
   }
 };
 

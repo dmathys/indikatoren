@@ -47,9 +47,9 @@ chartOptions["Wissensstandort_LP.2.08.1"] = {
   ],
   "legend": {
     "enabled": true,
-    "x": 20,
+    "x": 0,
     "y": 55,
-    "itemWidth": 220,
+    "itemWidth": 230 ,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

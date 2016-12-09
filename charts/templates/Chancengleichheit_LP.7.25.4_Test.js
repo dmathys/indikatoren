@@ -1,6 +1,6 @@
 chartOptions["Chancengleichheit_LP.7.25.4_Test"] = {
  "xAxis": {
-    "tickInterval": 2,
+    "tickInterval": 1,
   },
   "yAxis": {
     "min": 0, 
