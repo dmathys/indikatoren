@@ -14,35 +14,34 @@ chartOptions["Lebensqualitaet_LP.9.40.3_Test"] = {
  "series": [
   {"color": "#C9D6DB",
   	"index": 1,
-  	  "marker": {
-        "enabled": true
-    }
-  	}, /* rot - 18-29 */
+  	}, 
   {"color": "#E7CEE2",
   	"index": 2,
-  	}, /* 30.39 J. */
+  	},
   {"color": "#008AC3",
   	"index": 3,
-  	  "marker": {
-        "enabled": true
-    },
     "visible": false
-  	}, /* 50-49 J. */
+  	}, 
   {"color": "#DC440E",
   	"index": 4,
   	"visible": false
-  	}, /* 50 - 59 J. */
+  	},
   {"color": "#2B0099",
   	"index": 5,
-  	  "marker": {
-        "enabled": true
-    },
     "visible": false
-  	}, /*violett * 60-69 J. */
+  	}, 
   	{"color": "#990300",
   	"index": 5,
   	"visible": false
-  	} /*violett * 60-69 J. */
+  	}, 
+  	{"color": "#3C3C3C",
+  	"index": 5,
+  	"visible": false
+  	},
+  	{"color": "#C8C8C8",
+  	"index": 5,
+  	"visible": false
+  	}
   ],
   "legend": {
     "enabled": true,

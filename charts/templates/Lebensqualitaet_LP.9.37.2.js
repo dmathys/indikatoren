@@ -13,12 +13,16 @@ chartOptions["Lebensqualitaet_LP.9.37.2"] = {
   },
  "series": [
  	{"color": "#000000",
+ 	"legendIndex": 0,
  	"marker": {
     "enabled": true
     }
  	}, /*schwarz*/
-	{"color": "#cd9c00"}, /*dunkelgelb*/
- 	{"color": "#fabd24"} /*hellgelb*/
+	{"color": "#cd9c00",
+	"legendIndex": 2
+	}, /*dunkelgelb*/
+ 	{"color": "#fabd24",
+	"legendIndex": 1} /*hellgelb*/
 	  ],
   "legend": {
     "enabled": true,

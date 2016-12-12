@@ -16,7 +16,7 @@ chartOptions["Kulturstadt_LP.6.22.1"] = {
     {"color": "#44ab2b"}, /* grün*/
     {"color": "#71a3b5"}, /*blau*/
   	{"color": "#b00000"}, /* rot*/
-    {"color": "##000000"}, /*schwarz*/
+    {"color": "#000000"}, /*schwarz*/
   	{"color": "#8a8a8a"}, /* grau*/
     {"color": "#933f8d"}, /*pink*/
   	{"color": "#ff8028"}/* gelb*/
