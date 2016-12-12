@@ -13,41 +13,67 @@ chartOptions["Lebensqualitaet_LP.9.40.3_Test"] = {
   },
  "series": [
   {"color": "#C9D6DB",
-  	"index": 1,
-  	}, 
+  }, 
   {"color": "#E7CEE2",
-  	"index": 2,
-  	},
+  },
   {"color": "#008AC3",
-  	"index": 3,
-    "visible": false
-  	}, 
+  }, 
   {"color": "#DC440E",
-  	"index": 4,
-  	"visible": false
-  	},
-  {"color": "#2B0099",
-  	"index": 5,
-    "visible": false
-  	}, 
-  	{"color": "#990300",
-  	"index": 5,
-  	"visible": false
-  	}, 
-  	{"color": "#3C3C3C",
-  	"index": 5,
-  	"visible": false
-  	},
-  	{"color": "#C8C8C8",
-  	"index": 5,
-  	"visible": false
-  	}
+  },
+  {"color": "#C9D6DB",
+    "visible": false,
+    "marker":{ "enabled": true, 
+    "symbol": "circle", 
+    }
+  }, 
+  {"color": "#E7CEE2",
+    "visible": false,
+    "marker":{ "enabled": true, 
+    "symbol": "circle", 
+    }
+  }, 
+  {"color": "#008AC3",
+    "visible": false,
+    "marker":{ "enabled": true, 
+    "symbol": "circle", 
+    }
+  },
+  {"color": "#DC440E",
+    "visible": false,
+    "marker":{ "enabled": true, 
+    "symbol": "circle", 
+    }
+  },
+  {"color": "#C9D6DB",
+    "visible": false,
+    "marker":{ "enabled": true, 
+    "symbol": "square", 
+    }
+  }, 
+  {"color": "#E7CEE2",
+    "visible": false,
+    "marker":{ "enabled": true, 
+    "symbol": "square", 
+    }
+  },
+  {"color": "#008AC3",
+    "visible": false,
+    "marker":{ "enabled": true, 
+    "symbol": "square", 
+    }
+  }, 
+  {"color": "#DC440E",
+    "visible": false,
+    "marker":{ "enabled": true, 
+    "symbol": "square", 
+    }
+  }
   ],
   "legend": {
     "enabled": true,
-    "x": 35,
+    "x": 0,
     "y": 50,
-    "itemWidth": 200,
+    "itemWidth": 220,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
