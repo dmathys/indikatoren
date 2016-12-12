@@ -3,8 +3,7 @@ chartOptions["I.04.0.0003"] = {
     "tickInterval": 1
   },
   "yAxis": {
-    "min": -50, 
-    "max": 50,
+    "min": -20, 
 	"labels": {
 		"format": "{value}%"
 	}

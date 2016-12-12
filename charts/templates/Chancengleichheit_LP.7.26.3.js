@@ -4,7 +4,6 @@ chartOptions["Chancengleichheit_LP.7.26.3"] = {
   },
   "yAxis": {
     "min": 0, 
-    "max": 50, 
 	  "labels": {
 		  "format": "{value}%"
 	  }
@@ -14,22 +13,28 @@ chartOptions["Chancengleichheit_LP.7.26.3"] = {
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b>%<br/>'
   },
  "series": [
-    {"color": "#B00000"}, /* rot */
-    {"color": "#008AC3"}, /* blau */
-    {"color": "#3c3c3c", /* schwarz */
-      "marker": {
-        "enabled": true
-    }
+    {
+		"color": "#B00000",
+    	"legendIndex": 2
+    }, /* rot */
+    {
+    	"color": "#008AC3", 
+    	"legendIndex": 0
+    }, /* blau */
+    {
+    	"color": "#3c3c3c", /* schwarz */
+    	"legendIndex": 1,
+    	"marker": {
+        	"enabled": true
+    	}
     },
   ],
   "legend": {
     "enabled": true,
-    "x": 35,
-    "y": 50,
-    "layout": "horizontal",
-    "verticalAlign": "top",
+    "layout": "vertical",
+    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "left",
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }

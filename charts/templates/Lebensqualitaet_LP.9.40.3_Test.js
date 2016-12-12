@@ -3,8 +3,6 @@ chartOptions["Lebensqualitaet_LP.9.40.3_Test"] = {
     "tickInterval": 2,
   },
   "yAxis": {
-    "min": 0, 
-    "max": 100,
 	"labels": {
 		"format": "{value:,.0f}%"
 	}

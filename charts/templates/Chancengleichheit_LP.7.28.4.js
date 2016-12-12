@@ -4,7 +4,6 @@ chartOptions["Chancengleichheit_LP.7.28.4"] = {
   },
   "yAxis": {
     "min": 0, 
-    "max": 10, 
 	"labels": {
 		"format": "{value}%"
 	}
@@ -46,11 +45,11 @@ chartOptions["Chancengleichheit_LP.7.28.4"] = {
   "legend": {
     "enabled": true,
     "x": 35,
-    "y": 50,
+    "y": 35,
     "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

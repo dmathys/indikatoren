@@ -3,8 +3,6 @@ chartOptions["Lebensqualitaet_LP.9.37.2"] = {
     "tickInterval": 1,
   },
   "yAxis": {
-    "min": 0, 
-    "max": 50,
 	  "labels": {
 	  	"format": "{value}%"
   	}
@@ -24,12 +22,10 @@ chartOptions["Lebensqualitaet_LP.9.37.2"] = {
 	  ],
   "legend": {
     "enabled": true,
-    "x": 30,
-    "y": 40,
-    "layout": "horizontal",
-    "verticalAlign": "top",
+    "layout": "vertical",
+    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "left",
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }

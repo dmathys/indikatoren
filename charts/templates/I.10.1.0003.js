@@ -6,8 +6,7 @@ chartOptions["I.10.1.0003"] = {
 	}
   },
   "yAxis": {
-    "min": 0,
-    "max":200,
+    "min": 100,
 	"labels": {
 		"format": "{value}"
 	}

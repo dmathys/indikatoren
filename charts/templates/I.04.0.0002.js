@@ -4,7 +4,6 @@ chartOptions["I.04.0.0002"] = {
   },
   "yAxis": {
     "min": 0, 
-    "max": 10,
 	"labels": {
 		"format": "{value}%"
 	}

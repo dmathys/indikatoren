@@ -22,7 +22,7 @@ chartOptions["Chancengleichheit_LP.7.25.4"] = {
     "verticalAlign": "top",
     "align": "left",
     "x": 0,
-	"y": 65,    
+	"y": 45,    
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -33,6 +33,6 @@ chartOptions["Chancengleichheit_LP.7.25.4"] = {
   },  
   "chart": {      
     "type": "column",
-    "inverted": false
+    "inverted": true
   }
 };

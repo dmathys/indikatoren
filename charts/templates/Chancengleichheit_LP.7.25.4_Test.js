@@ -1,10 +1,10 @@
 chartOptions["Chancengleichheit_LP.7.25.4_Test"] = {
  "xAxis": {
-    "tickInterval": 1,
+    "tickInterval": 3,
+    "startOnTick": true
   },
   "yAxis": {
     "min": 0, 
-    "max": 50,
 	"labels": {
 		"format": "{value:,.0f}%"
 	}
@@ -58,13 +58,10 @@ chartOptions["Chancengleichheit_LP.7.25.4_Test"] = {
   ],
   "legend": {
     "enabled": true,
-    "x": 35,
-    "y": 40,
-    "itemWidth": 100,
-    "layout": "horizontal",
-    "verticalAlign": "top",
+    "layout": "vertical",
+    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "left",
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }

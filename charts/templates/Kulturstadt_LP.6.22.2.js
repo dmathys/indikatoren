@@ -1,7 +1,12 @@
 chartOptions["Kulturstadt_LP.6.22.2"] = {
+	"plotOptions": {
+		"series": {
+			"pointWidth": 15
+		}
+	},
   "xAxis": {
-    "type": "category"  ,	
-  },
+    "type": "category"
+   },
   "yAxis": {
     "min": 0,
     "max": 700000,

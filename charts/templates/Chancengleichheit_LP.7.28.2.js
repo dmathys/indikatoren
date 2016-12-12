@@ -4,7 +4,6 @@ chartOptions["Chancengleichheit_LP.7.28.2"] = {
   },
   "yAxis": {
     "min": 0, 
-    "max": 100, 
 	"labels": {
 		"format": "{value}%"
 	}
