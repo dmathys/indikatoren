@@ -3,7 +3,6 @@ chartOptions["Nachhaltigkeit_LP.8.34.7"] = {
   	"min": 0,
   	"max": 500,
     "labels": {
-	  useHTML : true,
       "format": "{value:,.0f}",
     }
   },

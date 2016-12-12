@@ -14,21 +14,22 @@ chartOptions["I.16.1.0003a_Test"] = {
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
   },
  "series": [
-  {"color": "#E64900",
-  	"index": 1
-  	}, /* rot - 18-29 */
-  {"color": "#FF8028",
-  	"index": 2,
-  	}, /* 30.39 J. */
-  {"color": "#FABD24",
-  	"index": 3
-  	}, /* 50-49 J. */
-  {"color": "#5CE639",
-  	"index": 4
-  	}, /* 50 - 59 J. */
-  {"color": "#008AC3",
-  	"index": 5
-  	}, /*blau * 60-69 J. */
+	{"color": "#8B2223", "visible": false}, /*dunkelrot */
+	{"color": "#DC440E", "visible": false}, /*hellrot */
+	{"color": "#FFDA80", "visible": false}, /*hellgelb */
+	{"color": "#007A2F", "visible": false}, /*dunkelgrün */
+	{"color": "#D7E8D2", "visible": false}, /*hellgrün */
+	{"color": "#008AC3", "visible": false}, /*dunkelblau */
+	{"color": "#B9CFD7", "visible": false}, /*hellblau */
+	{"color": "#E7CEE2", "visible": false},  /*hellpink */
+	{"color": "#C8C8C8", "visible": false},  /*grau */
+	{"color": "#3A2012",
+	"visible": true,
+			"marker": {
+        	"enabled": true
+    	}
+	}  /* BS - schwarz */
+
   ],
   "legend": {
     "enabled": true,

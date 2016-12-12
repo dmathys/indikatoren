@@ -44,25 +44,25 @@ chartOptions["I.10.1.0003"] = {
     },
      "visible": true,
   	}, /* ZH global gelb*/
-  	{"color": "#008AC3", 
+  	{"color": "#71A3B5", 
     "index": 2,
      "visible": false,
   	}, /* BS kontinental dunkelblau*/
-    {"color": "#933F8D", 
+    {"color": "#E7CEE2", 
     "index": 4,
      "visible": false,
     }, /* BE kontinental dunkelpink*/
-  	{"color": "#007A2F", 
+  	{"color": "#73B97C", 
     "index":6,
      "visible": false,
   	}, /* GE kontinental dunkelgrün*/
-    {"color": "#FF8028", 
+    {"color": "#FFBB58", 
     "index": 8,
      "visible": false,
     }  /* Zürich kontinental orange*/
-	  // {"color": "#8a8a8a"}, /* BS global = grau*/
+	// {"color": "#8a8a8a"}, /* BS global = grau*/
     // {"color": "#aaa2c7"}, /* BE global lila*/
-	  // {"color": "#256370"}, /* GE global dunkelblau*/
+	// {"color": "#256370"}, /* GE global dunkelblau*/
   	// {"color": "#67401E"}, /*ZH global dunkelbraun*/
   	// {"color": "#C8C8C8"}, /* BS kontinental hellgrau*/
     // {"color": "#E7CEE2"}, /* BE kontinental hellila*/

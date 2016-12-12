@@ -15,23 +15,29 @@ chartOptions["I.04.0.0003"] = {
   "series": [
 	  {"color": "#8a8a8a",
 	   "index": 2,
+	   "visible": true,
 	     "marker": {
         "enabled": true
     } 
 	  }, /* BS = grau */
     {"color": "#71a3b5",
+    "visible": false,
        "index": 4
     }, /* ZH = hellblau*/
 	  {"color": "#933f8d",
+	  "visible": false,
 	     "index":5
 	  }, /* GE = violett*/
     {"color": "#ff8028",
+    "visible": false,
        "index": 3
     }, /* BL = orange*/	
   	{"color": "#256370",
+  	"visible": false,
   	   "index": 6
   	}, /* AG = dunkelblau */
   	{"color": "#b00000",
+  	"visible": true,
   	 "index": 1,
   	    "marker": {
         "enabled": true

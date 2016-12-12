@@ -1,7 +1,16 @@
 chartOptions["Chancengleichheit_LP.7.25.4_Test"] = {
  "xAxis": {
-    "tickInterval": 3,
-    "startOnTick": true
+	"tickPositioner": function () {
+		var positions = [],
+		tick = Math.floor(this.dataMin),
+		increment = Math.ceil((this.dataMax - this.dataMin) / 6);
+		if (this.dataMax !== null && this.dataMin !== null) {
+			for (tick; tick - increment <= this.dataMax; tick += increment) {
+				positions.push(tick);
+			}
+		}
+		return positions;
+	}
   },
   "yAxis": {
     "min": 0, 
@@ -15,41 +24,41 @@ chartOptions["Chancengleichheit_LP.7.25.4_Test"] = {
   },
  "series": [
   {"color": "#B00000",
-  	"index": 4,
+  	"index": 10,
   	"visible": false
   }, /* rot - Schweiz */
   {"color": "#183ec9",
-  	"index": 8,
+  	"index": 11,
   	"visible": false
   }, /* blau - Ausland*/
   {"color": "#E64900",
-  	"index": 1
+  	"index": 4
   	}, /* hellgrün - 18-29 */
   {"color": "#FF8028",
-  	"index": 2,
+  	"index": 5,
   	}, /* 30.39 J. */
   {"color": "#FABD24",
-  	"index": 5
+  	"index": 6
   	}, /* 50-49 J. */
   {"color": "#73B97C",
-  	"index": 6
+  	"index": 7
   	}, /* 50 - 59 J. */
   {"color": "#B6CFD7",
-  	"index": 9
+  	"index": 8
   	}, /* 60-69 J. */
   {"color": "#E7CEE2",
-  	"index": 10
+  	"index": 9
   	}, /* dunkelgrün >69 J. */
   {"color": "#008AC3",
-  	"index": 3,
+  	"index": 1,
   	"visible": false
   	}, /* blau - Männer */
   {"color": "#923F8D",
-  	"index": 7,
+  	"index": 2,
   	"visible": false
   	}, /* violett - Frauen */
   {"color": "#3c3c3c",
-  	"index": 11,
+  	"index": 3,
   	"visible": false,
   	  "marker": {
         "enabled": true

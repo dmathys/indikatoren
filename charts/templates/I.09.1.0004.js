@@ -12,14 +12,12 @@
   tooltip: { 
     pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.2f}%)<br/>', 
     shared: false, 
-    "useHTML": true 
   }, 
   "legend": { 
     "layout": "vertical", 
     "verticalAlign": "middle", 
     "itemMarginBottom": 5, 
     "align": "right", 
-    "useHTML": true, 
     "itemStyle": { 
       "fontWeight": "normal" 
     } 

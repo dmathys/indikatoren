@@ -2,7 +2,6 @@ chartOptions["I.04.0.0005"] = {
     "yAxis": {
 	"min": 0,
     "labels": {
-	  useHTML : true,
       "format": "{value:,.0f}",
     }
   },
