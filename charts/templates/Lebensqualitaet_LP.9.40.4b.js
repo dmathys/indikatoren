@@ -1,52 +1,42 @@
-chartOptions['Lebensqualitaet_LP.9.40.1b'] = {
-"plotOptions": {
-    "series": {
-      "pointWidth": 20,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "normal"
+chartOptions["Lebensqualitaet_LP.9.40.4b"] = {
+   "yAxis": {
+	"min": 150,
+    "labels": {
+      "format": "{value:,.0f}",
     }
   },
   "xAxis": {
-    "type": "category",
-    "tickInterval": 1
-  },  
-  "yAxis": {
-    "labels": {
-      "format": "{value:,.0f}"
-    },
-	"max": undefined
-  },
-  "tooltip": {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "shared": false
-  },  
-  "legend": {
-  	"enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "itemWidth": 100,
-    "align": "right",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+	 "tickInterval": 1,
   },
   "series": [
-  {"color": "#007a2f", "index": 4}, /*dunkelgrün */
-  {"color": "#44ab2b", "index": 3}, /*hellgrün */
-  {"color": "#dc440e", "index": 2}, /*hellrot */
-  {"color": "#b00000", "index": 1}  /*dunkelrot */
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": true
+      },     
+      "color": "#8b2223"
+    }
   ],
-  "chart": {
-    "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
-    "marginTop": 75,
-    "type": "column",
-    "inverted": false
+  "tooltip": {
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+    "shared": false
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "enabled": true,
+        "allowOverlap": true,
+          y: -10,
+          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
+          formatter: function() {
+            var last = this.series.data[this.series.data.length - 1];
+            var first = this.series.data[0];
+            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
+              return this.point.y;
+            }
+            return "";
+          }
+      }
+    }
   }
 };
-
