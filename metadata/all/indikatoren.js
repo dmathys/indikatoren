@@ -4656,7 +4656,7 @@ var indikatoren = [
 		"option":"options001",
 		"quellenangabe":[""]
 		},
-		{"title": "Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2005 und 20101,2,3",
+		{"title": "Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2005 und 2010",
 		"subtitle":"",
 		"kuerzel":"Metrolitanraum_LP.3.11.1a",
 		"kuerzelKunde":"",

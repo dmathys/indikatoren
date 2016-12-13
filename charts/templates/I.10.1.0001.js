@@ -1,7 +1,7 @@
 chartOptions['I.10.1.0001'] = {
   "plotOptions": {
     "series": {
-      /*"pointWidth": 10,*/
+      "pointWidth": 30,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
