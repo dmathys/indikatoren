@@ -1,7 +1,7 @@
-chartOptions['Urbanitaet_LP.5.20.3'] = {
-  "plotOptions": {
+chartOptions['Nachhaltigkeit_LP.8.30.3'] = {
+"plotOptions": {
     "series": {
-      "pointWidth": 20,
+      "pointWidth": 50,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -25,25 +25,22 @@ chartOptions['Urbanitaet_LP.5.20.3'] = {
     "shared": false
   },  
   "legend": {
+  	"enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
+    "itemWidth": 100,
     "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "series": [
-  {"color": "#007a2f", "legendIndex":0}, /*grün dunkel2*/
-  {"color": "#44ab2b", "legendIndex":1}, /*grün mittel*/
-  {"color": "#73ba7c", "legendIndex":2}, /*grün dunkel1*/
-  {"color": "#d7e9d2", "legendIndex":3}, /*grün hell*/
-  {"color": "#b9cfd7", "legendIndex":4}, /*blau hell */
-  {"color": "#71a3b5", "legendIndex":5}, /*blau dunkel */
-  {"color": "#ffbb58", "legendIndex":6}, /*orange hell */
-  {"color": "#ff8028", "legendIndex":7}, /*orange dunkel */
-  {"color": "#dc440e", "legendIndex":8}, /*rot hell */
-  {"color": "#b00000", "legendIndex":9} /*rot dunkel */
+  {"color": "#256370", "index": 5}, /*dunkelblau */
+  {"color": "#71a3b5", "index": 4}, /*hellblau */
+  {"color": "#fabd24", "index": 3}, /*hellorange */
+  {"color": "#cd9c00", "index": 2}, /*dunkelorange */
+  {"color": "#73ba7c", "index": 1}  /*hellgrün */
   ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 
@@ -53,3 +50,4 @@ chartOptions['Urbanitaet_LP.5.20.3'] = {
     "inverted": false
   }
 };
+

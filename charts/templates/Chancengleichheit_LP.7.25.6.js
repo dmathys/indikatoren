@@ -1,7 +1,7 @@
 chartOptions['Chancengleichheit_LP.7.25.6'] = {
   "plotOptions": {
     "series": {
-      "pointWidth": 20,
+      "pointWidth": 70,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -25,6 +25,7 @@ chartOptions['Chancengleichheit_LP.7.25.6'] = {
     "shared": false
   },  
   "legend": {
+	"enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
