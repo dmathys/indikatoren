@@ -1,7 +1,6 @@
 chartOptions["Chancengleichheit_LP.7.25.4"] = {
   "xAxis": {
-    "type": "category"  ,
-    tick
+    "type": "category" 
   },
   "yAxis": {
 	"max": 100,

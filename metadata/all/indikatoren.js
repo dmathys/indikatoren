@@ -4295,7 +4295,7 @@ var indikatoren = [
 		"option":"options001",
 		"quellenangabe":[""]
 		},
-		{"title":"Anteil der  Logistikwirtschaft1 an der regionalen nominalen Wertschöpfung in %",
+		{"title":"Anteil der  Logistikwirtschaft an der regionalen nominalen Wertschöpfung in %",
 		"subtitle":"",
 		"kuerzel":"I.04.0.0002",
 		"kuerzelKunde":"",
@@ -4343,7 +4343,7 @@ var indikatoren = [
 		"option":"options001",
 		"quellenangabe":[""]
 		},
-		{"title":"Wachstumsrate der realen Wertschöpfung ausgewählter Branchen 2014 - BS im Vergleich mit ZH, GE, CH",
+		{"title":"Entwicklung der neugegründeten Unternehmen - BS im Vergleich mit ZH, GE, BL, AG, CH",
 		"subtitle":"",
 		"kuerzel":"I.04.0.0003",
 		"kuerzelKunde":"",
@@ -4487,7 +4487,7 @@ var indikatoren = [
 		"option":"options001",
 		"quellenangabe":[""]
 		},
-		{"title": " Positive Beurteilung1 der kantonalen Verwaltung nach Heimat, Alter und Geschlecht",
+		{"title": " Positive Beurteilung der kantonalen Verwaltung nach Heimat, Alter und Geschlecht",
 		"subtitle":"",
 		"kuerzel":"Wirtschaftsstandort_LP.1.06.1",
 		"kuerzelKunde":"",
@@ -4511,7 +4511,7 @@ var indikatoren = [
 		"option":"options001",
 		"quellenangabe":[""]
 		},
-		{"title": "Transnationale Patentanmeldungen pro 1000 Einwohner nach Technologiefeldern",
+		{"title": "Transnationale Patentanmeldungen pro 1000 Einwohner nach Technologiefeldern: 2001-2005",
 		"subtitle":"",
 		"kuerzel":"Wissensstandort_LP.2.07.1a",
 		"kuerzelKunde":"",
@@ -4536,7 +4536,7 @@ var indikatoren = [
 		"quellenangabe":[""]
 		},
 		
-		{"title": "Transnationale Patentanmeldungen pro 1000 Einwohner nach Technologiefeldern",
+		{"title": "Transnationale Patentanmeldungen pro 1000 Einwohner nach Technologiefeldern: 2006-2010",
 		"subtitle":"",
 		"kuerzel":"Wissensstandort_LP.2.07.1b",
 		"kuerzelKunde":"",
@@ -4560,7 +4560,7 @@ var indikatoren = [
 		"option":"options001",
 		"quellenangabe":[""]
 		},
-		{"title": "Transnationale Patentanmeldungen pro 1000 Einwohner nach Technologiefeldern",
+		{"title": "Entwicklung der Studierenden an der Basler Hochschule nach Geschlecht",
 		"subtitle":"",
 		"kuerzel":"Wissensstandort_LP.2.08.1",
 		"kuerzelKunde":"",
@@ -5664,7 +5664,7 @@ var indikatoren = [
 		"option":"options001",
 		"quellenangabe":[""]
 		}, 
-		{"title": "Zufriedenheit (sehr oder eher zufrieden) mit Einrichtungen und Angeboten für behinderte Menschen",
+		{"title": "Schulabgänger/-innen ohne Ausbildung nach Geschlecht und Schultyp",
 		"subtitle":"",
 		"kuerzel":"Chancengleichheit_LP.7.26.3",
 		"kuerzelKunde":"",
