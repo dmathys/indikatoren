@@ -14,17 +14,17 @@ chartOptions["Nachhaltigkeit_LP.8.34.5"] = {
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
  "series": [
- 	{"color": "#672773"}, /*violett*/
-	{"color": "#dc440e"} /*orange*/
+ 	{"color": "#672773", "legendIndex": 1}, /*violett*/
+	{"color": "#dc440e", "legendIndex": 0} /*orange*/
   ],
   "legend": {
     "enabled": true,
-    "x": 20,
+    "x": 10,
     "y": 50,
-    "layout": "horizontal",
-    "verticalAlign": "top",
+    "layout": "vertical",
+    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "left",
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }
