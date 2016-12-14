@@ -18,10 +18,12 @@
     shared: false
   },
   "legend": {
-		"verticalAlign": "top",
-		"floating": false,
-		"y": 20,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "align": "left",
+    "x": 30,
+	"y": 45,    
     "itemStyle": {
       "fontWeight": "normal"
     }
