@@ -4,7 +4,6 @@ chartOptions["Nachhaltigkeit_LP.8.34.2"] = {
   },
   "yAxis": {
     "min": 0,
-    "max": 50,
 	  "labels": {
 		  "format": "{value}"
 	}
@@ -15,12 +14,23 @@ chartOptions["Nachhaltigkeit_LP.8.34.2"] = {
   },
  "series": [
 	{"color": "#b00000"}, /*rot*/
-	{"color": "#71a3b5"} /*hellblau*/
+	{"color": "#b00000", 
+      "marker": {
+        "enabled": true
+    			}
+    }, /*rot*/
+	{"color": "#71a3b5"}, /*hellblau*/
+	{"color": "#71a3b5", 
+      "marker": {
+        "enabled": true
+     /*hellblau*/
+    			}
+	}
   ],
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "x": 20,
-    "y": 50,
+    "y": 60,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
@@ -37,10 +47,10 @@ chartOptions["Nachhaltigkeit_LP.8.34.2"] = {
       }, 
     },
      "series": {
-      "dataLabels": {
+       /*"dataLabels": {
         "enabled": true,
         "allowOverlap": true,
-        "y": -20,
+       "y": -20,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
             var last  = this.series.data[this.series.data.length - 1];
@@ -49,7 +59,7 @@ chartOptions["Nachhaltigkeit_LP.8.34.2"] = {
             }
             return "";
           }
-      }
+      }*/
     }
   }
 };

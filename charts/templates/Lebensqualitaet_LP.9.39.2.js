@@ -4,7 +4,6 @@ chartOptions["Lebensqualitaet_LP.9.39.2"] = {
   },
   "yAxis": {
     "min": 0, 
-    "max": 2000,
 	"labels": {
 		"format": "{value:,.0f}"
 	}
