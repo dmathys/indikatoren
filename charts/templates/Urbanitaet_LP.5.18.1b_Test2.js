@@ -1,7 +1,7 @@
-chartOptions['Urbanitaet_LP.5.18.1b'] = {
+chartOptions['Urbanitaet_LP.5.18.1b_Test2'] = {
   "plotOptions": {
     "series": {
-      "pointWidth": 10,
+      "pointWidth": 20,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -18,7 +18,6 @@ chartOptions['Urbanitaet_LP.5.18.1b'] = {
     "labels": {
       "format": "{value:,.0f}"
     },
-	"max": 1000
   },
   "tooltip": {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',

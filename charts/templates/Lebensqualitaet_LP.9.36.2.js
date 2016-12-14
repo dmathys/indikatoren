@@ -1,4 +1,4 @@
-chartOptions["Nachhaltigkeit_LP.9.36.2"] = {
+chartOptions["Lebensqualitaet_LP.9.36.2"] = {
    "yAxis": {
 	"min": 0,
     "labels": {

@@ -1,7 +1,7 @@
 chartOptions['I.10.1.0001'] = {
   "plotOptions": {
     "series": {
-      "pointWidth": 30,
+      "pointWidth": 20,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -23,15 +23,6 @@ chartOptions['I.10.1.0001'] = {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
     "shared": false
   },  
-  "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
   "series": [
         {
       "index": 1,
@@ -53,11 +44,11 @@ chartOptions['I.10.1.0001'] = {
     "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
-      "fontWeight": "normal"
+     "fontWeight": "normal"
     }
   },
   "chart": {    
-    	"marginBottom": 75,
+    "marginBottom": 75,
     "marginTop": 75,
     "type": "column"
   }

@@ -1,7 +1,7 @@
-chartOptions['Urbanitaet_LP.5.18.1b'] = {
+chartOptions['Urbanitaet_LP.5.18.1b_Test1'] = {
   "plotOptions": {
     "series": {
-      "pointWidth": 10,
+      "pointWidth": 15,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -12,13 +12,12 @@ chartOptions['Urbanitaet_LP.5.18.1b'] = {
   },
   "xAxis": {
     "type": "category",
-    "tickInterval": 1
+    "tickInterval": 2
   },  
   "yAxis": {
     "labels": {
       "format": "{value:,.0f}"
     },
-	"max": 1000
   },
   "tooltip": {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
@@ -43,7 +42,6 @@ chartOptions['Urbanitaet_LP.5.18.1b'] = {
     }
   },
   "series": [
-  {"color": "#9a86a6", "index": 6, "legendIndex": 6}, 
   {"color": "#baa85a", "index": 5, "legendIndex": 5},
   {"color": "#71a3b5", "index": 4, "legendIndex": 4},
   {"color": "#85b77d", "index": 3, "legendIndex": 3},

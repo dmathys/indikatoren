@@ -4,7 +4,6 @@ chartOptions["Urbanitaet_LP.5.18.1a"] = {
   },
   "yAxis": {
     "min": 0, 
-    "max": 2000,
 	"labels": {
 		"format": "{value:,.0f}"
 	}
