@@ -26,7 +26,7 @@ chartOptions['Wirtschaftsstandort_LP.1.04.1'] = {
     "verticalAlign": "top",
     "align": "left",
     "x": 155,
-	"y": 65,   
+	"y": 50,   
 	"itemWidth": 150,
     "itemStyle": {
       "fontWeight": "normal"

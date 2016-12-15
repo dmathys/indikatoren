@@ -13,19 +13,18 @@ chartOptions["Nachhaltigkeit_LP.8.34.2"] = {
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
  "series": [
+	{	"color": "#b00000", 
+		"marker": {
+        	"enabled": true
+		}
+	}, /*rot*/
 	{"color": "#b00000"}, /*rot*/
-	{"color": "#b00000", 
-      "marker": {
-        "enabled": true
-    			}
-    }, /*rot*/
-	{"color": "#71a3b5"}, /*hellblau*/
 	{"color": "#71a3b5", 
       "marker": {
         "enabled": true
-     /*hellblau*/
-    			}
-	}
+		}
+	}, /*hellblau*/
+	{"color": "#71a3b5"}
   ],
   "legend": {
     "enabled": true,

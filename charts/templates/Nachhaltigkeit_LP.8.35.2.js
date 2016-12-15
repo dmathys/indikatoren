@@ -62,7 +62,7 @@ chartOptions["Nachhaltigkeit_LP.8.35.2"] = {
     }
   ],  
   "tooltip": {
-    "shared": true
+    "shared": false
   },
   "chart": {
     "marginBottom": 65,

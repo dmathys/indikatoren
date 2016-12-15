@@ -1,9 +1,8 @@
 chartOptions["Urbanitaet_LP.5.17.1"] = {
     "yAxis": {
 	  "min": 0,
-	  "max": 100,
     "labels": {
-      "format": "{value:,.0f}m²",
+      "format": "{value:,.0f} m²",
     }
   },
   "xAxis": {
@@ -20,7 +19,7 @@ chartOptions["Urbanitaet_LP.5.17.1"] = {
     }
   ],
   "tooltip": {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}m²</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} m²</b><br/>',
   },
   "plotOptions": {
     "series": {
@@ -33,7 +32,7 @@ chartOptions["Urbanitaet_LP.5.17.1"] = {
             var last = this.series.data[this.series.data.length - 1];
             var first = this.series.data[0];
             if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return this.point.y +"m²";
+              return this.point.y +" m²";
             }
             return "";
           }

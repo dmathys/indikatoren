@@ -20,11 +20,11 @@ chartOptions["Kulturstadt_LP.6.22.2"] = {
   ],
   "legend": {
     "enabled": true,
-    "x": 155,
+    "x": 250,
   	"y": 55,   
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
+    "align": "top",
     "itemStyle": {
       "fontWeight": "normal"
     }

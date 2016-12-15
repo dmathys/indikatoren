@@ -25,12 +25,12 @@ chartOptions['Lebensqualitaet_LP.9.40.1a'] = {
     "shared": false
   },  
   "legend": {
-  	"enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "itemWidth": 100,
-    "align": "right",
+    "enabled": true,
+    "x": 35,
+  	"y": 55,   
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -46,7 +46,7 @@ chartOptions['Lebensqualitaet_LP.9.40.1a'] = {
     "marginBottom": 75,
     "marginTop": 75,
     "type": "column",
-    "inverted": false
+    "inverted": true
   }
 };
 

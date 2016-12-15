@@ -44,8 +44,8 @@ chartOptions["Nachhaltigkeit_LP.8.34.3"] = {
         "y": -5,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.category === last.category  && this.point.y === last.y) {
+            var first  = this.series.data[0];
+            if (this.point.category === first.category  && this.point.y === first.y) {
               return this.series.name;
             }
             return "";

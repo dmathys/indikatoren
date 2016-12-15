@@ -1,7 +1,5 @@
 chartOptions["Nachhaltigkeit_LP.8.34.8"] = {
    "yAxis": {
-      "min": 0,
-      "max": 100,
     "labels": {
       "format": "{value:,.0f}%",
     }

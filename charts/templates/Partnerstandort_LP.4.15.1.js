@@ -3,7 +3,6 @@ chartOptions["Partnerstandort_LP.4.15.1"] = {
     "type": "category"  ,	
   },
   "yAxis": {
-	"max": 50,
     "labels": {
       "format": "{value}%",
     }    

@@ -3,7 +3,6 @@ chartOptions["Wissensstandort_LP.2.08.1"] = {
     "tickInterval": 1
   },
   "yAxis": {
-    "min": undefined, 
 	"labels": {
 		"format": "{value:,.0f}"
 	}
@@ -22,15 +21,15 @@ chartOptions["Wissensstandort_LP.2.08.1"] = {
 	  }, /* dunkelgrau */
     {"color": "#923F8D",
       "index": 5,
-      "visible":true
+      "visible":false
     }, /* dunkelviolett */
 	  {"color": "#0F7399",
 	    "index": 3,
-      "visible":true
+      "visible":false
 	  }, /* dunkelblau*/
 	  {"color": "#C8C8C8",
 	    "index": 2,
-	    "visible":false,
+	    "visible":true,
        "marker": {
         "enabled": true
 	       }
