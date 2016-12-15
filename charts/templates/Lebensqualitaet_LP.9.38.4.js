@@ -45,13 +45,13 @@ chartOptions["Lebensqualitaet_LP.9.38.4"] = {
   },
   "series": [
     {
-      "color": "#73b97c",
+      "color": "#71a3b5",
       "index": 0,
       "type": "column",
       "pointWidth": "10"
     },
     {
-      "color": "#cd9c00",
+      "color": "#7d60a0",
       "index": 1,
       "type": "line",
       "yAxis": 1
