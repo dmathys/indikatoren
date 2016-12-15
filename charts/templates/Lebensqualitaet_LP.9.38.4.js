@@ -7,6 +7,7 @@ chartOptions["Lebensqualitaet_LP.9.38.4"] = {
       }
     },
     "min": 0,
+    "max": undefined,
     "title": ""
   },
   {
@@ -19,7 +20,6 @@ chartOptions["Lebensqualitaet_LP.9.38.4"] = {
     },
     "labels": {
       "format": "{value:,.0f}%",
-      "step": 2,
       "style": {
         "color": "#000000"
       }
@@ -31,16 +31,18 @@ chartOptions["Lebensqualitaet_LP.9.38.4"] = {
   }
   ],
   "xAxis": {
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-		"y": 35,
+	"y": 40,
+	"x": 40,
+	"itemMarginBottom": 5,
     "itemStyle": {
-      "fontWeight": "normal"
+    "fontWeight": "normal"
     }
   },
   "series": [
@@ -66,5 +68,3 @@ chartOptions["Lebensqualitaet_LP.9.38.4"] = {
     "alignTicks": false
   }
 };
-//{"color": "#E7CEE2"}, /*grau*/
-//{"color": "#71A3B5",

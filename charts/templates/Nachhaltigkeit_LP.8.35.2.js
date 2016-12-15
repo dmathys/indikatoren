@@ -1,26 +1,19 @@
 chartOptions["Nachhaltigkeit_LP.8.35.2"] = {
-  "xAxis": {
-    "tickInterval": 2,
-  },
-    "yAxis": [{
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
+  "yAxis": [{
     "labels": {
       "format": "{value:,.0f}",
       "style": {
         "color": "#000000"
       }
     },
-    "min": 0
+    "min": 0,
+    "max": 15000,
+    "tickInterval":3000,
+    "title": ""
   },
   {
     "title": {
-      "style": {
+        "style": {
         "color": "#000000",
         "fontSize": null
       },
@@ -33,41 +26,50 @@ chartOptions["Nachhaltigkeit_LP.8.35.2"] = {
       }
     },
     "min": 0,
+    "max": 10,
+    "tickInterval": 2,
+    "gridLineWidth": 0,
     "opposite": true
   }
-  ],	
-  "tooltip": {
-    "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
-  },
- "series": [
- 	{"color": "#71a3b5",
-     "index": 2,
-     "yAxis": 1
- 	}, /*blau*/
-	{"color": "#b00000",
-     "index": 1,
-	} /*dunkelrot*/
   ],
+  "xAxis": {
+    "tickInterval": 1
+  },
   "legend": {
     "enabled": true,
-    "x": 40,
-    "y": 50,
-    "itemWidth": 300,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
+	"y": 40,
+	"x": 40,
+	"itemMarginBottom": 5,
     "itemStyle": {
-      "fontWeight": "normal"
+    "fontWeight": "normal"
     }
   },
-  "plotOptions": {
-    "line": {
-      "marker":{
-        "enabled": false,
-        "symbol": "circle",
-      } 
+  "series": [
+    {
+      "color": "#71a3b5",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "20"
+    },
+    {
+      "color": "#7d60a0",
+      "index": 1,
+      "type": "line",
+      "yAxis": 1
     }
+  ],  
+  "tooltip": {
+    "shared": true
+  },
+  "chart": {
+    "marginBottom": 65,
+    "type": "line",
+    "alignTicks": false
   }
 };
+
+//  "color": "#71a3b5"
+//  "color": "#7d60a0"

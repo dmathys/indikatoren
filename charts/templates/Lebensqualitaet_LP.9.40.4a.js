@@ -1,26 +1,19 @@
 chartOptions["Lebensqualitaet_LP.9.40.4a"] = {
-  "xAxis": {
-    "tickInterval": 1
-  },
   "yAxis": [{
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
     "labels": {
       "format": "{value:,.0f}",
       "style": {
         "color": "#000000"
       }
     },
-    "min": 0
+    "min": 0,
+    "max": 3000,
+    "tickInterval":600,
+    "title": ""
   },
   {
     "title": {
-      "style": {
+        "style": {
         "color": "#000000",
         "fontSize": null
       },
@@ -33,37 +26,47 @@ chartOptions["Lebensqualitaet_LP.9.40.4a"] = {
       }
     },
     "min": 0,
+    "max": 10,
+    "tickInterval": 2,
+    "gridLineWidth": 0,
     "opposite": true
   }
-  ],	
-  "tooltip": {
-    "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
-  },
- "series": [
-    {"color": "#2f656b"}, /*blau*/
-	  {"color": "#83522e",
-	    "yAxis": 1
-	  } /* braun*/
   ],
+  "xAxis": {
+    "tickInterval": 1
+  },
   "legend": {
     "enabled": true,
-    "x": 20,
-    "y": 35,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
+	"y": 40,
+	"x": 40,
+	"itemMarginBottom": 5,
     "itemStyle": {
-      "fontWeight": "normal"
+    "fontWeight": "normal"
     }
   },
-  "plotOptions": {
-    "line": {
-      "marker":{
-        "enabled": false,
-        "symbol": "circle",
-      } 
+  "series": [
+    {
+      "color": "#71a3b5",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "30"
+    },
+    {
+      "color": "#7d60a0",
+      "index": 1,
+      "type": "line",
+      "yAxis": 1
     }
+  ],  
+  "tooltip": {
+    "shared": true
+  },
+  "chart": {
+    "marginBottom": 65,
+    "type": "line",
+    "alignTicks": false
   }
 };
