@@ -8,11 +8,11 @@ chartOptions['Wirtschaftsstandort_I.03.0.0001'] = {
     }    
   },
   "series": [
-  {"color": "#8a8a8a"}, /*grau */
-  {"color": "#71a3b5"}, /*hellblau */
-  {"color": "#933f8d"}, /*violett */
-  {"color": "#ff8028"}, /*orange */
-  {"color": "#256370"}  /*dunkelblau */
+  {"color": "#d7e9d2", "index": 0, "legendIndex": 0}, /* hellgrün*/
+  {"color": "#73ba7c", "index": 1, "legendIndex": 1}, /* ... */
+  {"color": "#007a2f", "index": 2, "legendIndex": 2}, /* ... */
+  {"color": "#0b3b19", "index": 3, "legendIndex": 3}, /* ... */
+  {"color": "#4f6228", "index": 4, "legendIndex": 4}  /* dunkelgrün */
   ],
   "legend": {
     "enabled": true,

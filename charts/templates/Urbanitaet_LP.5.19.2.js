@@ -18,7 +18,7 @@ chartOptions["Urbanitaet_LP.5.19.2"] = {
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 0,
+    "x": 35,
 	"y": 65,    
     "itemStyle": {
       "fontWeight": "normal"

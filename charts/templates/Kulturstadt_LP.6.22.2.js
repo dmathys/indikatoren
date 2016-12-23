@@ -5,21 +5,24 @@ chartOptions["Kulturstadt_LP.6.22.2"] = {
 		}
 	},
   "xAxis": {
-    "type": "category"
+    "type": "category",
+      "labels": {
+      "rotation": 0 
+    }  
    },
   "yAxis": {
     "min": 0,
     "max": 700000,
     "tickInterval":350000,
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
     }    
   },
    "series": [
   {"color": "#44ab2b"} /* grün*/
   ],
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "x": 250,
   	"y": 55,   
     "layout": "horizontal",

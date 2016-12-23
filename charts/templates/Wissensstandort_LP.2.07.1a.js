@@ -21,7 +21,7 @@ chartOptions['Wissensstandort_LP.2.07.1a'] = {
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 92,
+    "x": 25,
 	"y": 55,  
 	"itemWidth": 300,
     "itemStyle": {
@@ -34,7 +34,7 @@ chartOptions['Wissensstandort_LP.2.07.1a'] = {
   },  
   "chart": {      
     "type": "column",
-    "inverted": true
+    "inverted": false
   }
 };
 

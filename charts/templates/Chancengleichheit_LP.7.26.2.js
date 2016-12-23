@@ -47,7 +47,7 @@ chartOptions['Chancengleichheit_LP.7.26.2'] = {
     "marginBottom": 75,
     "marginTop": 75,
     "type": "column",
-    "inverted": false
+    "inverted": true
   }
 };
 

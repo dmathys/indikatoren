@@ -26,25 +26,22 @@ chartOptions['Lebensqualitaet_LP.9.40.1a'] = {
   },  
   "legend": {
     "enabled": true,
-    "x": 35,
-  	"y": 55,   
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "x": 73,
+	"y": 55,    
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "series": [
-  {"color": "#007a2f", "index": 4}, /*dunkelgrün */
-  {"color": "#44ab2b", "index": 3}, /*hellgrün */
-  {"color": "#dc440e", "index": 2}, /*hellrot */
-  {"color": "#b00000", "index": 1}  /*dunkelrot */
+  {"color": "#007a2f", "index": 4, 	"legendIndex": 0}, /*dunkelgrün */
+  {"color": "#44ab2b", "index": 3, 	"legendIndex": 1}, /*hellgrün */
+  {"color": "#dc440e", "index": 2, 	"legendIndex": 2}, /*hellrot */
+  {"color": "#b00000", "index": 1, 	"legendIndex": 3}  /*dunkelrot */
   ],
   "chart": {
-    "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
-    "marginTop": 75,
     "type": "column",
     "inverted": true
   }

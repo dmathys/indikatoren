@@ -3,8 +3,7 @@ chartOptions["Nachhaltigkeit_LP.8.35.1"] = {
     "tickInterval": 1,
   },
   "yAxis": {
-    "min": 0, 
-	"labels": {
+  	"labels": {
 		"format": "{value:,.0f}"
 	}
   },	

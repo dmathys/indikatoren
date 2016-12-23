@@ -1,6 +1,6 @@
 chartOptions["Lebensqualitaet_LP.9.40.3_Test"] = {
  "xAxis": {
-    "tickInterval": 2,
+    "tickInterval": 1,
   },
   "yAxis": {
 	"labels": {
