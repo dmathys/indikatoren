@@ -1,7 +1,7 @@
 chartOptions['Urbanitaet_LP.5.18.1b_Test1'] = {
   "plotOptions": {
     "series": {
-      "pointWidth": 15,
+      "pointWidth": 20,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -12,7 +12,10 @@ chartOptions['Urbanitaet_LP.5.18.1b_Test1'] = {
   },
   "xAxis": {
     "type": "category",
-    "tickInterval": 2
+    "tickInterval": 1,
+    labels: {
+                rotation: 0,
+    		}
   },  
   "yAxis": {
     "labels": {

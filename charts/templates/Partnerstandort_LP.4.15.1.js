@@ -19,7 +19,7 @@ chartOptions["Partnerstandort_LP.4.15.1"] = {
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 0,
+    "x": 30,
 	"y": 65,    
     "itemStyle": {
       "fontWeight": "normal"

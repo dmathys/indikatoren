@@ -19,7 +19,7 @@ chartOptions["Lebensqualitaet_LP.9.40.5"] = {
   ],
   "legend": {
     "enabled": true,
-    "x": 20,
+    "x": 35,
     "y": 35,
     "layout": "horizontal",
     "verticalAlign": "top",

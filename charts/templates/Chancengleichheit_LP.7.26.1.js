@@ -2,7 +2,8 @@
   "plotOptions": {
     "series": {
       "stacking": null,
-      "groupPadding": 0.05
+      "pointPadding": 0,
+      "groupPadding": 0.1
     }
   },
   "yAxis": {
@@ -38,7 +39,7 @@
     {
       "color": "#ff8028",
       "marker": {
-        "enabled": false
+        "enabled": true
       }, /*Kt. BS - orange*/
       "type": "line"
     }    

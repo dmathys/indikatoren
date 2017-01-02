@@ -26,7 +26,7 @@ chartOptions["Urbanitaet_LP.5.17.2"] = {
       "dataLabels": {
         "enabled": true,
         "allowOverlap": true,
-          y: -10,
+          y: 20,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
             var last = this.series.data[this.series.data.length - 1];

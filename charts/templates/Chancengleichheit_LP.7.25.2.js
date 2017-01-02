@@ -1,13 +1,12 @@
 chartOptions["Chancengleichheit_LP.7.25.2"] = {
   "yAxis": {
-	  "min": 0,
-	  "max": 50,
     "labels": {
       "format": "{value:,.0f}%",
     }
   },
   "xAxis": {
     "tickInterval": 4,
+    "showLastLabel": true
   },
   "series": [
     {

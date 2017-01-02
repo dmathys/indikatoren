@@ -25,7 +25,7 @@ chartOptions["I.04.0.0002"] = {
   	{"color": "#256370",
   	  "index": 4
   	}, /* Aargau = dunkelblau */
-    {"color": "#007A2F",
+    {"color": "#b00000",
       "index": 1,
        "marker": {
         "enabled": true

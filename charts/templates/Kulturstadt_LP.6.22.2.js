@@ -1,7 +1,7 @@
 chartOptions["Kulturstadt_LP.6.22.2"] = {
 	"plotOptions": {
 		"series": {
-			"pointWidth": 15
+			"pointWidth": 10
 		}
 	},
   "xAxis": {

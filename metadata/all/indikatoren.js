@@ -6360,7 +6360,7 @@ var indikatoren = [
 		"option":"options001",
 		"quellenangabe":[""]
 		},
-		{"title": "Anzahl und Qualität der Lebensmittelbetriebe",
+		{"title": "Anzahl und Qualität der Lebensmittelbetriebe: Anzahl durchgeführte Inspektionen",
 		"subtitle":"",
 		"kuerzel":"Lebensqualitaet_LP.9.40.4b",
 		"kuerzelKunde":"",
