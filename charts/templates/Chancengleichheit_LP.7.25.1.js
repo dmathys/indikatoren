@@ -1,4 +1,4 @@
-chartOptions["Chancengleichheit_LP.7.25.1"] = { this is a test
+chartOptions["Chancengleichheit_LP.7.25.1"] = {
    "yAxis": {
 	  "min": 50,
 	  "max": 100,
