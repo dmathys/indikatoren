@@ -1,4 +1,4 @@
-chartOptions["I.10.1.0003"] = {
+var chartOptions = {
   "xAxis": {
     "tickInterval": 2,
 	"labels": {

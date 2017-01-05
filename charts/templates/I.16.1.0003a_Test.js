@@ -1,4 +1,4 @@
-chartOptions["I.16.1.0003a_Test"] = {
+var chartOptions = {
  "xAxis": {
     "tickInterval": 2,
   },

@@ -1,4 +1,4 @@
- chartOptions["I.04.0.0004"] = {
+var chartOptions = {
   "yAxis": {
     "min": 0,
     "max":50,
