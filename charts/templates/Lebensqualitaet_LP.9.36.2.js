@@ -1,4 +1,4 @@
-chartOptions["Lebensqualitaet_LP.9.36.2"] = {
+var chartOptions = {
    "yAxis": {
 	"min": 0,
     "labels": {

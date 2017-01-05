@@ -1,4 +1,4 @@
-chartOptions["Nachhaltigkeit_LP.8.34.6"] = {
+var chartOptions = {
    "yAxis": {
     	"min": 0,
       "max": 10,

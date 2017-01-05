@@ -1,4 +1,4 @@
-chartOptions['Urbanitaet_LP.5.18.1b_Test1'] = {
+var chartOptions = {
   "plotOptions": {
     "series": {
       "pointWidth": 20,

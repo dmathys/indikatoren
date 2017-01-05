@@ -1,4 +1,4 @@
-chartOptions["Kulturstadt_LP.6.24.1b"] = {
+var chartOptions = {
   "xAxis": {
     "tickInterval": 1
   },

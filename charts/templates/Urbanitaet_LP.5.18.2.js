@@ -1,4 +1,4 @@
-chartOptions["Urbanitaet_LP.5.18.2"] = {
+var chartOptions = {
   "xAxis": {
     "type": "category"  ,	
   },

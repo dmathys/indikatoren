@@ -1,4 +1,4 @@
-chartOptions["Metrolitanraum_LP.3.11.1b"] = {
+var chartOptions = {
   "xAxis": {
     "type": "category"  ,	
   },

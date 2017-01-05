@@ -1,4 +1,4 @@
-chartOptions["Chancengleichheit_LP.7.25.1"] = {
+var chartOptions = {
    "yAxis": {
 	  "min": 50,
 	  "max": 100,

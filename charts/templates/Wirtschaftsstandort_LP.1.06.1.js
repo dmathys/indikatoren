@@ -1,4 +1,4 @@
-chartOptions['Wirtschaftsstandort_LP.1.06.1'] = {
+var chartOptions = {
   "xAxis": {
     "type": "category"    
   },

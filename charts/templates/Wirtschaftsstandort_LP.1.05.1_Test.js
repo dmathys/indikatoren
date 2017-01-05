@@ -1,4 +1,4 @@
-chartOptions['Wirtschaftsstandort_LP.1.05.1_Test'] = {
+var chartOptions = {
   "plotOptions": {
     "series": {
       "pointWidth": 15,

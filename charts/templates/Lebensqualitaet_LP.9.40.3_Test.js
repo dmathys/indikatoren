@@ -1,4 +1,4 @@
-chartOptions["Lebensqualitaet_LP.9.40.3_Test"] = {
+var chartOptions = {
  "xAxis": {
     "tickInterval": 1,
   },

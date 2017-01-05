@@ -1,4 +1,4 @@
-chartOptions["Chancengleichheit_LP.7.26.3"] = {
+var chartOptions = {
   "xAxis": {
     "tickInterval": 1,
   },

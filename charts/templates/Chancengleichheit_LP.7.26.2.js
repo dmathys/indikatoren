@@ -1,4 +1,4 @@
-chartOptions['Chancengleichheit_LP.7.26.2'] = {
+var chartOptions = {
 "plotOptions": {
     "series": {
       "pointWidth": 20,

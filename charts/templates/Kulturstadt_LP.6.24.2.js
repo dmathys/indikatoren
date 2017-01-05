@@ -1,4 +1,4 @@
-chartOptions["Kulturstadt_LP.6.24.2"] = {
+var chartOptions = {
   "xAxis": {
     "type": "category"  ,	
   },

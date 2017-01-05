@@ -1,4 +1,4 @@
-chartOptions["Nachhaltigkeit_LP.8.33.1"] = {
+var chartOptions = {
   "xAxis": {
     "tickInterval": 1,
   },

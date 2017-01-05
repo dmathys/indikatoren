@@ -1,4 +1,4 @@
-chartOptions['Nachhaltigkeit_LP.8.30.3'] = {
+var chartOptions = {
 "plotOptions": {
     "series": {
       "pointWidth": 10,

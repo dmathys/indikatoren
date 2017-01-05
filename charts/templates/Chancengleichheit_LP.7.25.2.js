@@ -1,4 +1,4 @@
-chartOptions["Chancengleichheit_LP.7.25.2"] = {
+var chartOptions = {
   "yAxis": {
     "labels": {
       "format": "{value:,.0f}%",

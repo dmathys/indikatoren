@@ -1,4 +1,4 @@
-chartOptions["Urbanitaet_LP.5.18.1a"] = {
+var chartOptions = {
   "xAxis": {
     "tickInterval": 1
   },

@@ -1,4 +1,4 @@
-chartOptions["Chancengleichheit_LP.7.25.4"] = {
+var chartOptions = {
   "xAxis": {
     "type": "category" 
   },

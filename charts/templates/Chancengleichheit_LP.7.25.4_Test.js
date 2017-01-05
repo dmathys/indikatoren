@@ -1,4 +1,4 @@
-chartOptions["Chancengleichheit_LP.7.25.4_Test"] = {
+var chartOptions = {
  "xAxis": {
 	"tickPositioner": function () {
 		var positions = [],

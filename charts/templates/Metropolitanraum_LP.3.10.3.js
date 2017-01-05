@@ -1,4 +1,4 @@
-chartOptions["Metropolitanraum_LP.3.10.3"] = {
+var chartOptions = {
   "xAxis": {
     "type": "category"  ,	
   },

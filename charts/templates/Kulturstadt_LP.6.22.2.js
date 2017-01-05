@@ -1,4 +1,4 @@
-chartOptions["Kulturstadt_LP.6.22.2"] = {
+var chartOptions = {
 	"plotOptions": {
 		"series": {
 			"pointWidth": 10

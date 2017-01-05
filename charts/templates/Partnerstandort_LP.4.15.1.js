@@ -1,4 +1,4 @@
-chartOptions["Partnerstandort_LP.4.15.1"] = {
+var chartOptions = {
   "xAxis": {
     "type": "category"  ,	
   },

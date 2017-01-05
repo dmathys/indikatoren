@@ -1,4 +1,4 @@
-chartOptions["Metropolitanraum_LP.3.10.2"] = {
+var chartOptions = {
     "xAxis": {
     "tickInterval": 2
   },

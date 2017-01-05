@@ -1,4 +1,4 @@
-chartOptions["Wissensstandort_LP.2.08.1"] = {
+var chartOptions = {
   "xAxis": {
     "tickInterval": 1
   },

@@ -1,4 +1,4 @@
-﻿chartOptions["Chancengleichheit_LP.7.26.1"] = {
+var chartOptions = {
   "plotOptions": {
     "series": {
       "stacking": null,

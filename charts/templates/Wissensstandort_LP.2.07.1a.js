@@ -1,4 +1,4 @@
-chartOptions['Wissensstandort_LP.2.07.1a'] = {
+var chartOptions = {
   "xAxis": {
     "type": "category"
   },

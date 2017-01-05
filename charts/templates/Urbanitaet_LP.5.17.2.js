@@ -1,4 +1,4 @@
-chartOptions["Urbanitaet_LP.5.17.2"] = {
+var chartOptions = {
    "yAxis": {
     	"min": 0,
     "labels": {

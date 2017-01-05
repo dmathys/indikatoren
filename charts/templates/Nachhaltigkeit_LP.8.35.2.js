@@ -1,4 +1,4 @@
-chartOptions["Nachhaltigkeit_LP.8.35.2"] = {
+var chartOptions = {
   "yAxis": [{
     "labels": {
       "format": "{value:,.0f}",

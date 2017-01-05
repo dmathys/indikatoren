@@ -1,4 +1,4 @@
-chartOptions['Metrolitanraum_LP.3.11.1a'] = {
+var chartOptions = {
   "plotOptions": {
     "series": {
       "pointWidth": 70,

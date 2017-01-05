@@ -1,4 +1,4 @@
-chartOptions['Lebensqualitaet_LP.9.40.1a'] = {
+var chartOptions = {
 "plotOptions": {
     "series": {
       "pointWidth": 20,

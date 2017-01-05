@@ -1,4 +1,4 @@
-chartOptions["Lebensqualitaet_LP.9.40.3"] = {
+var chartOptions = {
   "xAxis": {
     "type": "category"  ,	
   },
