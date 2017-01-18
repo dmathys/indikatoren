@@ -1,0 +1,275 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          "2003",
+          94.327894327894
+        ],
+        [
+          "2005",
+          94.688221709006
+        ],
+        [
+          "2007",
+          94.277108433734
+        ],
+        [
+          "2011",
+          92.467332820906
+        ],
+        [
+          "2015",
+          91.284748309541
+        ]
+      ],
+      "name": "Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9f7c5a",
+      "data": [
+        [
+          "2003",
+          92.682926829268
+        ],
+        [
+          "2005",
+          94.761904761904
+        ],
+        [
+          "2007",
+          96.629213483146
+        ],
+        [
+          "2011",
+          95.327102803738
+        ],
+        [
+          "2015",
+          91.860465116279
+        ]
+      ],
+      "name": "Ausland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          "2003",
+          96.618357487922
+        ],
+        [
+          "2005",
+          95.964125560538
+        ],
+        [
+          "2007",
+          96.682464454976
+        ],
+        [
+          "2011",
+          96.648044692737
+        ],
+        [
+          "2015",
+          95.876288659793
+        ]
+      ],
+      "name": "18-29 J",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff5050",
+      "data": [
+        [
+          "2003",
+          95.726495726495
+        ],
+        [
+          "2005",
+          95.575221238938
+        ],
+        [
+          "2007",
+          96.045197740112
+        ],
+        [
+          "2011",
+          92.98245614035
+        ],
+        [
+          "2015",
+          91.666666666666
+        ]
+      ],
+      "name": "30-39 J",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#45381d",
+      "data": [
+        [
+          "2003",
+          95.471698113207
+        ],
+        [
+          "2005",
+          97.269624573378
+        ],
+        [
+          "2007",
+          95.762711864406
+        ],
+        [
+          "2011",
+          95.358649789029
+        ],
+        [
+          "2015",
+          92.528735632183
+        ]
+      ],
+      "name": "40-49 J",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "events": {
+      "load": function () {                
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                };
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "inverted": false,
+    "forExport": true,
+    "renderTo": "container-2955"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.50.1.0039 Anteil Befragte, die sich im Alltag eher oder sehr sicher fühlen nach Heimat, Alter und Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wie sicher fühlen Sie sich ganz allgemein im Alltag?",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function (){
+                    return Highcharts.numberFormat((this.y*100),1)+'%';                
+                }
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function (){
+                return Highcharts.numberFormat((this.value*100),0)+'%';                
+            },
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "min": 0,
+    "max": 100
+  },
+  "tooltip": {
+    "pointFormatter": function (){
+            //rank is calculated from index, thus data needs to be sorted by rank ascending.
+            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+        },
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9a"
+  },
+  "legend": {
+    "enabled": true,
+    "symbolRadius": 0,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 0,
+    "y": 65,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "exporting": {
+    "filename": "I.50.1.0039"
+  }
+}

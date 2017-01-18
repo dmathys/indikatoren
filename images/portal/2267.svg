@@ -1,0 +1,105 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 108h422v205H53z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M53 118.5h422m-422 41h422m-422 41h422m-422 41h422m-422 41h422"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52.5 108v205m53-205v205m53-205v205m52-205v205m53-205v205m53-205v205m53-205v205m52-205v205m54-205v205"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M53 108h422v205H53z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M53 118.5H43m10 41H43m10 41H43m10 41H43m10 41H43"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M52.5 108v205"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M53 313h422"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#b00000" d="M78 303c0-5.328-8-5.328-8 0s8 5.328 8 0zm-5-20c0-5.328-8-5.328-8 0s8 5.328 8 0zm2-21c0-5.328-8-5.328-8 0s8 5.328 8 0zm-5-20c0-5.328-8-5.328-8 0s8 5.328 8 0zm97-21c0-5.328-8-5.328-8 0s8 5.328 8 0zm14-20c0-5.328-8-5.328-8 0s8 5.328 8 0zM71 180c0-5.328-8-5.328-8 0s8 5.328 8 0zm5-20c0-5.328-8-5.328-8 0s8 5.328 8 0zm-2-21c0-5.328-8-5.328-8 0s8 5.328 8 0zm6-20c0-5.328-8-5.328-8 0s8 5.328 8 0z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-1 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#71a3b5" d="M263 303l-4-4-4 4 4 4zm-45-20l-4-4-4 4 4 4zm24-21l-4-4-4 4 4 4zm-46-20l-4-4-4 4 4 4zm-20-21l-4-4-4 4 4 4zm32-20l-4-4-4 4 4 4zm65-21l-4-4-4 4 4 4zm123-20l-4-4-4 4 4 4zm46-21l-4-4-4 4 4 4zm-199-20l-4-4-4 4 4 4z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-2 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path d="M158 307v-8h-8v8zm-30-20v-8h-8v8zm12-21v-8h-8v8zm-19-20v-8h-8v8zm-8-21v-8h-8v8zm10-20v-8h-8v8zm24-21v-8h-8v8zm64-20v-8h-8v8zm9-21v-8h-8v8zm-78-20v-8h-8v8z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.01.5.0002 Ordentlich Eingebürgerte nach</tspan><tspan dy="17" x="10">bisheriger Heimat und Geburtsland</tspan><title>I.01.5.0002 Ordentlich Eingebürgerte nach bisheriger Heimat und Geburtsland</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(45 65)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="367" height="31"/>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 14h16" class="highcharts-graph"/>
+            <path fill="#b00000" d="M16 10c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                Schweiz
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M99.156 14h16" class="highcharts-graph"/>
+            <path fill="#71a3b5" d="M107.156 10l4 4-4 4-4-4z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(99.156 3)">
+                Ausland
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-2">
+            <path fill="none" d="M189.047 14h16" class="highcharts-graph"/>
+            <path d="M193.047 10h8v8h-8z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(189.047 3)">
+                Ausland_GeburtslandCH
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="38" style="width:150px" y="122">
+            <tspan>2006</tspan>
+        </text>
+        <text x="38" style="width:150px" y="163">
+            <tspan>2008</tspan>
+        </text>
+        <text x="38" style="width:150px" y="204">
+            <tspan>2010</tspan>
+        </text>
+        <text x="38" style="width:150px" y="245">
+            <tspan>2012</tspan>
+        </text>
+        <text x="38" style="width:150px" y="286">
+            <tspan>2014</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="55.593" style="width:415px" transform="rotate(-45 55.593 329)" y="329" text-overflow="ellipsis">
+            <tspan>0%</tspan>
+        </text>
+        <text x="108.343" style="width:415px" transform="rotate(-45 108.343 329)" y="329" text-overflow="ellipsis">
+            <tspan>25 000%</tspan>
+        </text>
+        <text x="161.093" style="width:415px" transform="rotate(-45 161.093 329)" y="329" text-overflow="ellipsis">
+            <tspan>50 000%</tspan>
+        </text>
+        <text x="213.843" style="width:415px" transform="rotate(-45 213.843 329)" y="329" text-overflow="ellipsis">
+            <tspan>75 000%</tspan>
+        </text>
+        <text x="266.593" style="width:415px" transform="rotate(-45 266.593 329)" y="329" text-overflow="ellipsis">
+            <tspan>100 000%</tspan>
+        </text>
+        <text x="319.343" style="width:415px" transform="rotate(-45 319.343 329)" y="329" text-overflow="ellipsis">
+            <tspan>125 000%</tspan>
+        </text>
+        <text x="372.093" style="width:415px" transform="rotate(-45 372.093 329)" y="329" text-overflow="ellipsis">
+            <tspan>150 000%</tspan>
+        </text>
+        <text x="424.843" style="width:415px" transform="rotate(-45 424.843 329)" y="329" text-overflow="ellipsis">
+            <tspan>175 000%</tspan>
+        </text>
+        <text x="477.593" style="width:415px" transform="rotate(-45 477.593 329)" y="329" text-overflow="ellipsis">
+            <tspan>200 000%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik</tspan>
+    </text>
+</svg>

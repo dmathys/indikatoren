@@ -1,0 +1,97 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h429v288H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M46 60h429v288H46z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M49.5 60v288m47-288v288m47-288v288m46-288v288m47-288v288m47-288v288m47-288v288m46-288v288m47-288v288m47-288v288"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M46 348.5h429m-429-58h429m-429-57h429m-429-58h429m-429-57h429m-429-59h429"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M46 60h429v288H46z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M46 348.5h429"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M46 60v288"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(46 60)" clip-path="url(#a)">
+            <path fill="none" d="M4.206 111.63l46.732 22.225 46.732-24.37 46.732-37.166 46.732-19.885 46.732-31.792 46.732 1.007 46.732 29.329 46.732 35.51 46.732 8.833" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.794 111.63h10l46.732 22.225 46.732-24.37 46.732-37.166 46.732-19.885 46.732-31.792 46.732 1.007 46.732 29.329 46.732 35.51 46.732 8.833h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#8b2223" d="M470 151c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-46-9c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-47-35c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-47-29c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-47-1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-46 31c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-47 20c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-47 37c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-47 25c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-46-22c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.9.36.2 Anzahl Gewaltstraftaten pro 100000</tspan><tspan dy="17" x="10">Einwohner</tspan><title>LP.9.36.2 Anzahl Gewaltstraftaten pro 100000 Einwohner</title>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(41 138)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">306.196634490371</tspan><tspan x="5" y="16">306.196634490371</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(351 121)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">334.512672395852</tspan><tspan x="5" y="16">334.512672395852</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="50.206" y="367">
+            2006
+        </text>
+        <text x="96.938" y="367">
+            2007
+        </text>
+        <text x="143.67" y="367">
+            2008
+        </text>
+        <text x="190.402" y="367">
+            2009
+        </text>
+        <text x="237.134" y="367">
+            2010
+        </text>
+        <text x="283.866" y="367">
+            2011
+        </text>
+        <text x="330.598" y="367">
+            2012
+        </text>
+        <text x="377.33" y="367">
+            2013
+        </text>
+        <text x="424.062" y="367">
+            2014
+        </text>
+        <text x="461.031" y="367">
+            2015
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="31" style="width:150px" y="352">
+            <tspan>0</tspan>
+        </text>
+        <text x="31" style="width:150px" y="294">
+            <tspan>100</tspan>
+        </text>
+        <text x="31" style="width:150px" y="237">
+            <tspan>200</tspan>
+        </text>
+        <text x="31" style="width:150px" y="179">
+            <tspan>300</tspan>
+        </text>
+        <text x="31" style="width:150px" y="122">
+            <tspan>400</tspan>
+        </text>
+        <text x="31" style="width:150px" y="64">
+            <tspan>500</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Polizeiliche Kriminalitätsstatistk PKS</tspan>
+    </text>
+</svg>

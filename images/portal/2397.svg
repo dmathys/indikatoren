@@ -1,0 +1,77 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 43h422v305H53z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M53 49.5h422m-422 59h422m-422 58h422m-422 59h422m-422 58h422m-422 59h422"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52.5 43v305m84-305v305m85-305v305m84-305v305m85-305v305m85-305v305"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M53 43h422v305H53z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M53 49.5H43m10 59H43m10 58H43m10 59H43m10 58H43m10 59H43"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M52.5 43v305"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M53 348h422"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#b00000" d="M407 343c0-5.328-8-5.328-8 0s8 5.328 8 0zm2-12c0-5.328-8-5.328-8 0s8 5.328 8 0zm3-12c0-5.328-8-5.328-8 0s8 5.328 8 0zm-1-12c0-5.328-8-5.328-8 0s8 5.328 8 0zm1-11c0-5.328-8-5.328-8 0s8 5.328 8 0zm1-12c0-5.328-8-5.328-8 0s8 5.328 8 0zm-9-117c0-5.328-8-5.328-8 0s8 5.328 8 0zM389 49c0-5.328-8-5.328-8 0s8 5.328 8 0z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.09.0.0001 Wohnfläche pro Bewohner</tspan>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(253 48)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">39.2826209245187 m²</tspan><tspan x="5" y="15">39.2826209245187 m²</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(408 321)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">41.5 m²</tspan><tspan x="5" y="15">41.5 m²</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="38" style="width:150px" y="53">
+            <tspan>1990</tspan>
+        </text>
+        <text x="38" style="width:150px" y="112">
+            <tspan>1995</tspan>
+        </text>
+        <text x="38" style="width:150px" y="170">
+            <tspan>2000</tspan>
+        </text>
+        <text x="38" style="width:150px" y="229">
+            <tspan>2005</tspan>
+        </text>
+        <text x="38" style="width:150px" y="287">
+            <tspan>2010</tspan>
+        </text>
+        <text x="38" style="width:150px" y="346">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="53" style="width:74px" y="367">
+            <tspan>0%</tspan>
+        </text>
+        <text x="137.4" style="width:74px" y="367">
+            <tspan>1 000%</tspan>
+        </text>
+        <text x="221.8" style="width:74px" y="367">
+            <tspan>2 000%</tspan>
+        </text>
+        <text x="306.2" style="width:74px" y="367">
+            <tspan>3 000%</tspan>
+        </text>
+        <text x="390.6" style="width:74px" y="367">
+            <tspan>4 000%</tspan>
+        </text>
+        <text x="454.063" style="width:74px" y="367">
+            <tspan>5 000%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="390" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik;</tspan>
+    </text>
+</svg>

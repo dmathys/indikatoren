@@ -1,0 +1,608 @@
+{
+  "series": [
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          2005,
+          259338.62191
+        ],
+        [
+          2006,
+          161398.09777
+        ],
+        [
+          2007,
+          1179435.08422
+        ],
+        [
+          2008,
+          797215.543577212
+        ],
+        [
+          2009,
+          194841.962049332
+        ],
+        [
+          2010,
+          385191.764291528
+        ],
+        [
+          2011,
+          366745.281382322
+        ],
+        [
+          2012,
+          217976.139006935
+        ],
+        [
+          2013,
+          248758.630172063
+        ],
+        [
+          2014,
+          286025.193169861
+        ]
+      ],
+      "name": "Allgemeine Verwaltung"
+    },
+    {
+      "color": "#71a3b5",
+      "data": [
+        [
+          2005,
+          879346.05438
+        ],
+        [
+          2006,
+          904745.84727
+        ],
+        [
+          2007,
+          931395.66942
+        ],
+        [
+          2008,
+          353325.001155487
+        ],
+        [
+          2009,
+          335943.398329872
+        ],
+        [
+          2010,
+          346630.299745071
+        ],
+        [
+          2011,
+          364193.52345697
+        ],
+        [
+          2012,
+          385150.440417435
+        ],
+        [
+          2013,
+          419096.731085403
+        ],
+        [
+          2014,
+          426340.829235313
+        ]
+      ],
+      "name": "Öffentliche Ordnung und Sicherheit"
+    },
+    {
+      "color": "#474747",
+      "data": [
+        [
+          2005,
+          3146024.60026
+        ],
+        [
+          2006,
+          2988454.32757
+        ],
+        [
+          2007,
+          5242532.94513
+        ],
+        [
+          2008,
+          1110294.04536999
+        ],
+        [
+          2009,
+          1154741.31121422
+        ],
+        [
+          2010,
+          1184172.48959432
+        ],
+        [
+          2011,
+          1217027.01602139
+        ],
+        [
+          2012,
+          1319787.11596714
+        ],
+        [
+          2013,
+          1375752.30943196
+        ],
+        [
+          2014,
+          1458365.38814322
+        ]
+      ],
+      "name": "Bildung"
+    },
+    {
+      "color": "#672773",
+      "data": [
+        [
+          2005,
+          582558.36474
+        ],
+        [
+          2006,
+          596014.00026
+        ],
+        [
+          2007,
+          641634.41979
+        ],
+        [
+          2008,
+          246449.013571579
+        ],
+        [
+          2009,
+          223172.973401703
+        ],
+        [
+          2010,
+          231160.162660112
+        ],
+        [
+          2011,
+          241939.865521716
+        ],
+        [
+          2012,
+          264909.415978085
+        ],
+        [
+          2013,
+          251703.162606148
+        ],
+        [
+          2014,
+          285867.909307272
+        ]
+      ],
+      "name": "Kultur, Sport und Freizeit, Kirche"
+    },
+    {
+      "color": "#8a8a8a",
+      "data": [
+        [
+          2005,
+          2961517.72938
+        ],
+        [
+          2006,
+          3018659.66641
+        ],
+        [
+          2007,
+          3083034.49805
+        ],
+        [
+          2008,
+          589784.372695232
+        ],
+        [
+          2009,
+          648018.704240234
+        ],
+        [
+          2010,
+          633401.118650726
+        ],
+        [
+          2011,
+          649368.978908066
+        ],
+        [
+          2012,
+          885054.147643219
+        ],
+        [
+          2013,
+          605162.026822845
+        ],
+        [
+          2014,
+          607409.924983246
+        ]
+      ],
+      "name": "Gesundheit"
+    },
+    {
+      "color": "#44ab2b",
+      "data": [
+        [
+          2005,
+          2202095.01449
+        ],
+        [
+          2006,
+          2293236.25672
+        ],
+        [
+          2007,
+          2321009.28278
+        ],
+        [
+          2008,
+          717050.874112801
+        ],
+        [
+          2009,
+          769345.118826061
+        ],
+        [
+          2010,
+          793271.675010164
+        ],
+        [
+          2011,
+          832572.549465485
+        ],
+        [
+          2012,
+          884793.753910278
+        ],
+        [
+          2013,
+          895985.002763052
+        ],
+        [
+          2014,
+          963077.807638153
+        ]
+      ],
+      "name": "Soziale Sicherheit"
+    },
+    {
+      "color": "#9f7c5a",
+      "data": [
+        [
+          2005,
+          760969.32234
+        ],
+        [
+          2006,
+          829378.56171
+        ],
+        [
+          2007,
+          620554.56147
+        ],
+        [
+          2008,
+          151203.1987239
+        ],
+        [
+          2009,
+          127780.578372101
+        ],
+        [
+          2010,
+          125163.210897601
+        ],
+        [
+          2011,
+          126353.689023773
+        ],
+        [
+          2012,
+          177960.930358643
+        ],
+        [
+          2013,
+          310715.150862421
+        ],
+        [
+          2014,
+          252068.036577919
+        ]
+      ],
+      "name": "Verkehr"
+    },
+    {
+      "color": "#dc440e",
+      "data": [
+        [
+          2005,
+          168739.03497
+        ],
+        [
+          2006,
+          160203.80438
+        ],
+        [
+          2007,
+          184143.19091
+        ],
+        [
+          2008,
+          116395.743866227
+        ],
+        [
+          2009,
+          91412.2425228615
+        ],
+        [
+          2010,
+          94954.6168708038
+        ],
+        [
+          2011,
+          96337.8892507324
+        ],
+        [
+          2012,
+          87396.9753154983
+        ],
+        [
+          2013,
+          85640.7104907327
+        ],
+        [
+          2014,
+          82268.0685664263
+        ]
+      ],
+      "name": "Umweltschutz und Raumordnung"
+    },
+    {
+      "color": "#007a2f",
+      "data": [
+        [
+          2005,
+          47758.95309
+        ],
+        [
+          2006,
+          51477.1409
+        ],
+        [
+          2007,
+          61896.67334
+        ],
+        [
+          2008,
+          45388.0645217333
+        ],
+        [
+          2009,
+          85261.3449398498
+        ],
+        [
+          2010,
+          140127.812060407
+        ],
+        [
+          2011,
+          34587.2367312813
+        ],
+        [
+          2012,
+          17048.4757331002
+        ],
+        [
+          2013,
+          16641.7514397619
+        ],
+        [
+          2014,
+          23592.4025926803
+        ]
+      ],
+      "name": "Volkswirtschaft"
+    },
+    {
+      "color": "#b475ab",
+      "data": [
+        [
+          2005,
+          416357.36568
+        ],
+        [
+          2006,
+          485416.00653
+        ],
+        [
+          2007,
+          504905.08728
+        ],
+        [
+          2008,
+          264176.653414063
+        ],
+        [
+          2009,
+          270154.830412109
+        ],
+        [
+          2010,
+          256127.724048828
+        ],
+        [
+          2011,
+          271833.154935547
+        ],
+        [
+          2012,
+          269099.17925
+        ],
+        [
+          2013,
+          338362.179480469
+        ],
+        [
+          2014,
+          323288.10250293
+        ]
+      ],
+      "name": "Finanzen und Steuern"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {                
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                };
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "scatter",
+    "inverted": true,
+    "forExport": true,
+    "renderTo": "container-2991"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.04.1.0001 Entwicklung der Staatsausgaben nach Funktion in 1000 Franken"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function (){
+                    return Highcharts.numberFormat((this.y*100),1)+'%';                
+                }
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function (){
+                return Highcharts.numberFormat((this.value*100),0)+'%';                
+            },
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "min": 0
+  },
+  "xAxis": {
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF",
+    "type": "category",
+    "uniqueNames": true,
+    "tickInterval": 1
+  },
+  "tooltip": {
+    "pointFormatter": function (){
+            //rank is calculated from index, thus data needs to be sorted by rank ascending.
+            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+        },
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Eidgenössische Finanzverwaltung"
+  },
+  "legend": {
+    "enabled": true,
+    "symbolRadius": 0,
+    "x": 55,
+    "y": 50,
+    "itemWidth": 180,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "exporting": {
+    "filename": "I.04.1.0001"
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "series": [
+    {
+      "color": "#8a8a8a",
+      "index": 2,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2000,
+          0.0579222342534906
+        ],
+        [
+          2001,
+          0.0552809288215536
+        ],
+        [
+          2002,
+          0.0538325537331494
+        ],
+        [
+          2003,
+          0.0518859995265883
+        ],
+        [
+          2004,
+          0.0509260246011585
+        ],
+        [
+          2005,
+          0.0504320373937012
+        ],
+        [
+          2006,
+          0.0469118719453356
+        ],
+        [
+          2007,
+          0.045154805196623
+        ],
+        [
+          2008,
+          0.0459049569668237
+        ],
+        [
+          2009,
+          0.0438899108789325
+        ],
+        [
+          2010,
+          0.0426808784288086
+        ],
+        [
+          2011,
+          0.0417049802689973
+        ],
+        [
+          2012,
+          0.042019094466236
+        ],
+        [
+          2013,
+          0.0406066236875508
+        ],
+        [
+          2014,
+          0.0397253971232925
+        ],
+        [
+          2015,
+          0.0386658686586381
+        ]
+      ],
+      "name": "Basel-Stadt"
+    },
+    {
+      "color": "#ffc000",
+      "index": 3,
+      "data": [
+        [
+          2000,
+          0.0447862610636747
+        ],
+        [
+          2001,
+          0.043571500929228
+        ],
+        [
+          2002,
+          0.0446546624804496
+        ],
+        [
+          2003,
+          0.0457282511272898
+        ],
+        [
+          2004,
+          0.0467350094544895
+        ],
+        [
+          2005,
+          0.04694619241694
+        ],
+        [
+          2006,
+          0.0454386115803267
+        ],
+        [
+          2007,
+          0.0447055805135785
+        ],
+        [
+          2008,
+          0.0448371571886935
+        ],
+        [
+          2009,
+          0.0463137859256821
+        ],
+        [
+          2010,
+          0.0473761963197996
+        ],
+        [
+          2011,
+          0.0492427040284353
+        ],
+        [
+          2012,
+          0.0488751667477373
+        ],
+        [
+          2013,
+          0.0472812700819937
+        ],
+        [
+          2014,
+          0.0468429714580129
+        ],
+        [
+          2015,
+          0.0459352151376296
+        ]
+      ],
+      "name": "Basel-Landschaft"
+    },
+    {
+      "color": "#256370",
+      "index": 4,
+      "data": [
+        [
+          2000,
+          0.0316575018918607
+        ],
+        [
+          2001,
+          0.0318873406448506
+        ],
+        [
+          2002,
+          0.0333215170318839
+        ],
+        [
+          2003,
+          0.0345447923439792
+        ],
+        [
+          2004,
+          0.0356873197243352
+        ],
+        [
+          2005,
+          0.0362959253737355
+        ],
+        [
+          2006,
+          0.0359554473409851
+        ],
+        [
+          2007,
+          0.0362586434724367
+        ],
+        [
+          2008,
+          0.0370660660787284
+        ],
+        [
+          2009,
+          0.0374368609968112
+        ],
+        [
+          2010,
+          0.0378213928829799
+        ],
+        [
+          2011,
+          0.0379353543606173
+        ],
+        [
+          2012,
+          0.0368968926705445
+        ],
+        [
+          2013,
+          0.0346543393221746
+        ],
+        [
+          2014,
+          0.0343147537882335
+        ],
+        [
+          2015,
+          0.0339022735101149
+        ]
+      ],
+      "name": "Aargau"
+    },
+    {
+      "color": "#b00000",
+      "index": 1,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2000,
+          0.0405578955175159
+        ],
+        [
+          2001,
+          0.0409128367088358
+        ],
+        [
+          2002,
+          0.0418110089845365
+        ],
+        [
+          2003,
+          0.0417836309633791
+        ],
+        [
+          2004,
+          0.0419647521365578
+        ],
+        [
+          2005,
+          0.0418121293633543
+        ],
+        [
+          2006,
+          0.0404873347425358
+        ],
+        [
+          2007,
+          0.0398625583364237
+        ],
+        [
+          2008,
+          0.0405173784572166
+        ],
+        [
+          2009,
+          0.0406851559285584
+        ],
+        [
+          2010,
+          0.0414531172012182
+        ],
+        [
+          2011,
+          0.0417685972897897
+        ],
+        [
+          2012,
+          0.0422881574651297
+        ],
+        [
+          2013,
+          0.041168820845486
+        ],
+        [
+          2014,
+          0.0408373201612184
+        ],
+        [
+          2015,
+          0.0401683205204465
+        ]
+      ],
+      "name": "Schweiz"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {                
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                };
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "scatter",
+    "inverted": true,
+    "forExport": true,
+    "renderTo": "container-2364"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.04.0.0002 Anteil der Logistikwirtschaft an der regionalen nominalen Wertschöpfung in %"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function (){
+                    return Highcharts.numberFormat((this.y*100),1)+'%';                
+                }
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function (){
+                return Highcharts.numberFormat((this.value*100),0)+'%';                
+            },
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "min": 0
+  },
+  "xAxis": {
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF",
+    "type": "category",
+    "uniqueNames": true,
+    "tickInterval": 1
+  },
+  "tooltip": {
+    "pointFormatter": function (){
+            //rank is calculated from index, thus data needs to be sorted by rank ascending.
+            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+        },
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: BAK Basel Economics"
+  },
+  "legend": {
+    "enabled": true,
+    "symbolRadius": 0,
+    "x": 35,
+    "y": 35,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "exporting": {
+    "filename": "I.04.0.0002"
+  }
+}

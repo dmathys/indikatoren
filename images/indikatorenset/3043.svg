@@ -1,0 +1,121 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h250v422H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 100h422v250H53z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M53 125.5h422m-422 25h422m-422 25h422m-422 25h422m-422 25h422m-422 25h422m-422 25h422m-422 25h422m-422 25h422m-422 25h422"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52.5 100v250m70-250v250m71-250v250m70-250v250m70-250v250m71-250v250m71-250v250"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M53 100h422v250H53z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M53 125.5H43m10 25H43m10 25H43m10 25H43m10 25H43m10 25H43m10 25H43m10 25H43m10 25H43m10 25H43"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M52.5 100v250"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M53 350h422"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 350)" clip-path="url(#a)">
+            <path fill="#b00000" class="highcharts-point" stroke="#fff" d="M237.5 101.5h10v321h-10zm-25 0h10v321h-10zm-25-3h10v324h-10zm-25-9h10v333h-10zm-25-5h10v338h-10zm-25-2h10v340h-10zm-25 10h10v330h-10zm-25 6h10v324h-10zm-25-3h10v327h-10zm-25-2h10v329h-10z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 350)" clip-path="url(#a)">
+            <path fill="#71a3b5" class="highcharts-point" stroke="#fff" d="M227.5 314.5h10v108h-10zm-25-21h10v129h-10zm-25-16h10v145h-10zm-25 1h10v144h-10zm-25-28h10v172h-10zm-25 11h10v161h-10zm-25 16h10v145h-10zm-25-5h10v150h-10zm-25-23h10v173h-10zm-25 10h10v163h-10z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="matrix(0 -1 -1 0 475 350)" clip-path="url(#a)">
+            <path fill="none" d="M237.5 171.151l-25-11.966-25-6.759-25-6.79-25-13.422-25 3.978-25 12.54-25 3.517-25-8.364-25 4.332" class="highcharts-graph" stroke="#ff8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M227.5 171.151h10l-25-11.966-25-6.759-25-6.79-25-13.422-25 3.978-25 12.54-25 3.517-25-8.364-25 4.332h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#ff8028" d="M331 338c0-5.328-8-5.328-8 0s8 5.328 8 0zm4-25c0-5.328-8-5.328-8 0s8 5.328 8 0zm-8-25c0-5.328-8-5.328-8 0s8 5.328 8 0zm3-25c0-5.328-8-5.328-8 0s8 5.328 8 0zm13-25c0-5.328-8-5.328-8 0s8 5.328 8 0zm4-25c0-5.328-8-5.328-8 0s8 5.328 8 0zm-14-25c0-5.328-8-5.328-8 0s8 5.328 8 0zm-6-25c0-5.328-8-5.328-8 0s8 5.328 8 0zm-7-25c0-5.328-8-5.328-8 0s8 5.328 8 0zm-12-25c0-5.328-8-5.328-8 0s8 5.328 8 0z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.7.26.1 Entwicklung der Gymnasialquote nach</tspan><tspan dy="17" x="10">Heimat</tspan><title>LP.7.26.1 Entwicklung der Gymnasialquote nach Heimat</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(40 55)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="335" height="26"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                Schweiz
+            </text>
+            <path fill="#b00000" class="highcharts-point" d="M10 7h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(99.156 3)">
+                Ausland
+            </text>
+            <path fill="#71a3b5" class="highcharts-point" d="M101.156 7h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
+            <path fill="none" d="M189.047 14h16" class="highcharts-graph" stroke="#ff8028" stroke-width="2"/>
+            <path fill="#ff8028" d="M197.047 10c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(189.047 3)">
+                <tspan>Kanton Basel-Stadt</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="38" style="width:150px" y="117">
+            <tspan>2006</tspan>
+        </text>
+        <text x="38" style="width:150px" y="142">
+            <tspan>2007</tspan>
+        </text>
+        <text x="38" style="width:150px" y="167">
+            <tspan>2008</tspan>
+        </text>
+        <text x="38" style="width:150px" y="192">
+            <tspan>2009</tspan>
+        </text>
+        <text x="38" style="width:150px" y="217">
+            <tspan>2010</tspan>
+        </text>
+        <text x="38" style="width:150px" y="242">
+            <tspan>2011</tspan>
+        </text>
+        <text x="38" style="width:150px" y="267">
+            <tspan>2012</tspan>
+        </text>
+        <text x="38" style="width:150px" y="292">
+            <tspan>2013</tspan>
+        </text>
+        <text x="38" style="width:150px" y="317">
+            <tspan>2014</tspan>
+        </text>
+        <text x="38" style="width:150px" y="342">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="53" style="width:60px" y="369">
+            <tspan>0%</tspan>
+        </text>
+        <text x="123.333" style="width:60px" y="369">
+            <tspan>1 000%</tspan>
+        </text>
+        <text x="193.667" style="width:60px" y="369">
+            <tspan>2 000%</tspan>
+        </text>
+        <text x="264" style="width:60px" y="369">
+            <tspan>3 000%</tspan>
+        </text>
+        <text x="334.333" style="width:60px" y="369">
+            <tspan>4 000%</tspan>
+        </text>
+        <text x="404.667" style="width:60px" y="369">
+            <tspan>5 000%</tspan>
+        </text>
+        <text x="457.417" style="width:35.166666666666664" y="369" text-overflow="ellipsis">
+            <tspan>6 0…</tspan><title>6 000%</title>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik</tspan>
+    </text>
+</svg>

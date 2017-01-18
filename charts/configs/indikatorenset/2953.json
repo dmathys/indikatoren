@@ -1,0 +1,275 @@
+{
+  "series": [
+    {
+      "color": "#ffbb58",
+      "data": [
+        [
+          "2003",
+          89.705882352941
+        ],
+        [
+          "2005",
+          92.473118279569
+        ],
+        [
+          "2007",
+          93.670886075949
+        ],
+        [
+          "2011",
+          95.384615384615
+        ],
+        [
+          "2015",
+          97.101449275362
+        ]
+      ],
+      "name": "Innenstadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "data": [
+        [
+          "2003",
+          89.757412398921
+        ],
+        [
+          "2005",
+          87.943262411347
+        ],
+        [
+          "2007",
+          90
+        ],
+        [
+          "2011",
+          92.583732057416
+        ],
+        [
+          "2015",
+          94.344473007712
+        ]
+      ],
+      "name": "Am Ring",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          "2003",
+          94.160583941605
+        ],
+        [
+          "2005",
+          87.323943661971
+        ],
+        [
+          "2007",
+          96.73202614379
+        ],
+        [
+          "2011",
+          94.082840236686
+        ],
+        [
+          "2015",
+          94.736842105263
+        ]
+      ],
+      "name": "St Alban",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#661200",
+      "data": [
+        [
+          "2003",
+          93.939393939393
+        ],
+        [
+          "2005",
+          88.304093567251
+        ],
+        [
+          "2007",
+          82.857142857142
+        ],
+        [
+          "2011",
+          89.080459770114
+        ],
+        [
+          "2015",
+          94.444444444444
+        ]
+      ],
+      "name": "Unteres Kleinbasel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#953735",
+      "data": [
+        [
+          "2003",
+          90.551181102362
+        ],
+        [
+          "2005",
+          91.509433962264
+        ],
+        [
+          "2007",
+          96.825396825396
+        ],
+        [
+          "2011",
+          94.495412844036
+        ],
+        [
+          "2015",
+          100
+        ]
+      ],
+      "name": "Oberes Kleinbasel",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "events": {
+      "load": function () {                
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                };
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "inverted": false,
+    "forExport": true,
+    "renderTo": "container-2953"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "LP.6.24.2 Anteil Befragter, die mit dem Kulturangebot eher oder sehr zufrieden sind"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "«Wie zufrieden sind Sie mit dem Kulturangebot»",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function (){
+                    return Highcharts.numberFormat((this.y*100),1)+'%';                
+                }
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function (){
+                return Highcharts.numberFormat((this.value*100),0)+'%';                
+            },
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "min": 0,
+    "max": 100
+  },
+  "tooltip": {
+    "pointFormatter": function (){
+            //rank is calculated from index, thus data needs to be sorted by rank ascending.
+            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+        },
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
+  },
+  "legend": {
+    "enabled": true,
+    "symbolRadius": 0,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 0,
+    "y": 65,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "exporting": {
+    "filename": "I.50.1.0037"
+  }
+}

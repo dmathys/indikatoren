@@ -1,0 +1,94 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h429v271H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M46 77h429v271H46z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M49.5 77v271m47-271v271m47-271v271m46-271v271m47-271v271m47-271v271m47-271v271m46-271v271m47-271v271m47-271v271"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M46 348.5h429m-429-68h429m-429-67h429m-429-68h429m-429-69h429"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M46 77h429v271H46z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M46 348.5h429"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M46 77v271"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(46 77)" clip-path="url(#a)">
+            <path fill="none" d="M4.206 100.27l46.732 56.91 46.732 18.97 46.732-13.55 46.732-10.84 46.732 8.13 46.732 32.52 46.732-32.52 46.732 35.23 46.732-32.52" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.794 100.27h10l46.732 56.91 46.732 18.97 46.732-13.55 46.732-10.84 46.732 8.13 46.732 32.52 46.732-32.52 46.732 35.23 46.732-32.52h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#8b2223" d="M470 236c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-46 32c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-47-35c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-47 32c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-47-32c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-46-8c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-47 11c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-47 13c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-47-19c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-46-57c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.02.5.0004 Luftqualität: Kurzzeitbelastungen -</tspan><tspan dy="17" x="10">Anzahl Tage mit Grenzwertüberschreitungen Station</tspan><tspan dy="17" x="10">St. Johann</tspan><title>I.02.5.0004 Luftqualität: Kurzzeitbelastungen - Anzahl Tage mit Grenzwertüberschreitungen Station St. Johann</title>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(41 143)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">63</tspan><tspan x="5" y="16">63</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(456 206)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">40</tspan><tspan x="5" y="16">40</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="50.206" y="367">
+            2006
+        </text>
+        <text x="96.938" y="367">
+            2007
+        </text>
+        <text x="143.67" y="367">
+            2008
+        </text>
+        <text x="190.402" y="367">
+            2009
+        </text>
+        <text x="237.134" y="367">
+            2010
+        </text>
+        <text x="283.866" y="367">
+            2011
+        </text>
+        <text x="330.598" y="367">
+            2012
+        </text>
+        <text x="377.33" y="367">
+            2013
+        </text>
+        <text x="424.062" y="367">
+            2014
+        </text>
+        <text x="461.031" y="367">
+            2015
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="31" style="width:150px" y="352">
+            <tspan>0</tspan>
+        </text>
+        <text x="31" style="width:150px" y="284">
+            <tspan>25</tspan>
+        </text>
+        <text x="31" style="width:150px" y="217">
+            <tspan>50</tspan>
+        </text>
+        <text x="31" style="width:150px" y="149">
+            <tspan>75</tspan>
+        </text>
+        <text x="31" style="width:150px" y="81">
+            <tspan>100</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Lufthygieneamt beider Basel, Website Luftqualität in den Kantonen AG, BL, BS und SO</tspan>
+    </text>
+</svg>

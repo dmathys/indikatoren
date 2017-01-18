@@ -1,0 +1,108 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 77h422v271H53z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M53 104.5h422m-422 27h422m-422 27h422m-422 27h422m-422 28h422m-422 27h422m-422 27h422m-422 27h422m-422 27h422m-422 27h422"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52.5 77v271m60-271v271m61-271v271m60-271v271m60-271v271m60-271v271m61-271v271m61-271v271"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M53 77h422v271H53z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M53 104.5H43m10 27H43m10 27H43m10 27H43m10 28H43m10 27H43m10 27H43m10 27H43m10 27H43m10 27H43"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M52.5 77v271"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M53 348h422"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#b00000" d="M395 335c0-5.328-8-5.328-8 0s8 5.328 8 0zm1-27c0-5.328-8-5.328-8 0s8 5.328 8 0zm-1-27c0-5.328-8-5.328-8 0s8 5.328 8 0zm-1-27c0-5.328-8-5.328-8 0s8 5.328 8 0zm-1-27c0-5.328-8-5.328-8 0s8 5.328 8 0zm1-28c0-5.328-8-5.328-8 0s8 5.328 8 0zm-7-27c0-5.328-8-5.328-8 0s8 5.328 8 0zm0-27c0-5.328-8-5.328-8 0s8 5.328 8 0zm1-27c0-5.328-8-5.328-8 0s8 5.328 8 0zm1-27c0-5.328-8-5.328-8 0s8 5.328 8 0z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-1 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#71a3b5" d="M101 335l-4-4-4 4 4 4zm-3-27l-4-4-4 4 4 4zm-5-27l-4-4-4 4 4 4zm-1-27l-4-4-4 4 4 4zm-5-27l-4-4-4 4 4 4zm12-28l-4-4-4 4 4 4zm14-27l-4-4-4 4 4 4zm3-27l-4-4-4 4 4 4zm2-27l-4-4-4 4 4 4zm-7-27l-4-4-4 4 4 4z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-2 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path d="M292 339v-8h-8v8zm0-27v-8h-8v8zm-1-27v-8h-8v8zm1-27v-8h-8v8zm-1-27v-8h-8v8zm7-28v-8h-8v8zm0-27v-8h-8v8zm3-27v-8h-8v8zm2-27v-8h-8v8zm0-27v-8h-8v8z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.01.5.0001 Anteil der Bevölkerung, der seit</tspan><tspan dy="17" x="10">mindestens 10 Jahren an der gleichen Adresse wohnt</tspan><tspan dy="17" x="10">nach Heimat</tspan><title>I.01.5.0001 Anteil der Bevölkerung, der seit mindestens 10 Jahren an der gleichen Adresse wohnt nach Heimat</title>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(396 323)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Schweizer</tspan><tspan x="5" y="15">Schweizer</tspan>
+        </text>
+    </g>
+    <g class="highcharts-data-labels highcharts-series-1 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(102 323)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Pzt Ausländer</tspan><tspan x="5" y="15">Pzt Ausländer</tspan>
+        </text>
+    </g>
+    <g class="highcharts-data-labels highcharts-series-2 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(293 323)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Total</tspan><tspan x="5" y="15">Total</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="38" style="width:150px" y="95">
+            <tspan>2006</tspan>
+        </text>
+        <text x="38" style="width:150px" y="122">
+            <tspan>2007</tspan>
+        </text>
+        <text x="38" style="width:150px" y="149">
+            <tspan>2008</tspan>
+        </text>
+        <text x="38" style="width:150px" y="176">
+            <tspan>2009</tspan>
+        </text>
+        <text x="38" style="width:150px" y="203">
+            <tspan>2010</tspan>
+        </text>
+        <text x="38" style="width:150px" y="230">
+            <tspan>2011</tspan>
+        </text>
+        <text x="38" style="width:150px" y="257">
+            <tspan>2012</tspan>
+        </text>
+        <text x="38" style="width:150px" y="284">
+            <tspan>2013</tspan>
+        </text>
+        <text x="38" style="width:150px" y="311">
+            <tspan>2014</tspan>
+        </text>
+        <text x="38" style="width:150px" y="338">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="53" y="367">
+            <tspan>1 500%</tspan>
+        </text>
+        <text x="113.286" y="367">
+            <tspan>2 000%</tspan>
+        </text>
+        <text x="173.571" y="367">
+            <tspan>2 500%</tspan>
+        </text>
+        <text x="233.857" y="367">
+            <tspan>3 000%</tspan>
+        </text>
+        <text x="294.143" y="367">
+            <tspan>3 500%</tspan>
+        </text>
+        <text x="354.429" y="367">
+            <tspan>4 000%</tspan>
+        </text>
+        <text x="414.714" y="367">
+            <tspan>4 500%</tspan>
+        </text>
+        <text x="459.929" style="width:30.142857142857142" y="367" text-overflow="ellipsis">
+            <tspan>5 0…</tspan><title>5 000%</title>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik</tspan>
+    </text>
+</svg>

@@ -1,0 +1,134 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 88h422v260H53z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M53 114.5h422m-422 26h422m-422 26h422m-422 26h422m-422 26h422m-422 26h422m-422 26h422m-422 26h422m-422 26h422m-422 26h422"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52.5 88v260m70-260v260m71-260v260m70-260v260m70-260v260m71-260v260m71-260v260"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M53 88h422v260H53z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M53 114.5H43m10 26H43m10 26H43m10 26H43m10 26H43m10 26H43m10 26H43m10 26H43m10 26H43m10 26H43"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M52.5 88v260"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M53 348h422"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#b00000" d="M223 335c0-5.328-8-5.328-8 0s8 5.328 8 0zm28-26c0-5.328-8-5.328-8 0s8 5.328 8 0zm-3-26c0-5.328-8-5.328-8 0s8 5.328 8 0zm-19-26c0-5.328-8-5.328-8 0s8 5.328 8 0zm19-26c0-5.328-8-5.328-8 0s8 5.328 8 0zm34-26c0-5.328-8-5.328-8 0s8 5.328 8 0z" class="highcharts-point"/>
+            <path fill="#b00000" d="M139 179c0-5.328-8-5.328-8 0s8 5.328 8 0z" class="highcharts-point highcharts-negative"/>
+            <path fill="#b00000" d="M262 153c0-5.328-8-5.328-8 0s8 5.328 8 0zm51-26c0-5.328-8-5.328-8 0s8 5.328 8 0zm-3-26c0-5.328-8-5.328-8 0s8 5.328 8 0z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-1 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#ff8031" d="M265 335l-4-4-4 4 4 4zm17-26l-4-4-4 4 4 4zm-73-26l-4-4-4 4 4 4zm45-26l-4-4-4 4 4 4zm48-26l-4-4-4 4 4 4zm-37-26l-4-4-4 4 4 4z" class="highcharts-point"/>
+            <path fill="#ff8031" d="M119 179l-4-4-4 4 4 4z" class="highcharts-point highcharts-negative"/>
+            <path fill="#ff8031" d="M271 153l-4-4-4 4 4 4zm48-26l-4-4-4 4 4 4zm33-26l-4-4-4 4 4 4z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-2 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#675d73" d="M245 339v-8h-8v8zm15-26v-8h-8v8zm-31-26v-8h-8v8zm16-26v-8h-8v8z" class="highcharts-point"/>
+            <path fill="#675d73" d="M192 235v-8h-8v8z" class="highcharts-point highcharts-negative"/>
+            <path fill="#675d73" d="M276 209v-8h-8v8z" class="highcharts-point"/>
+            <path fill="#675d73" d="M105 183v-8h-8v8z" class="highcharts-point highcharts-negative"/>
+            <path fill="#675d73" d="M257 157v-8h-8v8zm107-26v-8h-8v8zm-26-26v-8h-8v8z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-3 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#a0bec8" d="M226 335l-8-4v8zm28-26l-8-4v8zm25-26l-8-4v8zm-53-26l-8-4v8zm5-26l-8-4v8zm-8-26l-8-4v8z" class="highcharts-point"/>
+            <path fill="#a0bec8" d="M127 179l-8-4v8z" class="highcharts-point highcharts-negative"/>
+            <path fill="#a0bec8" d="M226 153l-8-4v8zm107-26l-8-4v8zm-6-26l-8-4v8z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.1.01.1 Wachstum des realen BIP BS in %</tspan><tspan dy="17" x="10">gegenüber Vorjahr im Vergleich mit ZH, GE, CH</tspan><title>LP.1.01.1 Wachstum des realen BIP BS in % gegenüber Vorjahr im Vergleich mit ZH, GE, CH</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(45 45)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="348" height="31"/>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 14h16" class="highcharts-graph"/>
+            <path fill="#b00000" d="M16 10c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                Schweiz
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M99.156 14h16" class="highcharts-graph"/>
+            <path fill="#ff8031" d="M107.156 10l4 4-4 4-4-4z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(99.156 3)">
+                Basel-Stadt
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-2">
+            <path fill="none" d="M209.89 14h16" class="highcharts-graph"/>
+            <path fill="#675d73" d="M213.89 10h8v8h-8z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(209.89 3)">
+                Genf
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-3">
+            <path fill="none" d="M279.719 14h16" class="highcharts-graph"/>
+            <path fill="#a0bec8" d="M287.719 10l4 8h-8z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(279.719 3)">
+                Zürich
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="38" style="width:150px" y="105">
+            <tspan>2006</tspan>
+        </text>
+        <text x="38" style="width:150px" y="131">
+            <tspan>2007</tspan>
+        </text>
+        <text x="38" style="width:150px" y="157">
+            <tspan>2008</tspan>
+        </text>
+        <text x="38" style="width:150px" y="183">
+            <tspan>2009</tspan>
+        </text>
+        <text x="38" style="width:150px" y="209">
+            <tspan>2010</tspan>
+        </text>
+        <text x="38" style="width:150px" y="235">
+            <tspan>2011</tspan>
+        </text>
+        <text x="38" style="width:150px" y="261">
+            <tspan>2012</tspan>
+        </text>
+        <text x="38" style="width:150px" y="287">
+            <tspan>2013</tspan>
+        </text>
+        <text x="38" style="width:150px" y="313">
+            <tspan>2014</tspan>
+        </text>
+        <text x="38" style="width:150px" y="339">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="193.667" y="367">
+            0%
+        </text>
+        <text x="457.417" style="width:35.166666666666664" y="367" text-overflow="ellipsis">
+            <tspan>1 0…</tspan><title>1 000%</title>
+        </text>
+        <text x="53" y="367">
+            -500%
+        </text>
+        <text x="123.333" y="367">
+            -250%
+        </text>
+        <text x="264" y="367">
+            250%
+        </text>
+        <text x="334.333" y="367">
+            500%
+        </text>
+        <text x="404.667" y="367">
+            750%
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: BAK Basel Economics</tspan>
+    </text>
+</svg>

@@ -1,0 +1,139 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h412v272H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M63 60h412v272H63z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M66.5 60v272m20-272v272m20-272v272m21-272v272m20-272v272m20-272v272m20-272v272m20-272v272m21-272v272m20-272v272m20-272v272m20-272v272m20-272v272m21-272v272m20-272v272m20-272v272m20-272v272m20-272v272m21-272v272m20-272v272m20-272v272"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M63 332.5h412m-412-68h412m-412-68h412m-412-68h412m-412-69h412"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M63 60h412v272H63z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M63 332.5h412"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M63 60v272"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(63 60)" clip-path="url(#a)">
+            <path fill="none" d="M4.04 209.494l100.98 15.994L206 230.166l100.98 9.194 100.98 5.848" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.96 209.494h10l100.98 15.994L206 230.166l100.98 9.194 100.98 5.848h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(63 60)" clip-path="url(#a)">
+            <path fill="none" d="M4.04 265.744l100.98.544 100.98.816 100.98.272 100.98.272" class="highcharts-graph" stroke="#672773" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.96 265.744h10l100.98.544 100.98.816 100.98.272 100.98.272h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(63 60)" clip-path="url(#a)">
+            <path fill="none" d="M4.04 165.92l100.98 31.824 100.98.272L306.98 210.8l100.98 6.256" class="highcharts-graph" stroke="#71a3b5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.96 165.92h10l100.98 31.824 100.98.272L306.98 210.8l100.98 6.256h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.8.34.3 Entwicklung der Schadstofffrachten (NOX,</tspan><tspan dy="17" x="10">PM10, VOC) in Tonnen pro Jahr</tspan><title>LP.8.34.3 Entwicklung der Schadstofffrachten (NOX, PM10, VOC) in Tonnen pro Jahr</title>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(58 240)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">NOx-Emissionen</tspan><tspan x="5" y="16">NOx-Emissionen</tspan>
+        </text>
+    </g>
+    <g class="highcharts-data-labels highcharts-series-1 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(58 297)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">PM10-Emissionen</tspan><tspan x="5" y="16">PM10-Emissionen</tspan>
+        </text>
+    </g>
+    <g class="highcharts-data-labels highcharts-series-2 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(58 197)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Nox-Emissionen</tspan><tspan x="5" y="16">Nox-Emissionen</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="69.632" style="width:415px" transform="rotate(-45 69.632 348)" y="348" text-overflow="ellipsis">
+            <tspan>1995</tspan>
+        </text>
+        <text x="89.828" style="width:415px" transform="rotate(-45 89.828 348)" y="348" text-overflow="ellipsis">
+            <tspan>1996</tspan>
+        </text>
+        <text x="110.024" style="width:415px" transform="rotate(-45 110.024 348)" y="348" text-overflow="ellipsis">
+            <tspan>1997</tspan>
+        </text>
+        <text x="130.22" style="width:415px" transform="rotate(-45 130.22 348)" y="348" text-overflow="ellipsis">
+            <tspan>1998</tspan>
+        </text>
+        <text x="150.416" style="width:415px" transform="rotate(-45 150.416 348)" y="348" text-overflow="ellipsis">
+            <tspan>1999</tspan>
+        </text>
+        <text x="170.612" style="width:415px" transform="rotate(-45 170.612 348)" y="348" text-overflow="ellipsis">
+            <tspan>2000</tspan>
+        </text>
+        <text x="190.808" style="width:415px" transform="rotate(-45 190.808 348)" y="348" text-overflow="ellipsis">
+            <tspan>2001</tspan>
+        </text>
+        <text x="211.004" style="width:415px" transform="rotate(-45 211.004 348)" y="348" text-overflow="ellipsis">
+            <tspan>2002</tspan>
+        </text>
+        <text x="231.201" style="width:415px" transform="rotate(-45 231.2 348)" y="348" text-overflow="ellipsis">
+            <tspan>2003</tspan>
+        </text>
+        <text x="251.397" style="width:415px" transform="rotate(-45 251.397 348)" y="348" text-overflow="ellipsis">
+            <tspan>2004</tspan>
+        </text>
+        <text x="271.593" style="width:415px" transform="rotate(-45 271.593 348)" y="348" text-overflow="ellipsis">
+            <tspan>2005</tspan>
+        </text>
+        <text x="291.789" style="width:415px" transform="rotate(-45 291.789 348)" y="348" text-overflow="ellipsis">
+            <tspan>2006</tspan>
+        </text>
+        <text x="311.985" style="width:415px" transform="rotate(-45 311.985 348)" y="348" text-overflow="ellipsis">
+            <tspan>2007</tspan>
+        </text>
+        <text x="332.181" style="width:415px" transform="rotate(-45 332.181 348)" y="348" text-overflow="ellipsis">
+            <tspan>2008</tspan>
+        </text>
+        <text x="352.377" style="width:415px" transform="rotate(-45 352.377 348)" y="348" text-overflow="ellipsis">
+            <tspan>2009</tspan>
+        </text>
+        <text x="372.573" style="width:415px" transform="rotate(-45 372.573 348)" y="348" text-overflow="ellipsis">
+            <tspan>2010</tspan>
+        </text>
+        <text x="392.769" style="width:415px" transform="rotate(-45 392.77 348)" y="348" text-overflow="ellipsis">
+            <tspan>2011</tspan>
+        </text>
+        <text x="412.965" style="width:415px" transform="rotate(-45 412.965 348)" y="348" text-overflow="ellipsis">
+            <tspan>2012</tspan>
+        </text>
+        <text x="433.161" style="width:415px" transform="rotate(-45 433.161 348)" y="348" text-overflow="ellipsis">
+            <tspan>2013</tspan>
+        </text>
+        <text x="453.357" style="width:415px" transform="rotate(-45 453.357 348)" y="348" text-overflow="ellipsis">
+            <tspan>2014</tspan>
+        </text>
+        <text x="473.554" style="width:415px" transform="rotate(-45 473.554 348)" y="348" text-overflow="ellipsis">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="48" style="width:150px" y="336">
+            <tspan>0</tspan>
+        </text>
+        <text x="48" style="width:150px" y="268">
+            <tspan>2 500</tspan>
+        </text>
+        <text x="48" style="width:150px" y="200">
+            <tspan>5 000</tspan>
+        </text>
+        <text x="48" style="width:150px" y="132">
+            <tspan>7 500</tspan>
+        </text>
+        <text x="48" style="width:150px" y="64">
+            <tspan>10 000</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Lufthygieneamt beider Basel, Daten aus Emissionskataster</tspan>
+    </text>
+</svg>

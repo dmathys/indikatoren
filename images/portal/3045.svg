@@ -1,0 +1,156 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 143h422v205H53z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M53 160.5h422m-422 17h422m-422 17h422m-422 17h422m-422 17h422m-422 18h422m-422 17h422m-422 17h422m-422 17h422m-422 17h422m-422 17h422m-422 17h422"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52.5 143v205m53-205v205m53-205v205m52-205v205m53-205v205m53-205v205m53-205v205m52-205v205m54-205v205"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M53 143h422v205H53z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M53 160.5H43m10 17H43m10 17H43m10 17H43m10 17H43m10 18H43m10 17H43m10 17H43m10 17H43m10 17H43m10 17H43m10 17H43"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M52.5 143v205"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M53 348h422"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#933f8d" d="M172 340c0-5.328-8-5.328-8 0s8 5.328 8 0zm179-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm-2-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm47-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm9-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm8-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm12-18c0-5.328-8-5.328-8 0s8 5.328 8 0zm11-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm-6-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm-27-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm-15-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm11-17c0-5.328-8-5.328-8 0s8 5.328 8 0z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-1 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#44ab2b" d="M149 340l-4-4-4 4 4 4zm16-17l-4-4-4 4 4 4zm-10-17l-4-4-4 4 4 4zm-41-17l-4-4-4 4 4 4zm9-17l-4-4-4 4 4 4zm18-17l-4-4-4 4 4 4zm35-18l-4-4-4 4 4 4zm-24-17l-4-4-4 4 4 4zm-15-17l-4-4-4 4 4 4zm-22-17l-4-4-4 4 4 4zm13-17l-4-4-4 4 4 4zm-10-17l-4-4-4 4 4 4z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-2 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#fabd24" d="M105 344v-8h-8v8zm12-17v-8h-8v8zm0-17v-8h-8v8zm-14-17v-8h-8v8zm5-17v-8h-8v8zm-2-17v-8h-8v8zm22-18v-8h-8v8zm-6-17v-8h-8v8zm-5-17v-8h-8v8zm4-17v-8h-8v8zm-28-17v-8h-8v8zm-16-17v-8h-8v8z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-3 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#71a3b5" d="M85 340l-8-4v8zm63-17l-8-4v8zm-1-17l-8-4v8zm-30-17l-8-4v8zm-6-17l-8-4v8zm-1-17l-8-4v8zm-26-18l-8-4v8zm-18-17l-8-4v8zm19-17l-8-4v8zm-9-17l-8-4v8zm47-17l-8-4v8zm-20-17l-8-4v8z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-4 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#256370" d="M74 344v-8l-8 4zm35-17v-8l-8 4zm-1-17v-8l-8 4zm4-17v-8l-8 4zm-16-17v-8l-8 4zm35-17v-8l-8 4zm-5-18v-8l-8 4zm0-17v-8l-8 4zm8-17v-8l-8 4zm-16-17v-8l-8 4zm-24-17v-8l-8 4zm-8-17v-8l-8 4z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-5 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#b00000" d="M190 340c0-5.328-8-5.328-8 0s8 5.328 8 0zm114-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm-2-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm-2-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm4-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm8-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm-2-18c0-5.328-8-5.328-8 0s8 5.328 8 0zm-3-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm-7-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm-2-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm0-17c0-5.328-8-5.328-8 0s8 5.328 8 0zm-12-17c0-5.328-8-5.328-8 0s8 5.328 8 0z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.15.4.0004 Entwicklung der Gymnasialquote nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit</tspan><title>I.15.4.0004 Entwicklung der Gymnasialquote nach Staatsangehörigkeit</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(45 60)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="416" height="71"/>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 14h16" class="highcharts-graph"/>
+            <path fill="#933f8d" d="M16 10c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                Deutschland
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M218 14h16" class="highcharts-graph"/>
+            <path fill="#44ab2b" d="M226 10l4 4-4 4-4-4z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(218 3)">
+                Italien
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-2">
+            <path fill="none" d="M8 34h16" class="highcharts-graph"/>
+            <path fill="#fabd24" d="M12 30h8v8h-8z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 23)">
+                Türkei
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-3">
+            <path fill="none" d="M218 34h16" class="highcharts-graph"/>
+            <path fill="#71a3b5" d="M226 30l4 8h-8z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(218 23)">
+                Mazedonien
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-4">
+            <path fill="none" d="M8 54h16" class="highcharts-graph"/>
+            <path fill="#256370" d="M12 50h8l-4 8z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 43)">
+                <tspan>Serbien Montenegro, Kosovo</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-5">
+            <path fill="none" d="M218 54h16" class="highcharts-graph"/>
+            <path fill="#b00000" d="M226 50c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(218 43)">
+                Schweiz
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="38" style="width:150px" y="156">
+            <tspan>2005</tspan>
+        </text>
+        <text x="38" style="width:150px" y="173">
+            <tspan>2006</tspan>
+        </text>
+        <text x="38" style="width:150px" y="190">
+            <tspan>2007</tspan>
+        </text>
+        <text x="38" style="width:150px" y="207">
+            <tspan>2008</tspan>
+        </text>
+        <text x="38" style="width:150px" y="224">
+            <tspan>2009</tspan>
+        </text>
+        <text x="38" style="width:150px" y="241">
+            <tspan>2010</tspan>
+        </text>
+        <text x="38" style="width:150px" y="258">
+            <tspan>2011</tspan>
+        </text>
+        <text x="38" style="width:150px" y="275">
+            <tspan>2012</tspan>
+        </text>
+        <text x="38" style="width:150px" y="292">
+            <tspan>2013</tspan>
+        </text>
+        <text x="38" style="width:150px" y="309">
+            <tspan>2014</tspan>
+        </text>
+        <text x="38" style="width:150px" y="326">
+            <tspan>2015</tspan>
+        </text>
+        <text x="38" style="width:150px" y="343">
+            <tspan>2016</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="53" y="367">
+            0%
+        </text>
+        <text x="105.75" y="367">
+            <tspan>1 000%</tspan>
+        </text>
+        <text x="158.5" y="367">
+            <tspan>2 000%</tspan>
+        </text>
+        <text x="211.25" y="367">
+            <tspan>3 000%</tspan>
+        </text>
+        <text x="264" y="367">
+            <tspan>4 000%</tspan>
+        </text>
+        <text x="316.75" y="367">
+            <tspan>5 000%</tspan>
+        </text>
+        <text x="369.5" y="367">
+            <tspan>6 000%</tspan>
+        </text>
+        <text x="422.25" y="367">
+            <tspan>7 000%</tspan>
+        </text>
+        <text x="461.813" style="width:26.375" y="367" text-overflow="ellipsis">
+            <tspan>8 …</tspan><title>8 000%</title>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik</tspan>
+    </text>
+</svg>

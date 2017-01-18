@@ -1,0 +1,145 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 108h422v240H53z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M53 123.5h422m-422 15h422m-422 15h422m-422 15h422m-422 15h422m-422 15h422m-422 15h422m-422 15h422m-422 15h422m-422 15h422m-422 15h422m-422 15h422m-422 15h422m-422 15h422m-422 15h422m-422 15h422"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52.5 108v240m60-240v240m61-240v240m60-240v240m60-240v240m60-240v240m61-240v240m60-240v240"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M53 108h422v240H53z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M53 123.5H43m10 15H43m10 15H43m10 15H43m10 15H43m10 15H43m10 15H43m10 15H43m10 15H43m10 15H43m10 15H43m10 15H43m10 15H43m10 15H43m10 15H43m10 15H43"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M52.5 108v240"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M53 348h422"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#b00000" d="M299 341l-8-4v8zm4-15l-8-4v8zm2-15l-8-4v8zm7-15l-8-4v8zm-3-15l-8-4v8zm-2-15l-8-4v8zm-5-15l-8-4v8zm-1-15l-8-4v8zm-4-15l-8-4v8zm4-15l-8-4v8zm8-15l-8-4v8zm1-15l-8-4v8zm-1-15l-8-4v8zm0-15l-8-4v8zm-5-15l-8-4v8zm-2-15l-8-4v8z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-1 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#8a8a8a" d="M290 341c0-5.328-8-5.328-8 0s8 5.328 8 0zm6-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm6-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm8-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-2-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm6-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm8-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm12-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm-5-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm11-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm21-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm3-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm6-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm12-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm8-15c0-5.328-8-5.328-8 0s8 5.328 8 0zm16-15c0-5.328-8-5.328-8 0s8 5.328 8 0z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-2 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#ffc000" d="M334 341l-4-4-4 4 4 4zm5-15l-4-4-4 4 4 4zm3-15l-4-4-4 4 4 4zm10-15l-4-4-4 4 4 4zm2-15l-4-4-4 4 4 4zm-11-15l-4-4-4 4 4 4zm-7-15l-4-4-4 4 4 4zm-9-15l-4-4-4 4 4 4zm0-15l-4-4-4 4 4 4zm4-15l-4-4-4 4 4 4zm9-15l-4-4-4 4 4 4zm-1-15l-4-4-4 4 4 4zm-6-15l-4-4-4 4 4 4zm-7-15l-4-4-4 4 4 4zm-6-15l-4-4-4 4 4 4zm7-15l-4-4-4 4 4 4z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-3 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#256370" d="M261 345v-8h-8v8zm3-15v-8h-8v8zm2-15v-8h-8v8zm13-15v-8h-8v8zm7-15v-8h-8v8zm-1-15v-8h-8v8zm-2-15v-8h-8v8zm-3-15v-8h-8v8zm-4-15v-8h-8v8zm-2-15v-8h-8v8zm2-15v-8h-8v8zm-4-15v-8h-8v8zm-7-15v-8h-8v8zm-7-15v-8h-8v8zm-9-15v-8h-8v8zm-1-15v-8h-8v8z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.1.03.2 Anteil der Logistikwirtschaft an der</tspan><tspan dy="17" x="10">regionalen nominalen Wertschöpfung in %</tspan><title>LP.1.03.2 Anteil der Logistikwirtschaft an der regionalen nominalen Wertschöpfung in %</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(45 45)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="343" height="51"/>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 14h16" class="highcharts-graph"/>
+            <path fill="#b00000" d="M16 10l4 8h-8z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                Schweiz
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M99.156 14h16" class="highcharts-graph"/>
+            <path fill="#8a8a8a" d="M107.156 10c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(99.156 3)">
+                Basel-Stadt
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-2">
+            <path fill="none" d="M209.89 14h16" class="highcharts-graph"/>
+            <path fill="#ffc000" d="M217.89 10l4 4-4 4-4-4z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(209.89 3)">
+                Basel-Landschaft
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-3">
+            <path fill="none" d="M8 34h16" class="highcharts-graph"/>
+            <path fill="#256370" d="M12 30h8v8h-8z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 23)">
+                Aargau
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="38" style="width:150px" y="120" text-overflow="ellipsis">
+            <tspan>2000</tspan>
+        </text>
+        <text x="38" style="width:150px" y="135" text-overflow="ellipsis">
+            <tspan>2001</tspan>
+        </text>
+        <text x="38" style="width:150px" y="150" text-overflow="ellipsis">
+            <tspan>2002</tspan>
+        </text>
+        <text x="38" style="width:150px" y="165" text-overflow="ellipsis">
+            <tspan>2003</tspan>
+        </text>
+        <text x="38" style="width:150px" y="180" text-overflow="ellipsis">
+            <tspan>2004</tspan>
+        </text>
+        <text x="38" style="width:150px" y="195" text-overflow="ellipsis">
+            <tspan>2005</tspan>
+        </text>
+        <text x="38" style="width:150px" y="210" text-overflow="ellipsis">
+            <tspan>2006</tspan>
+        </text>
+        <text x="38" style="width:150px" y="225" text-overflow="ellipsis">
+            <tspan>2007</tspan>
+        </text>
+        <text x="38" style="width:150px" y="240" text-overflow="ellipsis">
+            <tspan>2008</tspan>
+        </text>
+        <text x="38" style="width:150px" y="255" text-overflow="ellipsis">
+            <tspan>2009</tspan>
+        </text>
+        <text x="38" style="width:150px" y="270" text-overflow="ellipsis">
+            <tspan>2010</tspan>
+        </text>
+        <text x="38" style="width:150px" y="285" text-overflow="ellipsis">
+            <tspan>2011</tspan>
+        </text>
+        <text x="38" style="width:150px" y="300" text-overflow="ellipsis">
+            <tspan>2012</tspan>
+        </text>
+        <text x="38" style="width:150px" y="315" text-overflow="ellipsis">
+            <tspan>2013</tspan>
+        </text>
+        <text x="38" style="width:150px" y="330" text-overflow="ellipsis">
+            <tspan>2014</tspan>
+        </text>
+        <text x="38" style="width:150px" y="345" text-overflow="ellipsis">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="53" y="367">
+            0%
+        </text>
+        <text x="113.286" y="367">
+            1%
+        </text>
+        <text x="173.571" y="367">
+            2%
+        </text>
+        <text x="233.857" y="367">
+            3%
+        </text>
+        <text x="294.143" y="367">
+            4%
+        </text>
+        <text x="354.429" y="367">
+            5%
+        </text>
+        <text x="414.714" y="367">
+            6%
+        </text>
+        <text x="466.289" y="367">
+            7%
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: BAK Basel Economics</tspan>
+    </text>
+</svg>

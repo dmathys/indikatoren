@@ -1,0 +1,125 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h373v237H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M63 113h373v237H63z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M82.5 113v237m33-237v237m34-237v237m33-237v237m33-237v237m34-237v237m33-237v237m33-237v237m33-237v237m34-237v237m33-237v237"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M63 350.5h373m-373-79h373m-373-79h373m-373-79h373"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M63 350.5h373m-373-79h373m-373-79h373m-373-79h373"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M63 113h373v237H63z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M63 350.5h373"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M63 113v237"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M436 113v237"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(63 113)" clip-path="url(#a)">
+            <path fill="#71a3b5" class="highcharts-point" stroke="#fff" d="M14.5 30.5h10v207h-10zm33 1h10v206h-10zm34 6h10v200h-10zm33 4h10v196h-10zm33-9h10v205h-10zm34 2h10v203h-10zm33-4h10v207h-10zm33-4h10v211h-10zm33-3h10v214h-10zm34 15h10v199h-10zm33-1h10v200h-10z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(63 113)" clip-path="url(#a)">
+            <path fill="none" d="M19.982 16.085l33.304.921 33.303 7.311 33.304 5.31 33.303-8.433 33.304 2.111 33.304-1.581 33.303-2.798 33.304-1.37 33.303 17.182 33.304-.574" class="highcharts-graph" stroke="#7d60a0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M9.982 16.085h10l33.304.921 33.303 7.311 33.304 5.31 33.303-8.433 33.304 2.111 33.304-1.581 33.303-2.798 33.304-1.37 33.303 17.182 33.304-.574h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#7d60a0" d="M416 143c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-34 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-33-17c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-33 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-34 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-33 1c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-33-2c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-34 9c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-33-6c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-33-7c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-34-1c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.9.38.4 Anteil PV-Beziehende mit Sozialhilfe und</tspan><tspan dy="17" x="10">Ergänzungsleistungen an der Bevölkerung</tspan><title>LP.9.38.4 Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(50 50)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="358" height="51"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>PV-Beziehende (inkl. SH/EL) (linke Achse)</tspan>
+            </text>
+            <path fill="#71a3b5" class="highcharts-point" d="M10 7h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M8 34h16" class="highcharts-graph" stroke="#7d60a0" stroke-width="2"/>
+            <path fill="#7d60a0" d="M16 30c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 23)">
+                <tspan>Anteil PV-Beziehende an Wohnbev. in (rechte Achse)</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="85.575" style="width:415px" transform="rotate(-45 85.575 366)" y="366" text-overflow="ellipsis">
+            <tspan>2005</tspan>
+        </text>
+        <text x="118.878" style="width:415px" transform="rotate(-45 118.878 366)" y="366" text-overflow="ellipsis">
+            <tspan>2006</tspan>
+        </text>
+        <text x="152.182" style="width:415px" transform="rotate(-45 152.182 366)" y="366" text-overflow="ellipsis">
+            <tspan>2007</tspan>
+        </text>
+        <text x="185.486" style="width:415px" transform="rotate(-45 185.486 366)" y="366" text-overflow="ellipsis">
+            <tspan>2008</tspan>
+        </text>
+        <text x="218.789" style="width:415px" transform="rotate(-45 218.79 366)" y="366" text-overflow="ellipsis">
+            <tspan>2009</tspan>
+        </text>
+        <text x="252.093" style="width:415px" transform="rotate(-45 252.093 366)" y="366" text-overflow="ellipsis">
+            <tspan>2010</tspan>
+        </text>
+        <text x="285.396" style="width:415px" transform="rotate(-45 285.396 366)" y="366" text-overflow="ellipsis">
+            <tspan>2011</tspan>
+        </text>
+        <text x="318.7" style="width:415px" transform="rotate(-45 318.7 366)" y="366" text-overflow="ellipsis">
+            <tspan>2012</tspan>
+        </text>
+        <text x="352.003" style="width:415px" transform="rotate(-45 352.003 366)" y="366" text-overflow="ellipsis">
+            <tspan>2013</tspan>
+        </text>
+        <text x="385.307" style="width:415px" transform="rotate(-45 385.307 366)" y="366" text-overflow="ellipsis">
+            <tspan>2014</tspan>
+        </text>
+        <text x="418.611" style="width:415px" transform="rotate(-45 418.61 366)" y="366" text-overflow="ellipsis">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="48" style="width:150px" y="354">
+            <tspan>0</tspan>
+        </text>
+        <text x="48" style="width:150px" y="275">
+            <tspan>20 000</tspan>
+        </text>
+        <text x="48" style="width:150px" y="196">
+            <tspan>40 000</tspan>
+        </text>
+        <text x="48" style="width:150px" y="117">
+            <tspan>60 000</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" color="#000" cursor="default" font-size="11">
+        <text x="451" style="width:150px" y="354">
+            <tspan>0%</tspan>
+        </text>
+        <text x="451" style="width:150px" y="275">
+            <tspan>10%</tspan>
+        </text>
+        <text x="451" style="width:150px" y="196">
+            <tspan>20%</tspan>
+        </text>
+        <text x="451" style="width:150px" y="117">
+            <tspan>30%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="390" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;</tspan><tspan x="10" dy="13">Amt für Sozialbeiträge, Abt. Prämienverbilligungen</tspan>
+    </text>
+</svg>

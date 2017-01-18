@@ -1,0 +1,346 @@
+{
+  "series": [
+    {
+      "color": "#8a8a8a",
+      "data": [
+        [
+          "Baugewerbe",
+          0.00600709567161643
+        ],
+        [
+          "Finanz- und Versicherungsdienstleistungen",
+          0.00260636543770597
+        ],
+        [
+          "Freiberufliche und wissenschaftl. Dienstl.",
+          0.0163275080779176
+        ],
+        [
+          "Gastgewerbe",
+          -0.0111502790075103
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          0.0500659769873504
+        ],
+        [
+          "Handel und Garagengewerbe",
+          -0.0161370284442059
+        ],
+        [
+          "Herstellung von chemischen Erzeugnissen",
+          0.00935574976330852
+        ],
+        [
+          "Life Sciences",
+          0.0274804062233415
+        ],
+        [
+          "Sonstige wirtschaftliche Dienstleistungen",
+          0.0331844099099296
+        ],
+        [
+          "Verkehr und Lagerei",
+          0.00188479651528407
+        ],
+        [
+          "Verwaltung",
+          0.0173534373714699
+        ]
+      ],
+      "name": "Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "data": [
+        [
+          "Baugewerbe",
+          -0.00169666883337779
+        ],
+        [
+          "Finanz- und Versicherungsdienstleistungen",
+          0.0123870381988171
+        ],
+        [
+          "Freiberufliche und wissenschaftl. Dienstl.",
+          0.0286997606355376
+        ],
+        [
+          "Gastgewerbe",
+          0.00447398776132501
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          0.0442130446611908
+        ],
+        [
+          "Handel und Garagengewerbe",
+          -0.0270382153820644
+        ],
+        [
+          "Herstellung von chemischen Erzeugnissen",
+          0.127607005703623
+        ],
+        [
+          "Life Sciences",
+          0.0331522127780296
+        ],
+        [
+          "Sonstige wirtschaftliche Dienstleistungen",
+          0.0425468110714153
+        ],
+        [
+          "Verkehr und Lagerei",
+          0.00491807855237642
+        ],
+        [
+          "Verwaltung",
+          0.0422433115840454
+        ]
+      ],
+      "name": "Basel-Stadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#256370",
+      "visible": false,
+      "data": [
+        [
+          "Baugewerbe",
+          0.026188234906361
+        ],
+        [
+          "Finanz- und Versicherungsdienstleistungen",
+          -0.0107786782289552
+        ],
+        [
+          "Freiberufliche und wissenschaftl. Dienstl.",
+          0.0225682633340929
+        ],
+        [
+          "Gastgewerbe",
+          -0.00588438669562644
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          0.0519102593112183
+        ],
+        [
+          "Handel und Garagengewerbe",
+          -0.00887022937782806
+        ],
+        [
+          "Herstellung von chemischen Erzeugnissen",
+          0.0168221210255295
+        ],
+        [
+          "Life Sciences",
+          0.024187832959548
+        ],
+        [
+          "Sonstige wirtschaftliche Dienstleistungen",
+          0.0420625126386089
+        ],
+        [
+          "Verkehr und Lagerei",
+          0.00331790934226434
+        ],
+        [
+          "Verwaltung",
+          0.0363698995506745
+        ]
+      ],
+      "name": "Genf",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71a3b5",
+      "visible": false,
+      "data": [
+        [
+          "Baugewerbe",
+          0.0257620980581417
+        ],
+        [
+          "Finanz- und Versicherungsdienstleistungen",
+          0.00134869098829383
+        ],
+        [
+          "Freiberufliche und wissenschaftl. Dienstl.",
+          0.0130294270978241
+        ],
+        [
+          "Gastgewerbe",
+          0.00625527714360651
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          0.0505026402788294
+        ],
+        [
+          "Handel und Garagengewerbe",
+          -0.0156406384882847
+        ],
+        [
+          "Herstellung von chemischen Erzeugnissen",
+          0.00957722652549535
+        ],
+        [
+          "Life Sciences",
+          0.0310111741512357
+        ],
+        [
+          "Sonstige wirtschaftliche Dienstleistungen",
+          0.0307328007331705
+        ],
+        [
+          "Verkehr und Lagerei",
+          -0.000149342486180136
+        ],
+        [
+          "Verwaltung",
+          0.0194278284960264
+        ]
+      ],
+      "name": "Zürich",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "events": {
+      "load": function () {                
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                };
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "inverted": true,
+    "forExport": true,
+    "renderTo": "container-2501"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.04.0.0003 Wachstumsrate der realen Wertschöpfung ausgewählter Branchen 2015"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "BS im Vergleich mit ZH, GE, CH",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function (){
+                    return Highcharts.numberFormat((this.y*100),1)+'%';                
+                }
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function (){
+                return Highcharts.numberFormat((this.value*100),0)+'%';                
+            },
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "min": 0
+  },
+  "tooltip": {
+    "pointFormatter": function (){
+            //rank is calculated from index, thus data needs to be sorted by rank ascending.
+            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+        },
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: BAK Basel Economics"
+  },
+  "legend": {
+    "enabled": true,
+    "symbolRadius": 0,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 155,
+    "y": 50,
+    "itemWidth": 150,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "exporting": {
+    "filename": "I.04.0.0003"
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "series": [
+    {
+      "color": "#e7cfe2",
+      "data": [
+        [
+          "2003",
+          81.666666666666
+        ],
+        [
+          "2005",
+          81.818181818181
+        ],
+        [
+          "2007",
+          89.0625
+        ],
+        [
+          "2011",
+          74.603174603174
+        ],
+        [
+          "2015",
+          90
+        ]
+      ],
+      "name": "Innenstadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b475ab",
+      "data": [
+        [
+          "2003",
+          87.031700288184
+        ],
+        [
+          "2005",
+          88.471177944862
+        ],
+        [
+          "2007",
+          87.465940054495
+        ],
+        [
+          "2011",
+          91.293532338308
+        ],
+        [
+          "2015",
+          90.858725761772
+        ]
+      ],
+      "name": "Am Ring",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#672773",
+      "data": [
+        [
+          "2003",
+          82.4
+        ],
+        [
+          "2005",
+          85.496183206106
+        ],
+        [
+          "2007",
+          86.330935251798
+        ],
+        [
+          "2011",
+          87.662337662337
+        ],
+        [
+          "2015",
+          91.970802919708
+        ]
+      ],
+      "name": "St Alban",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2f1435",
+      "data": [
+        [
+          "2003",
+          79.354838709677
+        ],
+        [
+          "2005",
+          72.35294117647
+        ],
+        [
+          "2007",
+          78.453038674033
+        ],
+        [
+          "2011",
+          86.046511627906
+        ],
+        [
+          "2015",
+          86.330935251798
+        ]
+      ],
+      "name": "Unteres",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#403152",
+      "data": [
+        [
+          "2003",
+          92.5
+        ],
+        [
+          "2005",
+          82.142857142857
+        ],
+        [
+          "2007",
+          90.756302521008
+        ],
+        [
+          "2011",
+          93.333333333333
+        ],
+        [
+          "2015",
+          92.372881355932
+        ]
+      ],
+      "name": "Oberes",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "inverted": false,
+    "forExport": true,
+    "renderTo": "container-5073"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.50.1.0044 Anteil Befragte, die mit verschiedenen Aspekten sehr oder eher zufrieden sind nach Wohngegend"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "«Wie zufrieden sind Sie mit dem Quartierleben»",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "max": 100
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 0,
+    "y": 65,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "exporting": {
+    "filename": "I.50.1.0044"
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "series": [
+    {
+      "color": "#ffda80",
+      "data": [
+        [
+          "2003",
+          97.222222222222
+        ],
+        [
+          "2005",
+          98.936170212765
+        ],
+        [
+          "2007",
+          95
+        ],
+        [
+          "2011",
+          95.522388059701
+        ],
+        [
+          "2015",
+          98.529411764705
+        ]
+      ],
+      "name": "Innenstadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fabd24",
+      "data": [
+        [
+          "2003",
+          96.446700507614
+        ],
+        [
+          "2005",
+          95.936794582392
+        ],
+        [
+          "2007",
+          96.543209876543
+        ],
+        [
+          "2011",
+          97.465437788018
+        ],
+        [
+          "2015",
+          98.058252427184
+        ]
+      ],
+      "name": "Am Ring",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          "2003",
+          93.877551020408
+        ],
+        [
+          "2005",
+          96.666666666666
+        ],
+        [
+          "2007",
+          95.031055900621
+        ],
+        [
+          "2011",
+          97.674418604651
+        ],
+        [
+          "2015",
+          98.136645962732
+        ]
+      ],
+      "name": "St Alban",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#7f5f1a",
+      "data": [
+        [
+          "2003",
+          92.613636363636
+        ],
+        [
+          "2005",
+          93.922651933701
+        ],
+        [
+          "2007",
+          93.264248704663
+        ],
+        [
+          "2011",
+          98.351648351648
+        ],
+        [
+          "2015",
+          94.594594594594
+        ]
+      ],
+      "name": "Unteres",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#948a54",
+      "data": [
+        [
+          "2003",
+          97.122302158273
+        ],
+        [
+          "2005",
+          88.59649122807
+        ],
+        [
+          "2007",
+          98.518518518518
+        ],
+        [
+          "2011",
+          99.099099099099
+        ],
+        [
+          "2015",
+          96.899224806201
+        ]
+      ],
+      "name": "Oberes",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "events": {
+      "load": function () {                
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                };
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "inverted": false,
+    "forExport": true,
+    "renderTo": "container-2949"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.50.1.0030 Anteil Befragte, die sehr oder eher gerne in ihrem Quartier\u002Fan ihrem Wohnort leben nach Wohngegend"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function (){
+                    return Highcharts.numberFormat((this.y*100),1)+'%';                
+                }
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function (){
+                return Highcharts.numberFormat((this.value*100),0)+'%';                
+            },
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "min": 0,
+    "max": 100
+  },
+  "tooltip": {
+    "pointFormatter": function (){
+            //rank is calculated from index, thus data needs to be sorted by rank ascending.
+            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+        },
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F2b"
+  },
+  "legend": {
+    "enabled": true,
+    "symbolRadius": 0,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 0,
+    "y": 65,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "exporting": {
+    "filename": "I.50.1.0030"
+  }
+}

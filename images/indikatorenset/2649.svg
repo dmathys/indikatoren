@@ -1,0 +1,110 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h265v422H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 75h422v265H53z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M53 102.5h422m-422 26h422m-422 27h422m-422 26h422m-422 27h422m-422 26h422m-422 27h422m-422 26h422m-422 27h422m-422 26h422M53 75.5h422"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52.5 75v265m60-265v265m61-265v265m60-265v265m60-265v265m60-265v265m61-265v265m61-265v265"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M53 75h422v265H53z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M53 102.5H43m10 26H43m10 27H43m10 26H43m10 27H43m10 26H43m10 27H43m10 26H43m10 27H43m10 26H43m10-266H43"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M52.5 75v265"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M53 340h422"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 340)" clip-path="url(#a)">
+            <path fill="#71A3B5" class="highcharts-point" stroke="#fff" d="M241.5 155.5h20v198h-20zm-27-18h20v207h-20zm-26-19h20v214h-20zm-27-7h20v216h-20zm-26-12h20v231h-20zm-27-2h20v233h-20zm-26-1h20v232h-20zm-27-7h20v236h-20zm-26-18h20v241h-20zm-27-11h20v242h-20z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 340)" clip-path="url(#a)">
+            <path fill="#990300" class="highcharts-point" stroke="#fff" d="M241.5 353.5h20v69h-20zm-27-9h20v78h-20zm-26-12h20v90h-20zm-27-5h20v95h-20zm-26 3h20v92h-20zm-27 0h20v92h-20zm-26-2h20v94h-20zm-27-3h20v97h-20zm-26-13h20v110h-20zm-27-10h20v120h-20z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.1.02.1 Entwicklung der Logiernächte</tspan><tspan dy="17" x="10">Schweiz/Ausland und Top 5 Nationen</tspan><title>LP.1.02.1 Entwicklung der Logiernächte Schweiz/Ausland und Top 5 Nationen</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(65 45)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="177" height="31"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                Ausland
+            </text>
+            <path fill="#71A3B5" class="highcharts-point" d="M10 7h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(97.89 3)">
+                Schweiz
+            </text>
+            <path fill="#990300" class="highcharts-point" d="M99.89 7h12v12h-12z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="38" style="width:150px" y="92">
+            <tspan>2006</tspan>
+        </text>
+        <text x="38" style="width:150px" y="119">
+            <tspan>2007</tspan>
+        </text>
+        <text x="38" style="width:150px" y="145">
+            <tspan>2008</tspan>
+        </text>
+        <text x="38" style="width:150px" y="172">
+            <tspan>2009</tspan>
+        </text>
+        <text x="38" style="width:150px" y="198">
+            <tspan>2010</tspan>
+        </text>
+        <text x="38" style="width:150px" y="225">
+            <tspan>2011</tspan>
+        </text>
+        <text x="38" style="width:150px" y="251">
+            <tspan>2012</tspan>
+        </text>
+        <text x="38" style="width:150px" y="278">
+            <tspan>2013</tspan>
+        </text>
+        <text x="38" style="width:150px" y="304">
+            <tspan>2014</tspan>
+        </text>
+        <text x="38" style="width:150px" y="331">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="55.593" style="width:415px" transform="rotate(-45 55.593 356)" y="356" text-overflow="ellipsis">
+            <tspan>0%</tspan>
+        </text>
+        <text x="115.878" style="width:415px" transform="rotate(-45 115.878 356)" y="356" text-overflow="ellipsis">
+            <tspan>20 000 000%</tspan>
+        </text>
+        <text x="176.164" style="width:415px" transform="rotate(-45 176.164 356)" y="356" text-overflow="ellipsis">
+            <tspan>40 000 000%</tspan>
+        </text>
+        <text x="236.45" style="width:415px" transform="rotate(-45 236.45 356)" y="356" text-overflow="ellipsis">
+            <tspan>60 000 000%</tspan>
+        </text>
+        <text x="296.736" style="width:415px" transform="rotate(-45 296.736 356)" y="356" text-overflow="ellipsis">
+            <tspan>80 000 000%</tspan>
+        </text>
+        <text x="357.021" style="width:415px" transform="rotate(-45 357.021 356)" y="356" text-overflow="ellipsis">
+            <tspan>100 000 000%</tspan>
+        </text>
+        <text x="417.307" style="width:415px" transform="rotate(-45 417.307 356)" y="356" text-overflow="ellipsis">
+            <tspan>120 000 000%</tspan>
+        </text>
+        <text x="477.593" style="width:415px" transform="rotate(-45 477.593 356)" y="356" text-overflow="ellipsis">
+            <tspan>140 000 000%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik</tspan>
+    </text>
+</svg>
