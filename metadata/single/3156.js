@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"Die mit Abstand erfolgreichsten Ausstellungen der letzten Jahre waren Tutanchamun (2004; 620 000 Besucher), Van Gogh (2009; 552 000 Besucher) und Paul Gauguin (2015; 370 000 Besucher).",
 "erlaeuterungen":"",
-"template":"dotplot",
+"template":"template001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"77,2% der Befragten sind mit der öffentlichen Sicherheit sehr oder eher zufrieden. Die Zufriedenheit mit der öffentlichen Sicherheit unterscheidet sich nach Wohngegend. Während sich die Befragten in der Wohngegend St. Johann mit 82,5% sehr oder eher zufrieden sind mit der öffentlichen Sicherheit, liegt die Zufriedenheit mit der öffentlichen Sicherheit in der Wohngegend St. Alban,Breite bei 69,2%.",
 "erlaeuterungen":"Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
-"template":"dotplot",
+"template":"template001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

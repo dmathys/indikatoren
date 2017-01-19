@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"Der Frauenanteil im Grossen Rat liegt seit 1996 bei über 30%. Bei den Grossratswahlen 2004 und 2008 fiel der Anteil mit 36,2% resp. 37,0% am höchsten aus. In der Schweiz beträgt der Frauenanteil in den kantonalen Parlamenten im Schnitt 25,6%.",
 "erlaeuterungen":"Bis und mit 2008 zählte der Grosse Rat 130 Mitglieder. Ab den Wahlen 2008 stehen aufgrund der verfassungsmässigen Verkleinerung des Rates nur noch 100 Sitze zur Verfügung.",
-"template":"dotplot",
+"template":"line001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

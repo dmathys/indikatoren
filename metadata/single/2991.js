@@ -8,7 +8,7 @@
 "thema":"04 Volkswirtschaft",
 "unterthema":"Staatsrechnung",
 "kennzahlenset":"Legislaturplan",
-"raeumlicheGliederung":["Schweiz"],
+"raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"2016-12-15T10:50:57.5757",
 "schlagwort":["Einkommen","Arbeit","Staatspersonal","Angestellte","Verwaltung","Konsum","Schulden"],
 "stufe1":"Schwerpunkt 8: Nachhaltiger Umgang mit Ressourcen",

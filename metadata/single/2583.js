@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"Der Medianlohn der Frauen entspricht in Basel-Stadt ca. 80% des Medianlohns der Männer.",
 "erlaeuterungen":"",
-"template":"dotplot",
+"template":"line001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

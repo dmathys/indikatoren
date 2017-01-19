@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"Aussergewöhnlicher Anstieg der Besucherzahl 2009 im Kunstmuseum aufgrund der Van Gogh-Ausstellung.",
 "erlaeuterungen":"",
-"template":"dotplot",
+"template":"line001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

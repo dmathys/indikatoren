@@ -97,39 +97,41 @@
     "tickColor": "#FFFFFF"
   },
   "chart": {
-    "events": {
-      "load": function () {                
-                this.credits.element.onclick = function() {
-                    /*
-                    window.open(
-                    "http://www.statistik.bs.ch",
-                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-                    );
-                    */
-                };
-            }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 45,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
-    "type": "column",
-    "inverted": true,
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
     "renderTo": "container-3103",
     "marginBottom": 75,
     "marginTop": 75,
+    "type": "column",
     "forExport": true
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointWidth": 70,
+      "stacking": "normal"
+    }
   },
   "title": {
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
-      "fontFamily": "Arial",
       "color": "#000000"
     },
     "align": "left",
@@ -145,24 +147,6 @@
     "text": "",
     "align": "left"
   },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "x": 5,
-        "align": "left",
-        "verticalAlign": "middle",
-        "enabled": false,
-        "style": {
-          "fontSize": "10px"
-        },
-        "formatter": function (){
-                    return Highcharts.numberFormat((this.y*100),1)+'%';                
-                }
-      },
-      "pointWidth": 70,
-      "stacking": "normal"
-    }
-  },
   "yAxis": {
     "title": {
       "style": {
@@ -172,24 +156,18 @@
       "text": null
     },
     "labels": {
-      "formatter": function (){
-                return Highcharts.numberFormat((this.value*100),0)+'%';                
-            },
       "style": {
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
     },
-    "min": 0,
     "max": 100
   },
-  "tooltip": {
-    "pointFormatter": function (){
-            //rank is calculated from index, thus data needs to be sorted by rank ascending.
-            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
-        },
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "credits": {
     "enabled": true,
@@ -207,7 +185,6 @@
     "text": "Quelle: Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"
   },
   "legend": {
-    "enabled": false,
     "symbolRadius": 0,
     "layout": "vertical",
     "verticalAlign": "middle",
@@ -216,6 +193,10 @@
     "itemStyle": {
       "fontWeight": "normal"
     }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
     "filename": "I.11.6.0001"

@@ -17,23 +17,23 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#44ab2b" d="M293 321c0-5.328-8-5.328-8 0s8 5.328 8 0zm7-28c0-5.328-8-5.328-8 0s8 5.328 8 0zm-6-27c0-5.328-8-5.328-8 0s8 5.328 8 0zm110-27c0-5.328-8-5.328-8 0s8 5.328 8 0zm6-28c0-5.328-8-5.328-8 0s8 5.328 8 0zm-2-27c0-5.328-8-5.328-8 0s8 5.328 8 0zm16-28c0-5.328-8-5.328-8 0s8 5.328 8 0zm-41-27c0-5.328-8-5.328-8 0s8 5.328 8 0zm-50-27c0-5.328-8-5.328-8 0s8 5.328 8 0zm101-28c0-5.328-8-5.328-8 0s8 5.328 8 0z" class="highcharts-point"/>
+            <path fill="#44ab2b" d="M180 321c0-5.328-8-5.328-8 0s8 5.328 8 0zm0-28c0-5.328-8-5.328-8 0s8 5.328 8 0zm1-27c0-5.328-8-5.328-8 0s8 5.328 8 0zm66-27c0-5.328-8-5.328-8 0s8 5.328 8 0zm-3-28c0-5.328-8-5.328-8 0s8 5.328 8 0zm-3-27c0-5.328-8-5.328-8 0s8 5.328 8 0zm6-28c0-5.328-8-5.328-8 0s8 5.328 8 0zm0-27c0-5.328-8-5.328-8 0s8 5.328 8 0zm2-27c0-5.328-8-5.328-8 0s8 5.328 8 0zm-1-28c0-5.328-8-5.328-8 0s8 5.328 8 0z" class="highcharts-point"/>
         </g>
         <g class="highcharts-markers highcharts-series-1 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#b00000" d="M180 321l-4-4-4 4 4 4zm0-28l-4-4-4 4 4 4zm1-27l-4-4-4 4 4 4zm66-27l-4-4-4 4 4 4zm-3-28l-4-4-4 4 4 4zm-3-27l-4-4-4 4 4 4zm6-28l-4-4-4 4 4 4zm0-27l-4-4-4 4 4 4zm2-27l-4-4-4 4 4 4zm-1-28l-4-4-4 4 4 4z" class="highcharts-point"/>
+            <path fill="#b00000" d="M293 321l-4-4-4 4 4 4zm7-28l-4-4-4 4 4 4zm-6-27l-4-4-4 4 4 4zm110-27l-4-4-4 4 4 4zm6-28l-4-4-4 4 4 4zm-2-27l-4-4-4 4 4 4zm16-28l-4-4-4 4 4 4zm-41-27l-4-4-4 4 4 4zm-50-27l-4-4-4 4 4 4zm101-28l-4-4-4 4 4 4z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>LP.8.31.2 Strom- und Wärmeverbrauch der</tspan><tspan dy="17" x="10">kantonalen Bauten Basel-Stadt</tspan><title>LP.8.31.2 Strom- und Wärmeverbrauch der kantonalen Bauten Basel-Stadt</title>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(294 299)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
-            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Wärme</tspan><tspan x="5" y="15">Wärme</tspan>
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(181 299)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Elektrizität</tspan><tspan x="5" y="15">Elektrizität</tspan>
         </text>
     </g>
     <g class="highcharts-data-labels highcharts-series-1 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(181 299)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
-            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Elektrizität</tspan><tspan x="5" y="15">Elektrizität</tspan>
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(294 299)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Wärme</tspan><tspan x="5" y="15">Wärme</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">

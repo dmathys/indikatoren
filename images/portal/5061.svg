@@ -1,0 +1,112 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h426v205H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M49 143h426v205H49z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M52.5 143v205m52-205v205m53-205v205m52-205v205m52-205v205m52-205v205m52-205v205m53-205v205m52-205v205"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M49 348.5h426m-426-41h426m-426-41h426m-426-41h426m-426-41h426m-426-41h426"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M49 143h426v205H49z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M49 348.5h426"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M49 143v205"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(49 143)" clip-path="url(#a)">
+            <path fill="none" d="M4.176 150.123l156.618-6.332 261.03 1.771" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.824 150.123h10l156.618-6.332 261.03 1.771h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(49 143)" clip-path="url(#a)">
+            <path fill="none" d="M4.176 134.974l156.618-9.725 261.03 13.08" class="highcharts-graph" stroke="#68411e" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.824 134.974h10l156.618-9.725 261.03 13.08h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(49 143)" clip-path="url(#a)">
+            <path fill="none" d="M4.176 98.291l156.618 1.358 261.03 4.352" class="highcharts-graph" stroke="#44ab2b" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.824 98.291h10l156.618 1.358 261.03 4.352h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.02.5.0002 Anteil übermässig mit Lärm belasteter</tspan><tspan dy="17" x="10">Einwohner</tspan><title>I.02.5.0002 Anteil übermässig mit Lärm belasteter Einwohner</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(30 60)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="296" height="71"/>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="#b00000" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>Pzt Einwohner Tag</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M8 34h16" class="highcharts-graph" stroke="#68411e" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 23)">
+                <tspan>Pzt Einwohner Nacht</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
+            <path fill="none" d="M8 54h16" class="highcharts-graph" stroke="#44ab2b" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 43)">
+                <tspan>Pzt Einwohner Nacht 50dB</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="53.176" y="367">
+            2000
+        </text>
+        <text x="105.382" y="367">
+            2001
+        </text>
+        <text x="157.588" y="367">
+            2002
+        </text>
+        <text x="209.794" y="367">
+            2003
+        </text>
+        <text x="262" y="367">
+            2004
+        </text>
+        <text x="314.206" y="367">
+            2005
+        </text>
+        <text x="366.412" y="367">
+            2006
+        </text>
+        <text x="418.618" y="367">
+            2007
+        </text>
+        <text x="461.031" y="367">
+            2008
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="34" style="width:150px" y="352">
+            <tspan>0%</tspan>
+        </text>
+        <text x="34" style="width:150px" y="311">
+            <tspan>10%</tspan>
+        </text>
+        <text x="34" style="width:150px" y="270">
+            <tspan>20%</tspan>
+        </text>
+        <text x="34" style="width:150px" y="229">
+            <tspan>30%</tspan>
+        </text>
+        <text x="34" style="width:150px" y="188">
+            <tspan>40%</tspan>
+        </text>
+        <text x="34" style="width:150px" y="147">
+            <tspan>50%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster</tspan>
+    </text>
+</svg>

@@ -16,7 +16,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Im Jahr 2015 wurde bei 61% der 6-jährigen Kinder im Rahmen der schulzahnärztlichen Untersuchung kein Karies festgestellt",
+"lesehilfe":"Im Jahr 2015 wurde bei 61% der 6-jährigen Kinder im Rahmen der schulzahnärztlichen Untersuchung kein Karies festgestellt.",
 "erlaeuterungen":"Die Daten werden im Rahmen der jährlichen Schulzahnuntersuchung gesammelt.",
 "template":"line001",
 "option":"options001",

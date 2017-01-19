@@ -335,28 +335,20 @@
   ],
   "chart": {
     "events": {
-      "load": function () {                
-                this.credits.element.onclick = function() {
-                    /*
-                    window.open(
-                    "http://www.statistik.bs.ch",
-                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-                    );
-                    */
-                };
-            }
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
     "width": 485,
     "height": 415,
     "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
-    "type": "scatter",
-    "inverted": true,
+    "type": "line",
     "forExport": true,
     "renderTo": "container-3045"
   },
@@ -364,7 +356,6 @@
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
-      "fontFamily": "Arial",
       "color": "#000000"
     },
     "align": "left",
@@ -380,29 +371,12 @@
     "text": "",
     "align": "left"
   },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "x": 5,
-        "align": "left",
-        "verticalAlign": "middle",
-        "enabled": false,
-        "style": {
-          "fontSize": "10px"
-        },
-        "formatter": function (){
-                    return Highcharts.numberFormat((this.y*100),1)+'%';                
-                }
-      }
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
-    }
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
+    "min": 0,
     "title": {
       "style": {
         "color": "#000000",
@@ -411,41 +385,23 @@
       "text": null
     },
     "labels": {
-      "formatter": function (){
-                return Highcharts.numberFormat((this.value*100),0)+'%';                
-            },
       "style": {
         "color": "#000000"
       },
       "format": "{value}%"
-    },
-    "min": 0
+    }
   },
   "xAxis": {
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
     "labels": {
       "style": {
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF",
-    "type": "category",
-    "uniqueNames": true,
+    "tickLength": 0,
     "tickInterval": 1
   },
-  "tooltip": {
-    "pointFormatter": function (){
-            //rank is calculated from index, thus data needs to be sorted by rank ascending.
-            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
-        },
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-  },
   "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -462,16 +418,24 @@
   },
   "legend": {
     "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "x": 35,
     "y": 50,
     "itemWidth": 210,
-    "layout": "horizontal",
-    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
     }
   },
   "exporting": {

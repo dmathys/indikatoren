@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"In den letzten beiden Jahren nimmt die Wohnfläche pro Kopf leicht ab.",
 "erlaeuterungen":"Es werden alle Wohnungsflächen aller belegten Privatwohnungen summiert und durch die Anzahl Personen in Privathaushaltungen gemäss Einwohnerregister dividiert.",
-"template":"dotplot",
+"template":"line001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

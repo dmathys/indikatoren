@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen - also  Gymnasien und Weiterbildungsschule WBS - und mit Elternwohnort Basel-Stadt. Zwischen den Quoten der Jugendlichen mit Schweizer Pass und ihren ausländischen Mitschülern besteht seit Jahren nahezu unverändert eine grosse Diskrepanz. Mit einer gewichtigen Ausnahme: Noch deutlich besser als die Schweizer sind die Schülerinnen und Schüler mit deutschem Pass an den Basler Gymnasien vertreten. Deren Quote wiederum ist, obschon nach wie vor auf hohem Niveau, seit zwei Jahren markant gesunken.",
 "erlaeuterungen":"Bei der nächsten Aktualisierung wird es aufgrund der Auflösung der WBS nur noch möglich sein, die Gymnasialquote auf Schulstufe 11 auszuweisen.",
-"template":"dotplot",
+"template":"line001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

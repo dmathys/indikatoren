@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"Der Ausländeranteil liegt seit zehn Jahren bei rund einem Drittel.",
 "erlaeuterungen":"Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
-"template":"dotplot",
+"template":"line001",
 "option":"options001",
 "visible":false,
 "visibleInPortal":true,

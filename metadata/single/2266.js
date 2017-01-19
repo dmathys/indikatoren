@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"Die Anteile der Schweizer und der Ausländer, die seit mindestens 10 Jahren an der gleichen Adresse wohnen, haben sich in den vergangenen zehn Jahren nur wenig verändert. Der Anteil der sessahften Schweizer hat leicht zugenommen, jener der sesshaften Ausländer hat geringfügig abgenommen.",
 "erlaeuterungen":"",
-"template":"dotplot",
+"template":"line001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

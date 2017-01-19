@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"Die Zahl der ordentlich Eingebürgerten unterliegt Schwankungen: 2007 wurden 1 904 Personen eingebürgert, 2012 noch 717. 2015 wurden 1 062 eingebürgerte gezählt.",
 "erlaeuterungen":"",
-"template":"dotplot",
+"template":"line001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

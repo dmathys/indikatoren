@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"Der Anteil des nichtmotorisierten Individualverkehrs (Velo und zu Fuss) an der Anzahl Etappen bleibt zwischen 2005 und 2010 konstant bei über 57%. Rund die Hälfte der Unterwegszeit wird unmotorisiert zurückgelegt, 30% motorisiert und 19% mit öffentlichen Verkehrsmitteln (ÖV). Bei der Tagesdistanz überwiegen die Anteile des motorisierten Individualverkehrs und des öffentlichen Verkehrs.",
 "erlaeuterungen":"Basis: 4 512 Inlandetappen im Jahr 2005, 22 060 Etappen im Jahr 2010; Filter: Zielpersonen mit Wohnort in der Agglomeration Basel. Diese umfasst die \"Kerngemeinde\" Basel sowie die mit ihr formal und funktional verflochtenen Agglomerationsgemeinden (Umland)",
-"template":"dotplot",
+"template":"template001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

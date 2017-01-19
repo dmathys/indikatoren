@@ -16,7 +16,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Beschäftigte überprüfen<br>Mittlere statt Endjahresbevölkreung nehmen  Die AOX-Fracht im Ablauf der Abwasserreinigungsanlage betrug 2015 umgerechnet auf die Anzahl Einwohner und Beschäftigte 3,0 Gramm pro Kopf.",
+"lesehilfe":"Die AOX-Fracht im Ablauf der Abwasserreinigungsanlage betrug 2015 umgerechnet auf die Anzahl Einwohner und Beschäftigte 3,0 Gramm pro Kopf.",
 "erlaeuterungen":"Die AOX-Fracht (adsorbierbare organische Halogenverbindungen) wird im Ausfluss der Abwasserreinigungsanlage Basel in den Rhein gemessen. AOX werden in Abwasserreinigungsanlagen ohne vierte Reinigungsstufe (Elimination von Mikroverunreinigungen) nicht eliminiert. Der Indikator widerspiegelt daher nicht die Reinigungsleistung der herkömmlichen Kläranlagen, sondern die Anstrengungen von Industrie und Gewerbe, die Emissionen an der Quelle zu vermindern. Grosse Abwasserreinigungsanlagen werden künftig nach Vorschrift der revidierten Gewässerschutzverordnung eine vierte Reinigungsstufe enthalten, die AOX teilweise eliminiert. Der Indikator steht zusätzlich auch stellvertretend für andere organische Schadstoffe, die über das Abwasser in die Gewässer gelangen.",
 "template":"dotplot",
 "option":"options001",

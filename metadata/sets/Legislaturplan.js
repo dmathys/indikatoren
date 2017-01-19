@@ -30,7 +30,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Anteile der Schweizer und der Ausländer, die seit mindestens 10 Jahren an der gleichen Adresse wohnen, haben sich in den vergangenen zehn Jahren nur wenig verändert. Der Anteil der sessahften Schweizer hat leicht zugenommen, jener der sesshaften Ausländer hat geringfügig abgenommen.",
 		"erlaeuterungen": "",
-		"template": "dotplot",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -67,7 +67,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Zahl der ordentlich Eingebürgerten unterliegt Schwankungen: 2007 wurden 1 904 Personen eingebürgert, 2012 noch 717. 2015 wurden 1 062 eingebürgerte gezählt.",
 		"erlaeuterungen": "",
-		"template": "dotplot",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -173,7 +173,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "In den letzten beiden Jahren nimmt die Wohnfläche pro Kopf leicht ab.",
 		"erlaeuterungen": "Es werden alle Wohnungsflächen aller belegten Privatwohnungen summiert und durch die Anzahl Personen in Privathaushaltungen gemäss Einwohnerregister dividiert.",
-		"template": "dotplot",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -248,7 +248,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Medianlohn der Frauen entspricht in Basel-Stadt ca. 80% des Medianlohns der Männer.",
 		"erlaeuterungen": "",
-		"template": "dotplot",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -293,6 +293,43 @@ var indikatorensetData = [
 		]
 	},
 	{
+		"title": "Entwicklung der Studierenden an Basler Hochschulen nach Geschlecht",
+		"subtitle": "",
+		"kuerzel": "I.15.4.0001",
+		"kuerzelKunde": "LP.2.08.1",
+		"image": "images/I.15.4.0001.jpg",
+		"description": "Entwicklung der Studierenden an Basler Hochschulen nach Geschlecht",
+		"id": 2775,
+		"thema": "15 Bildung",
+		"unterthema": "Hochschulen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2015-12-17T00:00:00.000",
+		"schlagwort": [
+			"Geschlecht",
+			"Jugend",
+			"Bildung",
+			"Schule"
+		],
+		"stufe1": "Schwerkpunkte 2: Basel als Wissenszentrum positionieren",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Universität und Fachhochschule legen bei den Studierendenzahlen zu und erreichen neue Rekordmarken, wobei das Wachstum der Fachhochschule dasjenige der Universität deutlich überflügelt. An der Universität Basel sind Frauen seit Jahren markant stärker vertreten, an der Fachhochschule Nordwestschweiz sind die Frauen seit 2010 in der Mehrzahl.",
+		"erlaeuterungen": "Berücksichtigt werden jeweils die Zahlen des Herbstsemesters.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"quellenangabe": [
+			"Universität Basel",
+			"Fachhochschule Nordwestschweiz"
+		]
+	},
+	{
 		"title": "Anteil Befragte, die mit dem Wohnungsangebot sehr oder eher zufrieden sind nach Wohngegend",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot»",
 		"kuerzel": "I.50.1.0034",
@@ -321,7 +358,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "59,4% der Befragten in Basel-Stadt sind zufrieden mit dem Wohnungsangebot. Im Vergleich zu 2011 hat die Zufriedenheit mit dem Wohnungsangebot abgenommen.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
-		"template": "dotplot",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -359,7 +396,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "97,3% der Befragten wohnen sehr oder eher gerne in Basel-Stadt. In Riehen/Bettingen beträgt der Anteil der Befragten, die eher oder sehr gerne an ihrem Wohnort wohnen, 98,7%.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
-		"template": "dotplot",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -397,7 +434,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Fast 95% der Befragten sind zufrieden mit dem Kulturangebot in Basel-Stadt. Seit 2007 hat die Zufriedenheit mit dem Kulturangebot zugenommen. Die Zufriedenheit mit dem Kulturangebot unterscheidet sich nach Wohngegend. Während in der Wohngegend St. Johann die Zufriedenheit bei 88,4% liegt, sind die Befragten in der Wohngegend Oberes Kleinbasel mit 100% zufriedener.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
-		"template": "dotplot",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -436,7 +473,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "77,2% der Befragten sind mit der öffentlichen Sicherheit sehr oder eher zufrieden. Die Zufriedenheit mit der öffentlichen Sicherheit unterscheidet sich nach Wohngegend. Während sich die Befragten in der Wohngegend St. Johann mit 82,5% sehr oder eher zufrieden sind mit der öffentlichen Sicherheit, liegt die Zufriedenheit mit der öffentlichen Sicherheit in der Wohngegend St. Alban,Breite bei 69,2%.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
-		"template": "dotplot",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -494,8 +531,7 @@ var indikatorensetData = [
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
-			"Kanton",
-			"Schweiz"
+			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-14T12:19:48.4848",
 		"schlagwort": [
@@ -509,14 +545,51 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "96,6% der Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung",
+		"lesehilfe": "96,6% der Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
-		"template": "dotplot",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8"
+		]
+	},
+	{
+		"title": "Prozentuale Beteiligung der Bevölkerung an Freiwilligenarbeit nach Geschlecht, Alter und Heimat",
+		"subtitle": "",
+		"kuerzel": "I.01.1.0042",
+		"kuerzelKunde": "LP.9.41.1",
+		"image": "images/I.01.1.0042.jpg",
+		"description": "Prozentuale Beteiligung der Bevölkerung an Freiwilligenarbeit nach Geschlecht, Alter und Heimat",
+		"id": 2989,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2016-11-30T16:10:09.099",
+		"schlagwort": [
+			"Ausländer",
+			"Bevölkerung",
+			"Arbeit",
+			"Arbeitslosigkeit",
+			"Hilfeleistung"
+		],
+		"stufe1": "Schwerpunkt 9: Lebensqualität und Sicherheit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2013 haben sich 28,1% der Männer an Freiwilligenarbeit beteiligt.",
+		"erlaeuterungen": "ständige Wohnbevölkerung ab 15 Jahren",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"quellenangabe": [
+			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung, Modul 'Unbezahlte Arbeit'"
 		]
 	},
 	{
@@ -531,7 +604,7 @@ var indikatorensetData = [
 		"unterthema": "Staatsrechnung",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
-			"Schweiz"
+			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-15T10:50:57.5757",
 		"schlagwort": [
@@ -587,7 +660,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen - also Gymnasien und Weiterbildungsschule WBS - und mit Elternwohnort Basel-Stadt. Zwischen den Quoten der Jugendlichen mit Schweizer Pass und ihren ausländischen Mitschülern besteht seit Jahren nahezu unverändert eine grosse Diskrepanz.",
 		"erlaeuterungen": "Bei der nächsten Aktualisierung wird es aufgrund der Auflösung der WBS nur noch möglich sein, die Gymnasialquote auf Schulstufe 11 auszuweisen.",
-		"template": "dotplot",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -625,7 +698,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen - also Gymnasien und Weiterbildungsschule WBS - und mit Elternwohnort Basel-Stadt. Zwischen den Quoten der Jugendlichen mit Schweizer Pass und ihren ausländischen Mitschülern besteht seit Jahren nahezu unverändert eine grosse Diskrepanz. Ebenfalls seit Jahren sind junge Ausländerinnen und Schweizerinnen an den Basler Gymnasien besser vertreten als ihre männlichen Mitschüler.",
 		"erlaeuterungen": "Bei der nächsten Aktualisierung wird es aufgrund der Auflösung der WBS nur noch möglich sein, die Gymnasialquote auf Schulstufe 11 auszuweisen.",
-		"template": "dotplot",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -661,7 +734,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen - also  Gymnasien und Weiterbildungsschule WBS - und mit Elternwohnort Basel-Stadt. Zwischen den Quoten der Jugendlichen mit Schweizer Pass und ihren ausländischen Mitschülern besteht seit Jahren nahezu unverändert eine grosse Diskrepanz. Mit einer gewichtigen Ausnahme: Noch deutlich besser als die Schweizer sind die Schülerinnen und Schüler mit deutschem Pass an den Basler Gymnasien vertreten. Deren Quote wiederum ist, obschon nach wie vor auf hohem Niveau, seit zwei Jahren markant gesunken.",
 		"erlaeuterungen": "Bei der nächsten Aktualisierung wird es aufgrund der Auflösung der WBS nur noch möglich sein, die Gymnasialquote auf Schulstufe 11 auszuweisen.",
-		"template": "dotplot",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -695,7 +768,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Beschäftigte überprüfen<br>Mittlere statt Endjahresbevölkreung nehmen  Die AOX-Fracht im Ablauf der Abwasserreinigungsanlage betrug 2015 umgerechnet auf die Anzahl Einwohner und Beschäftigte 3,0 Gramm pro Kopf.",
+		"lesehilfe": "Die AOX-Fracht im Ablauf der Abwasserreinigungsanlage betrug 2015 umgerechnet auf die Anzahl Einwohner und Beschäftigte 3,0 Gramm pro Kopf.",
 		"erlaeuterungen": "Die AOX-Fracht (adsorbierbare organische Halogenverbindungen) wird im Ausfluss der Abwasserreinigungsanlage Basel in den Rhein gemessen. AOX werden in Abwasserreinigungsanlagen ohne vierte Reinigungsstufe (Elimination von Mikroverunreinigungen) nicht eliminiert. Der Indikator widerspiegelt daher nicht die Reinigungsleistung der herkömmlichen Kläranlagen, sondern die Anstrengungen von Industrie und Gewerbe, die Emissionen an der Quelle zu vermindern. Grosse Abwasserreinigungsanlagen werden künftig nach Vorschrift der revidierten Gewässerschutzverordnung eine vierte Reinigungsstufe enthalten, die AOX teilweise eliminiert. Der Indikator steht zusätzlich auch stellvertretend für andere organische Schadstoffe, die über das Abwasser in die Gewässer gelangen.",
 		"template": "dotplot",
 		"option": "options001",
@@ -741,6 +814,42 @@ var indikatorensetData = [
 		"visibleInPortal": true,
 		"quellenangabe": [
 			"BaselArea"
+		]
+	},
+	{
+		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner 2000 bis 2004",
+		"subtitle": "nach ausgewählten Wirtschaftsbranchen",
+		"kuerzel": "I.04.1.0010",
+		"kuerzelKunde": "LP.2.07.1a",
+		"image": "images/I.04.1.0010.jpg",
+		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner 2000 bis 2004",
+		"id": 3087,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2016-12-05T15:36:56.5656",
+		"schlagwort": [
+			"Bewilligung",
+			"Schule",
+			"Standort",
+			"Kantonsvergleich"
+		],
+		"stufe1": "Schwerkpunkte 2: Basel als Wissenszentrum positionieren",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Es werden die Patentanmeldungen pro Einwohner im Mittel über mehrere Jahre gezeigt. In Basel-Stadt werden am meisten Patente in der Pharmazeutischen Industrie angemeldet.",
+		"erlaeuterungen": "",
+		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"quellenangabe": [
+			"BAK Basel Economics"
 		]
 	},
 	{
@@ -803,12 +912,48 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Anteil des nichtmotorisierten Individualverkehrs (Velo und zu Fuss) an der Anzahl Etappen bleibt zwischen 2005 und 2010 konstant bei über 57%. Rund die Hälfte der Unterwegszeit wird unmotorisiert zurückgelegt, 30% motorisiert und 19% mit öffentlichen Verkehrsmitteln (ÖV). Bei der Tagesdistanz überwiegen die Anteile des motorisierten Individualverkehrs und des öffentlichen Verkehrs.",
 		"erlaeuterungen": "Basis: 4 512 Inlandetappen im Jahr 2005, 22 060 Etappen im Jahr 2010; Filter: Zielpersonen mit Wohnort in der Agglomeration Basel. Diese umfasst die \"Kerngemeinde\" Basel sowie die mit ihr formal und funktional verflochtenen Agglomerationsgemeinden (Umland)",
-		"template": "dotplot",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
 		"quellenangabe": [
 			"Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"
+		]
+	},
+	{
+		"title": "Globale und kontinentale Erreichbarkeit – Basel im nationalen Vergleich",
+		"subtitle": "",
+		"kuerzel": "I.10.1.0003",
+		"kuerzelKunde": "LP.1.03.1",
+		"image": "images/I.10.1.0003.jpg",
+		"description": "Globale und kontinentale Erreichbarkeit – Basel im nationalen Vergleich",
+		"id": 3104,
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2015-12-17T00:00:00.000",
+		"schlagwort": [
+			"EuroAirport",
+			"Auto",
+			"Standort",
+			"Kantonsvergleich"
+		],
+		"stufe1": "Schwerkpunkte 1: Wirtschaftsstandort stärken",
+		"stufe2": "Ziel 3:Drehscheibe für den Personen- und Güterverkehr in Europa",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel hat sich zwischen 2000 und 2014 verbessert. Die Entwicklung bei den anderen Schweizer Städte verläuft im gleichen Zeitraum identisch. Die Stadt Zürich bewegt sich auf einem höheren Niveau als Basel und Genf, die Stadt Bern liegt darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und über die Jahre auf gleichbleibendem Niveau. Basel bewegt sich auch bei diesem indikator zusammen mit Genf wiederum zwischen dem Level von Zürich und Bern.",
+		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; dem globalen und kontinentalen Erreichbarkeitsmodell liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAKBASEL basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit „aus der Region“ (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
+		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"quellenangabe": [
+			"BAK Basel Economics"
 		]
 	},
 	{
@@ -836,7 +981,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Frauenanteil im Grossen Rat liegt seit 1996 bei über 30%. Bei den Grossratswahlen 2004 und 2008 fiel der Anteil mit 36,2% resp. 37,0% am höchsten aus. In der Schweiz beträgt der Frauenanteil in den kantonalen Parlamenten im Schnitt 25,6%.",
 		"erlaeuterungen": "Bis und mit 2008 zählte der Grosse Rat 130 Mitglieder. Ab den Wahlen 2008 stehen aufgrund der verfassungsmässigen Verkleinerung des Rates nur noch 100 Sitze zur Verfügung.",
-		"template": "dotplot",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -906,7 +1051,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Aussergewöhnlicher Anstieg der Besucherzahl 2009 im Kunstmuseum aufgrund der Van Gogh-Ausstellung.",
 		"erlaeuterungen": "",
-		"template": "dotplot",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -942,7 +1087,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die mit Abstand erfolgreichsten Ausstellungen der letzten Jahre waren Tutanchamun (2004; 620 000 Besucher), Van Gogh (2009; 552 000 Besucher) und Paul Gauguin (2015; 370 000 Besucher).",
 		"erlaeuterungen": "",
-		"template": "dotplot",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -1061,6 +1206,42 @@ var indikatorensetData = [
 		]
 	},
 	{
+		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner 2005 bis 2009",
+		"subtitle": "nach ausgewählten Wirtschaftsbranchen",
+		"kuerzel": "I.04.1.0013",
+		"kuerzelKunde": "LP.2.07.1b",
+		"image": "images/I.04.1.0013.jpg",
+		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner 2005 bis 2009",
+		"id": 5032,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2016-12-05T15:37:05.055",
+		"schlagwort": [
+			"Bewilligung",
+			"Schule",
+			"Standort",
+			"Kantonsvergleich"
+		],
+		"stufe1": "Schwerkpunkte 2: Basel als Wissenszentrum positionieren",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Es werden die Patentanmeldungen pro Einwohner im Mittel über mehrere Jahre gezeigt. In Basel-Stadt werden am meisten Patente in der Pharmazeutischen Industrie angemeldet.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"quellenangabe": [
+			"BAK Basel Economics"
+		]
+	},
+	{
 		"title": "Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2010",
 		"subtitle": "",
 		"kuerzel": "I.11.6.0002",
@@ -1086,7 +1267,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Anteil des nichtmotorisierten Individualverkehrs (Velo und zu Fuss) an der Anzahl Etappen bleibt zwischen 2005 und 2010 konstant bei über 57%. Rund die Hälfte der Unterwegszeit wird unmotorisiert zurückgelegt, 30% motorisiert und 19% mit öffentlichen Verkehrsmitteln (ÖV). Bei der Tagesdistanz überwiegen die Anteile des motorisierten Individualverkehrs und des öffentlichen Verkehrs.",
 		"erlaeuterungen": "Basis: 4 512 Inlandetappen im Jahr 2005, 22 060 Etappen im Jahr 2010; Filter: Zielpersonen mit Wohnort in der Agglomeration Basel. Diese umfasst die \"Kerngemeinde\" Basel sowie die mit ihr formal und funktional verflochtenen Agglomerationsgemeinden (Umland)",
-		"template": "line001",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -1160,12 +1341,46 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Mit der Luftqualität sind 82,6% der Einwohnerinnen und Einwohner von Basel-Stadt sehr oder eher zufrieden. 2007 lag dieser Wert bei 52,5%.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
-		"template": "line001",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_13"
+		]
+	},
+	{
+		"title": "Anteil übermässig mit Lärm belasteter Einwohner",
+		"subtitle": "",
+		"kuerzel": "I.02.5.0002",
+		"kuerzelKunde": "LP.8.33.1",
+		"image": "images/I.02.5.0002.jpg",
+		"description": "Anteil übermässig mit Lärm belasteter Einwohner",
+		"id": 5061,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luftschadstoffe",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-01-02T15:09:36.3636",
+		"schlagwort": [
+			"Bevölkerung",
+			"Umwelt"
+		],
+		"stufe1": "Schwerpunkt 8: Nachhaltiger Umgang mit Ressourcen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2010 knapp 24%. Bei 14% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16% der Grenzwert in der Nacht.",
+		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB (A) Tag, 50 dB (A) Nacht, ES III: 65 dB (A) Tag, 55 dB (A) Nacht; dB (A) ist die übliche Masseinheit zur Messung von Lärmstärke.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
 		]
 	},
 	{
@@ -1321,8 +1536,7 @@ var indikatorensetData = [
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
-			"Kanton",
-			"Schweiz"
+			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-14T12:26:32.3232",
 		"schlagwort": [
@@ -1339,7 +1553,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Mit einem Anteil von 86,8% sind die befragten Personen mit der Verkehrssicherheit sehr oder eher zufrieden. Die Zufriedenheit mit der Verkehrssicherheit unterscheidet sich nach Altersklasse. Während die über 70-Jährigen mit 90,2% zufrieden sind mit der Verkehrssicherheit, sind bei den 40- bis 49-Jährigen 79,8% sehr oder eher zufrieden.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
-		"template": "line001",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -1408,7 +1622,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2015 wurde bei 61% der 6-jährigen Kinder im Rahmen der schulzahnärztlichen Untersuchung kein Karies festgestellt",
+		"lesehilfe": "Im Jahr 2015 wurde bei 61% der 6-jährigen Kinder im Rahmen der schulzahnärztlichen Untersuchung kein Karies festgestellt.",
 		"erlaeuterungen": "Die Daten werden im Rahmen der jährlichen Schulzahnuntersuchung gesammelt.",
 		"template": "line001",
 		"option": "options001",
@@ -1449,7 +1663,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Mit den Grünanlage sind 91,7% der Einwohnerinnen und Einwohner von Basel-Stadt sehr oder eher zufrieden. 2011 lag dieser Wert bei 89,0%.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
-		"template": "line001",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -1488,7 +1702,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Mit dem Quartierleben sind 90,8% der Einwohnerinnen und Einwohner von Basel-Stadt sehr oder eher zufrieden. 2011 lag dieser Wert bei 88,9%.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
-		"template": "line001",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -1508,8 +1722,7 @@ var indikatorensetData = [
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
-			"Kanton",
-			"Schweiz"
+			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-02T16:45:22.2222",
 		"schlagwort": [
@@ -1525,7 +1738,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Mit der eigenen Gesundheit sind 86,7% sehr oder eher zufrieden. Männer sind mit 89,6% zufriedener als Frauen mit 84,2%.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
-		"template": "line001",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,

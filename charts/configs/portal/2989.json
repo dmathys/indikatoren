@@ -1,0 +1,258 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          "2000",
+          41.6
+        ],
+        [
+          "2004",
+          44.6
+        ],
+        [
+          "2007",
+          37.5
+        ],
+        [
+          "2010",
+          35.649674305757
+        ],
+        [
+          "2013",
+          35.35
+        ]
+      ],
+      "name": "Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9f7c5a",
+      "data": [
+        [
+          "2000",
+          25.4
+        ],
+        [
+          "2004",
+          20.4
+        ],
+        [
+          "2007",
+          20.2
+        ],
+        [
+          "2010",
+          27.0181378476421
+        ],
+        [
+          "2013",
+          18.97
+        ]
+      ],
+      "name": "Ausland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#661200",
+      "data": [
+        [
+          "2000",
+          28.9
+        ],
+        [
+          "2004",
+          30.7
+        ],
+        [
+          "2007",
+          28.1
+        ],
+        [
+          "2010",
+          39.5747194329592
+        ],
+        [
+          "2013",
+          25.29
+        ]
+      ],
+      "name": "15-24 J.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          "2000",
+          41.4
+        ],
+        [
+          "2004",
+          37.7
+        ],
+        [
+          "2007",
+          30.8
+        ],
+        [
+          "2010",
+          25.5960896518836
+        ],
+        [
+          "2013",
+          27.23
+        ]
+      ],
+      "name": "25-39 J.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#69929b",
+      "data": [
+        [
+          "2000",
+          36.8
+        ],
+        [
+          "2004",
+          44.7
+        ],
+        [
+          "2007",
+          38.4
+        ],
+        [
+          "2010",
+          39.9655370476737
+        ],
+        [
+          "2013",
+          31.64
+        ]
+      ],
+      "name": "40-54 J.",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "forExport": true,
+    "renderTo": "container-2989"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.01.1.0042 Prozentuale Beteiligung der Bevölkerung an Freiwilligenarbeit nach Geschlecht, Alter und Heimat"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "max": 50
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung, Modul 'Unbezahlte Arbeit'"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 0,
+    "y": 65,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.01.1.0042"
+  }
+}
