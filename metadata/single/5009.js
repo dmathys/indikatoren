@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"86,1% der befragten Personen schätzen den letzten Kontakt, den sie mit der Verwaltung des Kantons Basel-Stadt hatten, als positiv ein.",
 "erlaeuterungen":"Die Antwortkategorien «eher positiv» oder «sehr positiv» wurden summiert. Antwortkategorien eher positiv oder sehr positiv zur Frage aus der Bevölkerungsbefragung: Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen? Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
-"template":"dotplot",
+"template":"template001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

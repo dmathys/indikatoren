@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"Der Anteil der Logistikwirtschaft an der regionalen nominalen Wertschöpfung ist in Basel-Stadt mit ca. 4% ähnlich hoch wie in der Gesamtschweiz.",
 "erlaeuterungen":"",
-"template":"dotplot",
+"template":"line001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

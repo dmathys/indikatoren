@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"Das reale Wertschöpfungswachstum im Gesundheits- und Sozialwesen war im Jahr 2015 für alle betrachteten Kantone stärker als in den anderen Branchen. Nur die chemische Industrie in Basel-Stadt verzeichnete eine deutlich höhere jährliche Wachstumsrate von fast 13%. Das Wachstum im Bereich Life Sciences belief sich in Basel-Stadt auf 3,3%.",
 "erlaeuterungen":"",
-"template":"dotplot",
+"template":"template001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

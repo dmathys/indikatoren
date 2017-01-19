@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"Es werden die Patentanmeldungen pro Einwohner im Mittel über mehrere Jahre gezeigt. In Basel-Stadt werden am meisten Patente in der Pharmazeutischen Industrie angemeldet.",
 "erlaeuterungen":"",
-"template":"dotplot",
+"template":"template001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

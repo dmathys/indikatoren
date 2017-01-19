@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"Nach Einbussen im Zuge der Finanz- und Wirtschaftskrise sind die Steuereinnahmen von juristischen Personen seit 2012 wieder gestiegen.",
 "erlaeuterungen":"Summe der Gewinn- und Kapitalsteuern von juristischen Personen im Kanton Basel-Stadt.",
-"template":"dotplot",
+"template":"line001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

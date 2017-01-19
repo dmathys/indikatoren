@@ -1,89 +1,88 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h380v288H0z"/>
+        </clipPath>
+    </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M53 60h422v223H53z"/>
+    <path fill="none" class="highcharts-plot-background" d="M95 60h380v288H95z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M53 85.5h422m-422 25h422m-422 24h422m-422 25h422m-422 25h422m-422 25h422m-422 24h422m-422 25h422m-422 25h422"/>
+        <path fill="none" class="highcharts-grid-line" d="M98.5 60v288m46-288v288m47-288v288m46-288v288m47-288v288m47-288v288m46-288v288m47-288v288m46-288v288"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52.5 60v223m60-223v223m61-223v223m60-223v223m60-223v223m60-223v223m61-223v223m61-223v223"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M95 348.5h380m-380-72h380m-380-72h380m-380-72h380m-380-73h380"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M53 60h422v223H53z"/>
+    <path fill="none" class="highcharts-plot-border" d="M95 60h380v288H95z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M53 85.5H43m10 25H43m10 24H43m10 25H43m10 25H43m10 25H43m10 24H43m10 25H43m10 25H43"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M52.5 60v223"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M95 348.5h380"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M53 283h422"/>
+        <path fill="none" class="highcharts-axis-line" d="M95 60v288"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#256370" d="M421 271c0-5.328-8-5.328-8 0s8 5.328 8 0zm-5-25c0-5.328-8-5.328-8 0s8 5.328 8 0zm-274-24c0-5.328-8-5.328-8 0s8 5.328 8 0zm102-25c0-5.328-8-5.328-8 0s8 5.328 8 0zm-108-25c0-5.328-8-5.328-8 0s8 5.328 8 0zm50-25c0-5.328-8-5.328-8 0s8 5.328 8 0zm-19-49c0-5.328-8-5.328-8 0s8 5.328 8 0zm-44-25c0-5.328-8-5.328-8 0s8 5.328 8 0z" class="highcharts-point"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(95 60)" clip-path="url(#a)">
+            <path fill="none" d="M3.725 248.426l46.57-26.33 46.568 80.31 46.568-91.31L190 241.079l46.569-64.48 46.568 60.42L329.706 73.88l46.569-3.235" class="highcharts-graph" stroke="#256370" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-6.275 248.426h10l46.57-26.33 46.568 80.31 46.568-91.31L190 241.079l46.569-64.48 46.568 60.42L329.706 73.88l46.569-3.235h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#256370" d="M471 127c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-47 3c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-46 163c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-47-60c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-46 64c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-47-30c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-93 11c5.328 0 5.328 8 0 8s-5.328-8 0-8zm-47 26c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" style="width:421px" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.04.0.0005 Steuereinnahmen juristischer Personen</tspan><tspan dy="17" x="10">(in Mio. Franken)</tspan><title>I.04.0.0005 Steuereinnahmen juristischer Personen (in Mio. Franken)</title>
     </text>
-    <g class="highcharts-data-labels highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(124 65)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
-            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">54963895.79</tspan><tspan x="5" y="15">54963895.79</tspan>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(90 274)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">54963895.79</tspan><tspan x="5" y="16">54963895.79</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(304 250)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
-            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">301882192.418164</tspan><tspan x="5" y="15">301882192.418164</tspan>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(352 97)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">301882192.418164</tspan><tspan x="5" y="16">301882192.418164</tspan>
         </text>
     </g>
-    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="38" style="width:150px" y="76">
-            <tspan>2006</tspan>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="98.725" y="367">
+            2006
         </text>
-        <text x="38" style="width:150px" y="101">
-            <tspan>2007</tspan>
+        <text x="145.294" y="367">
+            2007
         </text>
-        <text x="38" style="width:150px" y="126">
-            <tspan>2008</tspan>
+        <text x="191.863" y="367">
+            2008
         </text>
-        <text x="38" style="width:150px" y="151">
-            <tspan>2009</tspan>
+        <text x="238.431" y="367">
+            2009
         </text>
-        <text x="38" style="width:150px" y="176">
-            <tspan>2010</tspan>
+        <text x="285" y="367">
+            2010
         </text>
-        <text x="38" style="width:150px" y="200">
-            <tspan>2011</tspan>
+        <text x="331.569" y="367">
+            2011
         </text>
-        <text x="38" style="width:150px" y="225">
-            <tspan>2012</tspan>
+        <text x="378.137" y="367">
+            2012
         </text>
-        <text x="38" style="width:150px" y="250">
-            <tspan>2013</tspan>
+        <text x="424.706" y="367">
+            2013
         </text>
-        <text x="38" style="width:150px" y="275">
-            <tspan>2014</tspan>
+        <text x="461.262" style="width:27.4754901960751" y="367" text-overflow="ellipsis">
+            <tspan>20…</tspan><title>2014</title>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="55.593" style="width:415px" transform="rotate(-45 55.593 299)" y="299" text-overflow="ellipsis">
-            <tspan>0%</tspan>
+        <text x="80" style="width:150px" y="352">
+            <tspan>0</tspan>
         </text>
-        <text x="115.878" style="width:415px" transform="rotate(-45 115.878 299)" y="299" text-overflow="ellipsis">
-            <tspan>5 000 000 000%</tspan>
+        <text x="80" style="width:150px" y="280">
+            <tspan>100 000 000</tspan>
         </text>
-        <text x="176.164" style="width:415px" transform="rotate(-45 176.164 299)" y="299" text-overflow="ellipsis">
-            <tspan>10 000 000 000%</tspan>
+        <text x="80" style="width:150px" y="208">
+            <tspan>200 000 000</tspan>
         </text>
-        <text x="236.45" style="width:415px" transform="rotate(-45 236.45 299)" y="299" text-overflow="ellipsis">
-            <tspan>15 000 000 000%</tspan>
+        <text x="80" style="width:150px" y="136">
+            <tspan>300 000 000</tspan>
         </text>
-        <text x="296.736" style="width:415px" transform="rotate(-45 296.736 299)" y="299" text-overflow="ellipsis">
-            <tspan>20 000 000 000%</tspan>
-        </text>
-        <text x="357.021" style="width:415px" transform="rotate(-45 357.021 299)" y="299" text-overflow="ellipsis">
-            <tspan>25 000 000 000%</tspan>
-        </text>
-        <text x="417.307" style="width:415px" transform="rotate(-45 417.307 299)" y="299" text-overflow="ellipsis">
-            <tspan>30 000 000 000%</tspan>
-        </text>
-        <text x="477.593" style="width:415px" transform="rotate(-45 477.593 299)" y="299" text-overflow="ellipsis">
-            <tspan>35 000 000 000%</tspan>
+        <text x="80" style="width:150px" y="64">
+            <tspan>400 000 000</tspan>
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">

@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"Das Wachstum des realen BIPs in Basel-Stadt liegt im Jahr 2015 mit 2,4% über das BIP-Wachstum in den Vergleichskantonen und in der Gesamtschweiz. Von der Finanz- und Wirtschaftskrise im Jahr 2009 hat alle Kantone betroffen.",
 "erlaeuterungen":"",
-"template":"dotplot",
+"template":"line001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

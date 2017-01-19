@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"Seit 2008 zählt Basel-Stadt jährlich über 1 Million Logiernächte. Ein Drittel geht auf das Konto von inländischen Gästen.",
 "erlaeuterungen":"Logiernächte: Anzahl der durch die Gäste (Kinder eingeschlossen) in einem bestimmten Hotelbetrieb verbrachten Nächte.",
-"template":"dotplot",
+"template":"template001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

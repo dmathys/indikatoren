@@ -18,7 +18,7 @@
 "stufe5":"", 
 "lesehilfe":"Die Anzahl von durch BaselArea unterstützte internationale Ansiedlungen bewegt sich auf gleichbleibendem Niveau.",
 "erlaeuterungen":"Die Anzahl von durch BaselArea unterstützten internationalen Ansiedlungen beinhalten seit 2013 auch ausländische Firmengründungen im Kanton Jura.",
-"template":"dotplot",
+"template":"line001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
