@@ -2,7 +2,6 @@
 "subtitle":"Wie sicher fühlen Sie sich ganz allgemein im Alltag?",
 "kuerzel":"I.50.1.0039",
 "kuerzelKunde":"LP.9.36.1",
-"image":"images/I.50.1.0039.jpg",
 "description":"Anteil Befragte, die sich im Alltag eher oder sehr sicher fühlen nach Heimat, Alter und Geschlecht",
 "id":2955,
 "thema":"50 Befragungen",

@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.01.5.0002",
 "kuerzelKunde":"LP.3.10.2",
-"image":"images/I.01.5.0002.jpg",
 "description":"Ordentlich Eingebürgerte nach bisheriger Heimat und Geburtsland",
 "id":2267,
 "thema":"01 Bevölkerung",

@@ -2,7 +2,6 @@
 "subtitle":"«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»",
 "kuerzel":"I.50.1.0030",
 "kuerzelKunde":"LP.3.10.3",
-"image":"images/I.50.1.0030.jpg",
 "description":"Anteil Befragte, die sehr oder eher gerne in ihrem Quartier/an ihrem Wohnort leben nach Wohngegend",
 "id":2949,
 "thema":"50 Befragungen",

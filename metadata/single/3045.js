@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.15.4.0004",
 "kuerzelKunde":"LP.7.28.2",
-"image":"images/I.15.4.0004.jpg",
 "description":"Entwicklung der Gymnasialquote nach Staatsangehörigkeit",
 "id":3045,
 "thema":"15 Bildung",

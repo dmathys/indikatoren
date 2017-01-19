@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.15.4.0003",
 "kuerzelKunde":"LP.7.28.1",
-"image":"images/I.15.4.0003.jpg",
 "description":"Gymnasialquoten nach Staatsangehörigkeit und Geschlecht",
 "id":3044,
 "thema":"15 Bildung",

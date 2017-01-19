@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.04.0.0005",
 "kuerzelKunde":"LP.1.01.3",
-"image":"images/I.04.0.0005.jpg",
 "description":"Steuereinnahmen juristischer Personen (in Mio. Franken) ",
 "id":3111,
 "thema":"04 Volkswirtschaft",

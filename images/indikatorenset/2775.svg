@@ -60,20 +60,20 @@
             <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="#6F6F6F" stroke-width="2"/>
             <path fill="#6F6F6F" d="M16 10c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                Totall
+                <tspan>Total Studierende Universität Basell</tspan>
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
             <path fill="none" d="M8 34h16" class="highcharts-graph" stroke="#C8C8C8" stroke-width="2"/>
             <path fill="#C8C8C8" d="M16 30c5.328 0 5.328 8 0 8s-5.328-8 0-8z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 23)">
-                <tspan>Studierende FHNW</tspan>
+                <tspan>Total Studierende FHNW</tspan>
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2 highcharts-legend-item-hidden">
             <path fill="none" d="M8 54h16" class="highcharts-graph" stroke="#ccc" stroke-width="2"/>
             <text x="21" y="15" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 43)">
-                <tspan>Frauen UniBas</tspan>
+                <tspan>Frauen Universität Basel</tspan>
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3 highcharts-legend-item-hidden">
@@ -85,7 +85,7 @@
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4 highcharts-legend-item-hidden">
             <path fill="none" d="M8 94h16" class="highcharts-graph" stroke="#ccc" stroke-width="2"/>
             <text x="21" y="15" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 83)">
-                <tspan>Männer UniBas</tspan>
+                <tspan>Männer Universität Basel</tspan>
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-5 highcharts-legend-item-hidden">

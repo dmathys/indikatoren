@@ -2,7 +2,6 @@
 "subtitle":"«Wie zufrieden sind Sie mit dem Wohnungsangebot»",
 "kuerzel":"I.50.1.0034",
 "kuerzelKunde":"LP.5.18.2",
-"image":"images/I.50.1.0034.jpg",
 "description":"Anteil Befragte, die mit dem Wohnungsangebot sehr oder eher zufrieden sind nach Wohngegend",
 "id":2948,
 "thema":"50 Befragungen",

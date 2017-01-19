@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.04.0.0002",
 "kuerzelKunde":"LP.1.03.2",
-"image":"images/I.04.0.0002.jpg",
 "description":"Anteil der Logistikwirtschaft an der regionalen nominalen Wertschöpfung in %",
 "id":2364,
 "thema":"04 Volkswirtschaft",

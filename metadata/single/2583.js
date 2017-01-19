@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.03.1.0003",
 "kuerzelKunde":"LP.7.25.1",
-"image":"images/I.03.1.0003.jpg",
 "description":"Verhältnis der Löhne von Frauen und Männern",
 "id":2583,
 "thema":"03 Erwerbsleben",

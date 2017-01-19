@@ -2,7 +2,6 @@
 "subtitle":"nach ausgewählten Wirtschaftsbranchen",
 "kuerzel":"I.04.1.0013",
 "kuerzelKunde":"LP.2.07.1b",
-"image":"images/I.04.1.0013.jpg",
 "description":"Transnationale Patentanmeldungen pro 1000 Einwohner 2005 bis 2009",
 "id":5032,
 "thema":"04 Volkswirtschaft",

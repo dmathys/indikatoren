@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.13.2.0008",
 "kuerzelKunde":"LP.9.38.4",
-"image":"images/I.13.2.0008.jpg",
 "description":"Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
 "id":5066,
 "thema":"13 Soziale Sicherheit",

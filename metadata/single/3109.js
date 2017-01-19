@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.17.3.0004",
 "kuerzelKunde":"LP.7.25.2",
-"image":"images/I.17.3.0004.jpg",
 "description":"Frauenanteil im Grossen Rat Basel-Stadt",
 "id":3109,
 "thema":"17 Politik",

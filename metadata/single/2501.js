@@ -2,7 +2,6 @@
 "subtitle":"BS im Vergleich mit ZH, GE, CH",
 "kuerzel":"I.04.0.0003",
 "kuerzelKunde":"LP.1.04.1",
-"image":"images/I.04.0.0003.jpg",
 "description":"Wachstumsrate der realen Wertschöpfung ausgewählter Branchen 2015",
 "id":2501,
 "thema":"04 Volkswirtschaft",

@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.10.1.0003",
 "kuerzelKunde":"LP.1.03.1",
-"image":"images/I.10.1.0003.jpg",
 "description":"Globale und kontinentale Erreichbarkeit – Basel im nationalen Vergleich",
 "id":3104,
 "thema":"10 Tourismus",

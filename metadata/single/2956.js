@@ -2,7 +2,6 @@
 "subtitle":"«Wie zufrieden sind Sie mit der Gesundheitsversorgung?»",
 "kuerzel":"I.50.1.0041",
 "kuerzelKunde":"LP.9.38.1",
-"image":"images/I.50.1.0041.jpg",
 "description":"Anteil Befragte, die mit der Gesundheitsversorgung eher oder sehr zufrieden sind",
 "id":2956,
 "thema":"50 Befragungen",

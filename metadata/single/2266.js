@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.01.5.0001",
 "kuerzelKunde":"LP.3.10.1",
-"image":"images/I.01.5.0001.jpg",
 "description":"Anteil der Bevölkerung, der seit mindestens 10 Jahren an der gleichen Adresse wohnt nach Heimat",
 "id":2266,
 "thema":"01 Bevölkerung",

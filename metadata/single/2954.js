@@ -2,7 +2,6 @@
 "subtitle":"Wie zufrieden sind Sie mit der öffentlichen Sicherheit",
 "kuerzel":"I.50.1.0040",
 "kuerzelKunde":"LP.9.36.3",
-"image":"images/I.50.1.0040.jpg",
 "description":"Anteil Befragte, die mit der öffentl. Sicherheit sehr oder eher zufrieden sind nach Wohngegend",
 "id":2954,
 "thema":"50 Befragungen",

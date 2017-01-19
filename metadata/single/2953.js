@@ -2,7 +2,6 @@
 "subtitle":"«Wie zufrieden sind Sie mit dem Kulturangebot»",
 "kuerzel":"I.50.1.0037",
 "kuerzelKunde":"LP.6.24.2",
-"image":"images/I.50.1.0037.jpg",
 "description":"Anteil Befragter, die mit dem Kulturangebot eher oder sehr zufrieden sind",
 "id":2953,
 "thema":"50 Befragungen",

@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.11.6.0001",
 "kuerzelKunde":"LP.3.11.1a",
-"image":"images/I.11.6.0001.jpg",
 "description":"Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2005",
 "id":3103,
 "thema":"11 Verkehr",

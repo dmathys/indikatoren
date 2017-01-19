@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.14.4.0047",
 "kuerzelKunde":"LP.9.40.5",
-"image":"images/I.14.4.0047.jpg",
 "description":"Anteil kariesfreier Kinder",
 "id":5071,
 "thema":"14 Gesundheit",

@@ -2,7 +2,6 @@
 "subtitle":"«Wie fühlen Sie sich zurzeit gesundheitlich?»",
 "kuerzel":"I.50.1.0045",
 "kuerzelKunde":"LP.9.40.2",
-"image":"images/I.50.1.0045.jpg",
 "description":"Anteil Befragte, die sich gesundheitlich eher oder sehr gut fühlen nach Heimat, Alter und Geschlecht",
 "id":5077,
 "thema":"50 Befragungen",

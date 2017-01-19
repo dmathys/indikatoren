@@ -2,7 +2,6 @@
 "subtitle":"«Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
 "kuerzel":"I.50.1.0031",
 "kuerzelKunde":"LP.1.06.1",
-"image":"images/I.50.1.0031.jpg",
 "description":"Positive Beurteilung der kantonalen Verwaltung nach Heimat, Alter und Geschlecht",
 "id":5009,
 "thema":"50 Befragungen",

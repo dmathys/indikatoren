@@ -2,7 +2,6 @@
 "subtitle":"«Wie zufrieden sind Sie mit dem Quartierleben»",
 "kuerzel":"I.50.1.0044",
 "kuerzelKunde":"LP.5.16.2c",
-"image":"images/I.50.1.0044.jpg",
 "description":"Anteil Befragte, die mit verschiedenen Aspekten sehr oder eher zufrieden sind nach Wohngegend",
 "id":5073,
 "thema":"50 Befragungen",

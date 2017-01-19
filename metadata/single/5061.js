@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.02.5.0002",
 "kuerzelKunde":"LP.8.33.1",
-"image":"images/I.02.5.0002.jpg",
 "description":"Anteil übermässig mit Lärm belasteter Einwohner",
 "id":5061,
 "thema":"02 Raum, Umwelt",

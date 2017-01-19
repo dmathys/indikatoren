@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.01.1.0045",
 "kuerzelKunde":"LP.5.16.1",
-"image":"images/I.01.1.0045.jpg",
 "description":"Wohnbevölkerung am Jahresende nach Staatsangehörigkeit",
 "id":2265,
 "thema":"01 Bevölkerung",

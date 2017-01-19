@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.09.0.0001",
 "kuerzelKunde":"LP.5.17.1",
-"image":"images/I.09.0.0001.jpg",
 "description":"Wohnfläche pro Bewohner",
 "id":2397,
 "thema":"09 Bau-, Wohnungswesen",

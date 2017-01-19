@@ -2,7 +2,6 @@
 "subtitle":"«Wie zufrieden sind Sie mit der Luftqualität»",
 "kuerzel":"I.50.1.0032",
 "kuerzelKunde":"LP.5.16.2a",
-"image":"images/I.50.1.0032.jpg",
 "description":"Anteil Befragte, die mit verschiedenen Aspekten sehr oder eher zufrieden sind nach Wohngegend",
 "id":5053,
 "thema":"50 Befragungen",

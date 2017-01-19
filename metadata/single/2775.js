@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.15.4.0001",
 "kuerzelKunde":"LP.2.08.1",
-"image":"images/I.15.4.0001.jpg",
 "description":"Entwicklung der Studierenden an Basler Hochschulen nach Geschlecht",
 "id":2775,
 "thema":"15 Bildung",

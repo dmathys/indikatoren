@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.10.1.0001",
 "kuerzelKunde":"LP.1.02.1",
-"image":"images/I.10.1.0001.jpg",
 "description":"Entwicklung der Logiernächte Schweiz/Ausland und Top 5 Nationen",
 "id":2649,
 "thema":"10 Tourismus",

@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.02.5.0004",
 "kuerzelKunde":"LP.8.34.1",
-"image":"images/I.02.5.0004.jpg",
 "description":"Luftqualität: Kurzzeitbelastungen - Anzahl Tage mit Grenzwertüberschreitungen Station St. Johann",
 "id":5062,
 "thema":"02 Raum, Umwelt",

@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.01.3.0006",
 "kuerzelKunde":"LP.7.25.5",
-"image":"images/I.01.3.0006.jpg",
 "description":"Angebotene Plätze für Tagesbetreuung und Tagesstrukturen seit 2006",
 "id":5044,
 "thema":"01 Bevölkerung",

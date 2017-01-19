@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.01.2.0005",
 "kuerzelKunde":"LP.8.34.8",
-"image":"images/I.01.2.0005.jpg",
 "description":"Recyclingquote",
 "id":5024,
 "thema":"01 Bevölkerung",

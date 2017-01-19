@@ -2,7 +2,6 @@
 "subtitle":"«Wie zufrieden sind Sie mit der Grünanlagen, Parks»",
 "kuerzel":"I.50.1.0043",
 "kuerzelKunde":"LP.5.16.2b",
-"image":"images/I.50.1.0043.jpg",
 "description":"Anteil Befragte, die mit verschiedenen Aspekten sehr oder eher zufrieden sind nach Wohngegend",
 "id":5072,
 "thema":"50 Befragungen",

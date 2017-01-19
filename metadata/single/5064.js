@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.19.3.0004",
 "kuerzelKunde":"LP.9.36.2",
-"image":"images/I.19.3.0004.jpg",
 "description":"Anzahl Gewaltstraftaten pro 100000 Einwohner",
 "id":5064,
 "thema":"19 Rechtspflege",

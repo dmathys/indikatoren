@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.15.4.0002",
 "kuerzelKunde":"LP.7.26.1",
-"image":"images/I.15.4.0002.jpg",
 "description":"Entwicklung der Gymnasialquote nach Heimat",
 "id":3043,
 "thema":"15 Bildung",

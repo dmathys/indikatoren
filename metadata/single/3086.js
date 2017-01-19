@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.04.0.0004",
 "kuerzelKunde":"LP.1.01.2",
-"image":"images/I.04.0.0004.jpg",
 "description":"Anzahl durch BaselArea unterstützte internationaler Ansiedlungen",
 "id":3086,
 "thema":"04 Volkswirtschaft",

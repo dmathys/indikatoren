@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.16.1.0007",
 "kuerzelKunde":"LP.6.22.2",
-"image":"images/I.16.1.0007.jpg",
 "description":"Austellungen mit hohem Besucheraufkommen in Basler Museen",
 "id":3156,
 "thema":"16 Kultur und Sport",

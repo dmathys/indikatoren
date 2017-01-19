@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.01.2.0004",
 "kuerzelKunde":"LP.8.34.7",
-"image":"images/I.01.2.0004.jpg",
 "description":"Siedlungsabfälle pro Kopf in Kilogramm",
 "id":5023,
 "thema":"01 Bevölkerung",

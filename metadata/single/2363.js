@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.04.0.0001",
 "kuerzelKunde":"LP.1.01.1",
-"image":"images/I.04.0.0001.jpg",
 "description":"Wachstum des realen BIP BS in % gegenüber Vorjahr im Vergleich mit ZH, GE, CH",
 "id":2363,
 "thema":"04 Volkswirtschaft",

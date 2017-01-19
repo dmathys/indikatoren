@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.02.5.0005",
 "kuerzelKunde":"LP.8.34.3",
-"image":"images/I.02.5.0005.jpg",
 "description":"Entwicklung der Schadstofffrachten (NOX, PM10, VOC) in Tonnen pro Jahr",
 "id":5063,
 "thema":"02 Raum, Umwelt",

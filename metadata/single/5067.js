@@ -2,7 +2,6 @@
 "subtitle":"«Wie zufrieden sind Sie mit der Verkehrssicherheit?»",
 "kuerzel":"I.50.1.0042",
 "kuerzelKunde":"LP.9.39.1",
-"image":"images/I.50.1.0042.jpg",
 "description":"Anteil Befragte, die mit der Verkehrssicherheit eher oder sehr zufrieden sind nach Heimat, Alter und Geschlecht",
 "id":5067,
 "thema":"50 Befragungen",

@@ -2,7 +2,6 @@
 "subtitle":"",
 "kuerzel":"I.01.1.0042",
 "kuerzelKunde":"LP.9.41.1",
-"image":"images/I.01.1.0042.jpg",
 "description":"Prozentuale Beteiligung der Bevölkerung an Freiwilligenarbeit nach Geschlecht, Alter und Heimat",
 "id":2989,
 "thema":"01 Bevölkerung",
