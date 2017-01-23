@@ -17,9 +17,13 @@
 "stufe5":"", 
 "lesehilfe":"Mit einem Anteil von 91,4% fühlen sich die befragten Personen sehr oder eher sicher. Die Einschätzung der allgemeinen Sicherheit unterscheidet sich signifikant nach Altersklasse. Während sich die 18- bis 29-Jährigen mit 95,9% im Alltag sicher fühlen, sind es bei den über 70-Jährigen 88,0%.",
 "erlaeuterungen":"Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
-"template":"dotplot",
+"template":"template001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9a"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9a"],
+"Datenstand":
 }];

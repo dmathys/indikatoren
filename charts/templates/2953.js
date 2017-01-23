@@ -1,4 +1,7 @@
-var chartOptions = {
+var chartOptions =  {
+	data: {
+    	switchRowsAndColumns: true
+        },
   "xAxis": {
     "type": "category"  ,	
   },

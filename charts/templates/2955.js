@@ -2,10 +2,12 @@ var chartOptions = {
 	data: {
     	switchRowsAndColumns: true
         },
-   "yAxis": {
-	"max": 100,
+  "xAxis": {
+    "type": "category"    
+  },
+  "yAxis": {
     "labels": {
-      "format": "{value}%"
+     "format": "{value:,.0f}"
     }    
   },
    "series": [
@@ -14,7 +16,7 @@ var chartOptions = {
   {"color": "#b00000"}, /* ...*/
   {"color": "#ff5050"}, /* ... */
   {"color": "#45381d"}, /* dunkelbraun*/
-  ],
+   ],
   "legend": {
     "enabled": true,
     "layout": "horizontal",
@@ -27,11 +29,13 @@ var chartOptions = {
     }
   },
   tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
-    "shared": false
-  },
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
+    shared: false
+  },  
   "chart": {      
     "type": "column",
     "inverted": false
   }
 };
+
+ 
