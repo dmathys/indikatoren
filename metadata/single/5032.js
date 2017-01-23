@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["BAK Basel Economics"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["BAK Basel Economics"],
+"Datenstand":
 }];

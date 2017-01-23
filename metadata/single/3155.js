@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["Präsidialdepartement des Kantons Basel-Stadt, Abteilung Kultur"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Präsidialdepartement des Kantons Basel-Stadt, Abteilung Kultur"],
+"Datenstand":
 }];

@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["Universitäre Zentrum für Zahnmedizin Basel, Schulzahnklinik"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Universitäre Zentrum für Zahnmedizin Basel, Schulzahnklinik"],
+"Datenstand":
 }];

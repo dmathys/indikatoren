@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["Polizeiliche Kriminalitätsstatistk PKS"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Polizeiliche Kriminalitätsstatistk PKS"],
+"Datenstand":
 }];

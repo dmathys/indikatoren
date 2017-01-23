@@ -1,6 +1,12 @@
 var chartOptions = {
   "xAxis": {
     "tickInterval": 1,
+    "labels":{
+    	"style":{
+    		"width": 1,
+    		"textOverflow": "none"
+		 }
+    }
   },
   "yAxis": {
     "min": 0,
@@ -26,7 +32,8 @@ var chartOptions = {
     "itemMarginBottom": 5,
     "align": "right",
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+       "width": 125
     }
   },
   "plotOptions": {

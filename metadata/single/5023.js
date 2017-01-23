@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
+"Datenstand":
 }];

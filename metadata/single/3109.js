@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["Grosser Rat des Kantons Basel-Stadt, Geschlechter- und Altersverteilung"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Grosser Rat des Kantons Basel-Stadt, Geschlechter- und Altersverteilung"],
+"Datenstand":
 }];

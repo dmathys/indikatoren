@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["Lufthygieneamt beider Basel, Website Luftqualität in den Kantonen AG, BL, BS und SO"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Lufthygieneamt beider Basel, Website Luftqualität in den Kantonen AG, BL, BS und SO"],
+"Datenstand":
 }];

@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":false,
 "visibleInPortal":true,
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"],
+"Datenstand":
 }];

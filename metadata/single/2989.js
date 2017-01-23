@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung, Modul 'Unbezahlte Arbeit'"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung, Modul 'Unbezahlte Arbeit'"],
+"Datenstand":
 }];

@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["BaselArea"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["BaselArea"],
+"Datenstand":
 }];

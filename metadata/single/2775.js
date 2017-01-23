@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["Universität Basel","Fachhochschule Nordwestschweiz"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Universität Basel","Fachhochschule Nordwestschweiz"],
+"Datenstand":
 }];

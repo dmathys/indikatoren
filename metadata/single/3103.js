@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"],
+"Datenstand":
 }];

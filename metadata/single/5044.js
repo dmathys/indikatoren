@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"],
+"Datenstand":
 }];

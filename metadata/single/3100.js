@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["BVD BS, Hochbauamt, Fachstelle Energiemanagement"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["BVD BS, Hochbauamt, Fachstelle Energiemanagement"],
+"Datenstand":
 }];

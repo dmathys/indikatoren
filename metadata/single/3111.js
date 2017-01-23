@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["Jahresbericht des Kantons Basel-Stadt"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Jahresbericht des Kantons Basel-Stadt"],
+"Datenstand":
 }];

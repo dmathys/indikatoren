@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["Kantonspolizei Basel-Stadt"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Kantonspolizei Basel-Stadt"],
+"Datenstand":
 }];

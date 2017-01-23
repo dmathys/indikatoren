@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Amt für Sozialbeiträge, Abt. Prämienverbilligungen"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Amt für Sozialbeiträge, Abt. Prämienverbilligungen"],
+"Datenstand":
 }];

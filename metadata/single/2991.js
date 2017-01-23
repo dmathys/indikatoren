@@ -21,5 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"quellenangabe":["Eidgenössische Finanzverwaltung"]
+"parentId":undefined,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Eidgenössische Finanzverwaltung"],
+"Datenstand":
 }];
