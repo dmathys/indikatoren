@@ -1,8 +1,11 @@
 var chartOptions = {
-  "xAxis": {
+	data: {
+    	switchRowsAndColumns: true
+        },   
+   "xAxis": {
     "type": "category"  ,	
-  },
-  "yAxis": {
+	},
+   "yAxis": {
 	"max": 100,
     "labels": {
       "format": "{value}%"

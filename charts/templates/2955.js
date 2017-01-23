@@ -1,8 +1,8 @@
 var chartOptions = {
-  "xAxis": {
-    "type": "category"  ,	
-  },
-  "yAxis": {
+	data: {
+    	switchRowsAndColumns: true
+        },
+   "yAxis": {
 	"max": 100,
     "labels": {
       "format": "{value}%"
@@ -14,7 +14,6 @@ var chartOptions = {
   {"color": "#b00000"}, /* ...*/
   {"color": "#ff5050"}, /* ... */
   {"color": "#45381d"}, /* dunkelbraun*/
-
   ],
   "legend": {
     "enabled": true,
@@ -30,7 +29,7 @@ var chartOptions = {
   tooltip: {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
     "shared": false
-  },  
+  },
   "chart": {      
     "type": "column",
     "inverted": false

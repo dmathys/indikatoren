@@ -1,16 +1,16 @@
 var chartOptions = {
+	data: {
+    	switchRowsAndColumns: true
+        },
   "xAxis": {
     "type": "category"
   },
   "yAxis": {
-  	"min": 0,
-  	"max": 0.5,
-    "labels": {
+      "labels": {
       "format": "{value}"
     }    
   },
   "series": [
-  {"color": "#b00000"},
   {"color": "#4f81bd"}, 
   {"color": "#9A86A6"}, 
   {"color": "#9bbb59"},  
@@ -22,8 +22,8 @@ var chartOptions = {
     "verticalAlign": "top",
     "align": "left",
     "x": 25,
-	"y": 55,  
-	"itemWidth": 300,
+		"y": 55,  
+		"itemWidth": 300,
     "itemStyle": {
       "fontWeight": "normal"
     }
