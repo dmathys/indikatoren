@@ -25,5 +25,4 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Industrielle Werke Basel"],
-"Datenstand":
 }];
