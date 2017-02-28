@@ -6,29 +6,37 @@ var indikatoren = [
 		"kuerzelKunde": "6.5-1",
 		"description": "Grenzgänger nach Kanton",
 		"id": "2173",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Wohnraumentwicklung",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Grenzgänger ",
+		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-09-01T00:00:00.000",
 		"schlagwort": [
-			"Gebäude",
-			"Haushalt",
-			"Zufriedenheit"
+			"Bewilligung",
+			"Erwerbstätigkeit",
+			"Kantonsvergleich"
 		],
-		"stufe1": "0 Leitgedanke",
-		"stufe2": "",
+		"stufe1": "Ausländische Erwerbstätige",
+		"stufe2": "Grenzgänger",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hälfte der Befragten ist mit dem Wohnungsangebot \"eher zufrieden\" oder \"sehr zufrieden\". Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte.",
-		"erlaeuterungen": "",
-		"template": "befragungen001",
+		"lesehilfe": "Im dritten Quartal 2016 gibt es im Kanton Basel-Stadt 36'865 Grenzgänger. Dies sind 25,6% mehr als im dritten Quartal 2002 und 2,4% mehr als im dritten Quartal 2015. Zürich weist 2016 10 105 Grenzgänger auf, Basel-Landschaft 21'253 und Genf 84'832. Seit 2002 ist in allen vier Kantonen ein deutlicher Anstieg der Grenzgängerzahlen zu verzeichnen. Den stärksten relativen Zuwachs verzeichnet Genf mit 163,3%.",
+		"erlaeuterungen": "test",
+		"template": "line001",
 		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"
+			"Bundesamt für Statistik BFS"
+		],
+		"externalLinks": [
+			""
 		]
 	},
 	{

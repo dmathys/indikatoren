@@ -1,37 +1,5 @@
 var indikatorensetData = [
 	{
-		"title": "Grenzgänger nach Kanton",
-		"subtitle": "test",
-		"kuerzel": "I.03.0.0019",
-		"kuerzelKunde": "6.5-1",
-		"description": "Grenzgänger nach Kanton",
-		"id": "2173",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2016-09-01T00:00:00.000",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt",
-			"Zufriedenheit"
-		],
-		"stufe1": "0 Leitgedanke",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Hälfte der Befragten ist mit dem Wohnungsangebot \"eher zufrieden\" oder \"sehr zufrieden\". Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte.",
-		"erlaeuterungen": "",
-		"template": "befragungen001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"
-		]
-	},
-	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
 		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
 		"kuerzel": "I.50.1.0005",
