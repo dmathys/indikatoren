@@ -46,36 +46,42 @@ stream.on("finish", function() {
         columns: true,
         skip_empty_lines: true,
     });
+    //TODO: only pipe to file if response status = 200 (https://stackoverflow.com/questions/51407928/pipe-after-successful-condition-node-js)
+    const downloadFileContents = (url, filePath) => {
+        const file = fs.createWriteStream(filePath);
+        const stream2 = request(url, function (error, response, body){
+            //console.log('error:', error); // Print the error if one occurred
+            //console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
+            //console.log('body:', body); // Print the HTML for the Google homepage.
+        }).pipe(file);
+
+    };
+      
     //load json and tsv for each row
     records.forEach(row => {
         
-        //TODO: only pipe to file if response status = 200 (https://stackoverflow.com/questions/51407928/pipe-after-successful-condition-node-js)
-        const downloadFileContents = (url, filePath) => {
-            const file = fs.createWriteStream(filePath);
-            const stream = request(url, function (error, response, body){
-                //console.log('error:', error); // Print the error if one occurred
-                //console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
-                //console.log('body:', body); // Print the HTML for the Google homepage.
-            }).pipe(file);
-
-        };
         //for each line: download and save json / tsv
         console.log('downloading files for '+ row.Indikator + '...');
         downloadFileContents(urlBase + row.Indikator + '.json', 'metadata/single/' + row.Indikator + '.json');
-        downloadFileContents(urlBase + row.Indikator + '.tsv', 'data/' + row.Indikator + '.tsv');
         
         //checkout js and overwrite tsv for each chart with a branch number other than null
         if (row.Branch){
             console.log('checking out ' + row.Indikator + '.js and ' + row.Indikator + '.tsv from branch ' + row.Branch + '...');
             var gitJsCommand = 'git checkout origin/issue-' + row.Branch + ' -- charts/templates/' + row.Indikator + '.js';
+            var gitTsvCommand = 'git checkout origin/issue-' + row.Branch + ' -- data/' + row.Indikator + '.tsv';
             console.log(gitJsCommand);
+            console.log(gitTsvCommand);
             try{
                 child_process.execSync(gitJsCommand);
-                child_process.execSync('git checkout origin/issue-' + row.Branch + ' -- data/' + row.Indikator + '.tsv');
+                child_process.execSync(gitTsvCommand);
+                //child_process.execSync('git checkout origin/issue-' + row.Branch + ' -- data/' + row.Indikator + '.tsv');
             }
             catch(error){
                 //console.log(JSON.stringify(error));
             }
+        }
+        else{
+            downloadFileContents(urlBase + row.Indikator + '.tsv', 'data/' + row.Indikator + '.tsv');
         }
     });
     console.log('...done!');
@@ -83,6 +89,6 @@ stream.on("finish", function() {
     
     //open browser tab for visual check
     records.forEach(row => {
-        console.log('https://' + process.env.C9_HOSTNAME + '/chart-details.html?id=' + row.Indikator);
+        console.log('http://localhost:8082/chart-details.html?id=' + row.Indikator);
     });
 });
