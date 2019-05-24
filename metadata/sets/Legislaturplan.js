@@ -369,13 +369,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T12:01:18.1818",
+		"aktualisierungsdatum": "2019-05-17T09:31:37.3737",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit rund 50 000 Beziehenden erhalten 2017 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"lesehilfe": "Mit 50 986 Beziehenden erhalten 2018 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
 		"erlaeuterungen": "PV: Prämienverbilligungen, SH: Sozialhilfe, EL: Ergänzungsleistungen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -1232,7 +1232,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens",
-		"subtitle": "in Franken, Basel-Stadt",
+		"subtitle": "Basel-Stadt, in Franken",
 		"kuerzel": "I.18.2.6150",
 		"kuerzelKunde": "4.9",
 		"description": "Mittelwert und Median des Reineinkommens",
@@ -1242,13 +1242,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:17:49.4949",
+		"aktualisierungsdatum": "2019-05-17T09:31:45.4545",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z.B. für Berufskosten).",
+		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1980,15 +1980,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T11:37:42.4242",
+		"aktualisierungsdatum": "2019-05-23T14:45:44.4444",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 erhält mit rund 50 000 Bezügerinnen und Bezügern etwas mehr als ein Viertel der in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
+		"lesehilfe": "2018 erhält mit 50 986 Bezügerinnen und Bezügern etwas mehr als ein Viertel der in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "09_00_00_00_00_003",
 		"parentId": null,
@@ -2000,11 +2001,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6173,
-		"darstellungsart": "Grafik"
+		"data-id": 6173,
+		"chart-id": 6173,
+		"filter": "",
+		"id": 6173
 	},
 	{
 		"title": "Stationäre Fälle in Basler Spitälern",
@@ -2199,7 +2203,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
-		"subtitle": "Stadt Basel (bis 2016) resp. Kanton Basel-Stadt",
+		"subtitle": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
 		"kuerzel": "I.13.2.6182",
 		"kuerzelKunde": "11.3",
 		"description": "Sozialhilfequote nach Altersgruppe",
@@ -2209,15 +2213,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T15:48:22.2222",
+		"aktualisierungsdatum": "2019-05-21T09:32:41.4141",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Da seit 2017 gesamtkantonale Werte ausgewiesen werden können, zuvor aber nur die Daten der Stadt Basel abgebildet werden konnten, ist ein Vergleich zwischen 2017 und den Vorjahren nicht möglich. Da die Sozialhilfequoten der Gemeinden Riehen und Bettingen tiefer ausfallen als jene der Stadt Basel, sind bei der kantonalen Sozialhilfequote seit 2017 tiefere Werte zu erwarten als in den Vorjahren. Minderjährige weisen mit 12,7% die höchste Sozialhilfequote im Kanton auf. Bei jungen Erwachsenen im Alter von 18 bis 25 Jahren beträgt sie 9,8%. Mit 6,0% ist die Sozialhilfequote der 51- bis 65-Jährigen die tiefste aller Altersgruppen im erwerbsfähigen Alter.",
-		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. <br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. <br>Bis 2016 konnten nur die Zahlen der Stadt Basel nach Alter ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
+		"lesehilfe": "Minderjährige weisen mit 12,5% die höchste Sozialhilfequote im Kanton auf. Bei jungen Erwachsenen im Alter von 18 bis 25 Jahren beträgt sie 9,1%. Mit 6,1% ist die Sozialhilfequote der 51- bis 65-Jährigen die tiefste aller Altersgruppen im erwerbsfähigen Alter. Gegenüber dem Vorjahr ist die Sozialhilfequote dieser Altersgruppe als einzige angestiegen. Bei den  jungen Erwachsenen ist sie deutlich gesunken. Da seit 2017 gesamtkantonale Werte ausgewiesen werden können, zuvor aber nur die Daten der Stadt Basel abgebildet werden konnten, ist ein Vergleich zwischen Werten ab 2017 und den Vorjahren nicht möglich. Da die Sozialhilfequoten der Gemeinden Riehen und Bettingen tiefer ausfallen als jene der Stadt Basel, sind bei der kantonalen Sozialhilfequote seit 2017 tiefere Werte zu erwarten als in den Vorjahren.",
+		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. <br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. <br>Bis 2016 konnten nur die Zahlen der Stadt Basel nach Alter ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "11_00_00_00_00_003",
 		"parentId": null,
@@ -2230,15 +2235,18 @@ var indikatorensetData = [
 			"Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik",
 			"Departement für Wirtschaft, Soziales und Umwelt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6182,
-		"darstellungsart": "Grafik"
+		"data-id": 6182,
+		"chart-id": 6182,
+		"filter": "",
+		"id": 6182
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
-		"subtitle": "Stadt Basel (bis 2015) resp. Kanton Basel-Stadt",
+		"subtitle": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
 		"kuerzel": "I.13.2.6183",
 		"kuerzelKunde": "11.4",
 		"description": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -2248,15 +2256,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T15:49:52.5252",
+		"aktualisierungsdatum": "2019-05-17T09:32:09.099",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Sozialhilfedossiers mit einer Unterstützungsdauer von über 36 Monaten liegt 2017 bei 46,9%. 8,1% der Fälle werden seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
-		"erlaeuterungen": "Bis 2015 nur Stadt Basel, ohne Riehen und Bettingen. Ab 2016 einschliesslich Riehen und Bettingen. <br>Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
+		"lesehilfe": "Der Anteil Sozialhilfedossiers mit einer Unterstützungsdauer von über 36 Monaten liegt Ende 2018 bei 49,8% (2017: 46,9%). 7,4% der Fälle werden seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
+		"erlaeuterungen": "Bis 2015 nur Stadt Basel, ab 2016 einschliesslich Riehen und Bettingen. <br>Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "11_00_00_00_00_004",
 		"parentId": null,
@@ -2269,11 +2278,14 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
 			"Departement für Wirtschaft, Soziales und Umwelt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6183,
-		"darstellungsart": "Grafik"
+		"data-id": 6183,
+		"chart-id": 6183,
+		"filter": "",
+		"id": 6183
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
