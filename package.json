@@ -53,7 +53,7 @@
     "build:update_dependencies": "reinstall && npm prune --production=false && npm update --dev",
     "deployNewCharts": "LC_ALL=C && node build/loadFilesToDeployFromFtp.js",
     "test": "echo \"No test specified\" && exit 0",
-    "server": "./node_modules/http-server/bin/http-server -p 8082 -c-1 -s -o",
+    "server": "forever start ./node_modules/http-server/bin/http-server -p 8082 -c-1 -s -o",
     "start": "npm run build && npm run server",
     "stop-server": "forever stop ./node_modules/http-server/bin/http-server",
     "deploy:gh-pages": "gh-pages-travis",
