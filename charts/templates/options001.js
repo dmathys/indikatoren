@@ -75,7 +75,7 @@ menuItems.push(
             else {
                 chartId = this.renderTo.id.substring(10);
             }
-            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/data/' + chartId + ".tsv", '_blank'); 
+            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/data/' + chartId + ".tsv", '_blank'); 
         }
     });
 menuItems.push({separator: true});
@@ -83,28 +83,26 @@ menuItems.push(
     {
         "text": "Einbetten - Grafik", 
         "onclick": function(){            
-            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart.html?hideHeader=true&id=' + this.renderTo.id.substring(10), '_blank'); 
+            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/chart.html?hideHeader=true&id=' + this.renderTo.id.substring(10), '_blank'); 
         }
     });
 menuItems.push(
     {
         "text": "Einbetten - Grafik+Text", 
         "onclick": function(){            
-            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart-details.html?hideHeader=true&id=' + this.renderTo.id.substring(10), '_blank'); 
+            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/chart-details.html?hideHeader=true&id=' + this.renderTo.id.substring(10), '_blank'); 
         }
     });
 menuItems.push(
     {
         "text": "Verlinken - Grafik+Text", 
         "onclick": function(){            
-            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart-details.html?hideHeader=false&id=' + this.renderTo.id.substring(10), '_blank'); 
+            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/chart-details.html?hideHeader=false&id=' + this.renderTo.id.substring(10), '_blank'); 
         }
     });
 					    
 //define new chart type, necessary contents are added later on in the chart's template
-Highcharts.seriesType('mappie', 'pie', {}, {});
-					
-					
+Highcharts.seriesType('mappie', 'pie', {}, {});					
 					
 //add polyfill for ie, see https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Math/sign                    	
 if (!Math.sign) {
@@ -112,4 +110,3 @@ if (!Math.sign) {
     return ((x > 0) - (x < 0)) || +x;
   };
 }					
-

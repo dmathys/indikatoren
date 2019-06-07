@@ -57,7 +57,7 @@ Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push(
     {
         "text": "URL", 
         "onclick": function(){            
-            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart.html?id=' + this.renderTo.id.substring(10) + indikatorensetParameter + "&suppressNumberInTitle=true", '_blank'); 
+            window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/chart.html?id=' + this.renderTo.id.substring(10) + indikatorensetParameter + "&suppressNumberInTitle=true", '_blank'); 
         }
     });
     
