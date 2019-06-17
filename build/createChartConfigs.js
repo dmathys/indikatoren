@@ -15,6 +15,7 @@
 
 var vm = require("vm");
 var fs = require("fs");
+var eol = require("eol");
 
 var execute = function(path, context) {
   context = context || {};
@@ -133,7 +134,7 @@ function saveChartConfig(indikator, view, console){
             var stringifiedOptions = serialize(options, {space: 2});
             var filePath = 'charts/configs/' + view + '/';
             //var filePath = (isIndikatorensetView(view)) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
-            fs.writeFileSync(filePath + indikator.id + '.json', stringifiedOptions);
+            fs.writeFileSync(filePath + indikator.id + '.json', eol.auto(stringifiedOptions));
         });
         
     }
